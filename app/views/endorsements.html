@@ -2,7 +2,7 @@
 
 	<ul class="js-masonry">
 
-		<li ng-repeat="endorsement in blocks|orderBy:random" class="block {{endorsement.className}}">
+		<li ng-repeat="endorsement in blocks" class="block {{endorsement.className}}">
 			<div ng-switch on="endorsement.className">
 				<div ng-switch-when="endorsement">
 					<div class="endorsement-content">

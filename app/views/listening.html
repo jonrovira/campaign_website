@@ -1,1 +1,15 @@
-<p>This is the we're listening view.</p>
+<main class="listening">
+
+	<div class="twitter-feed">
+		<a class="twitter-timeline" href="https://twitter.com/TechCrunch" data-widget-id="577210336102760448">Tweets by @TechCrunch</a>
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+	</div>
+
+	<div class="instagram-feed">
+		<div class="insta-item" ng-repeat="insta in instas" ng-bind-html="insta">
+			{{insta}}
+		</div>
+	</div>
+
+
+</main>
