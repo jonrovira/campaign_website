@@ -1,0 +1,45 @@
+main.main {
+	position: relative;
+	float: right;
+	width: calc(100% - 203px);
+	background-color: #202020;
+
+
+
+	video {
+		position: relative;
+		top: 50%;
+		width: 100%;
+	}
+
+
+	div.banner {
+		display: none;
+		position: absolute;
+		top: 50%;
+		margin-top: calc(-1 * 289px / 2);
+		width: 100%;
+		text-align: center;
+
+		h1 {
+			display: inline-block;
+			margin-left: -25%;
+			font-size: 80px;
+			color: #fff;
+			text-align: center;
+
+			span.row {
+				display: block;
+
+				span.big { font-family: $fixed-font-family1; }
+				span.slim { font-family: $fixed-font-family2; }
+			}
+			span.row:nth-child(2) {
+				margin-left: 355px;
+			}
+			span.row:nth-child(3) {
+				margin-left: 524px;
+			}
+		}
+	}
+}

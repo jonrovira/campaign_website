@@ -1,3 +1,5 @@
+/* Variables */
+
 // Font weights
 $light: 100;
 $regular: 400;
@@ -10,11 +12,27 @@ $base-font-size: 13px;
 $base-line-height: 1.4;
 
 // Fixed Font
-$fixed-font-family: monospace;
+@font-face {
+	font-family: Big John;
+	src: url('fonts/BigJohnSlimJoe/BIG JOHN.otf');
+}
+@font-face {
+	font-family: Slim Joe;
+	src: url('fonts/BigJohnSlimJoe/Slim Joe.otf');
+}
+$fixed-font-family1: Big John;
+$fixed-font-family2: Slim Joe;
 $fixed-font-size: 85%;
 $fixed-line-height: $base-line-height;
 
 // Headings
 $header-font-weight: $bold;
 
-@import "modules/all";
+
+/* Modules */
+@import "../modules/all";
+
+
+/* Partials */
+@import "nav-panel";
+@import "main";

@@ -1,0 +1,93 @@
+html, body, div, span, h1, h2, h3, h4,
+h5, h6, p, a, img, i, ol, ul, li, form,
+label, table, caption {
+  margin: 0;
+  padding: 0; }
+
+/* Variables */
+@font-face {
+  font-family: Big John;
+  src: url("fonts/BigJohnSlimJoe/BIG JOHN.otf"); }
+@font-face {
+  font-family: Slim Joe;
+  src: url("fonts/BigJohnSlimJoe/Slim Joe.otf"); }
+/* Modules */
+/* Partials */
+section.nav-panel {
+  position: fixed;
+  width: 202px;
+  border-right: 1px solid #ccc; }
+  section.nav-panel div.logo {
+    padding: 20px 0;
+    width: 100%;
+    border-bottom: 1px solid #ccc; }
+    section.nav-panel div.logo img {
+      display: block;
+      margin: 0 auto;
+      width: calc(100% - 40px); }
+  section.nav-panel div.nav-container {
+    padding: 140px 0;
+    width: 100%; }
+    section.nav-panel div.nav-container nav {
+      width: 100%; }
+      section.nav-panel div.nav-container nav ul {
+        width: 100%;
+        list-style: none;
+        text-align: center; }
+        section.nav-panel div.nav-container nav ul li {
+          padding: 9px 0;
+          font-family: Slim Joe;
+          font-size: 13px;
+          letter-spacing: 1px;
+          color: #aaa;
+          text-transform: uppercase; }
+  section.nav-panel div.social-media {
+    position: absolute;
+    bottom: 0;
+    width: 100%; }
+    section.nav-panel div.social-media ul {
+      width: 100%;
+      border-top: 1px solid #ccc;
+      list-style: none; }
+      section.nav-panel div.social-media ul li {
+        float: left;
+        padding: 8px 27px; }
+        section.nav-panel div.social-media ul li i {
+          color: #222; }
+      section.nav-panel div.social-media ul li:not(:last-child) {
+        border-right: 1px solid #ccc; }
+
+main.main {
+  position: relative;
+  float: right;
+  width: calc(100% - 203px);
+  background-color: #202020; }
+  main.main video {
+    position: relative;
+    top: 50%;
+    width: 100%; }
+  main.main div.banner {
+    display: none;
+    position: absolute;
+    top: 50%;
+    margin-top: calc(-1 * 289px / 2);
+    width: 100%;
+    text-align: center; }
+    main.main div.banner h1 {
+      display: inline-block;
+      margin-left: -25%;
+      font-size: 80px;
+      color: #fff;
+      text-align: center; }
+      main.main div.banner h1 span.row {
+        display: block; }
+        main.main div.banner h1 span.row span.big {
+          font-family: Big John; }
+        main.main div.banner h1 span.row span.slim {
+          font-family: Slim Joe; }
+      main.main div.banner h1 span.row:nth-child(2) {
+        margin-left: 355px; }
+      main.main div.banner h1 span.row:nth-child(3) {
+        margin-left: 524px; }
+
+/*# sourceMappingURL=main.css.map */
