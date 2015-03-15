@@ -209,20 +209,5 @@ main.endorsements {
       font-family: Slim Joe;
       font-size: 30px;
       line-height: 1.6; }
-  main.endorsements div.endorsement:nth-child(1) {
-    top: 20px;
-    left: 30px; }
-  main.endorsements div.endorsement:nth-child(2) {
-    top: 20px;
-    left: 855px; }
-  main.endorsements div.endorsement:nth-child(3) {
-    top: 270px;
-    left: 30px; }
-  main.endorsements div.endorsement:nth-child(4) {
-    top: 270px;
-    left: 855px; }
-  main.endorsements div.highlight:nth-child(5) {
-    top: 20px;
-    left: 280px; }
 
 /*# sourceMappingURL=main.css.map */

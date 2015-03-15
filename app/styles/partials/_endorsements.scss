@@ -53,7 +53,6 @@ main.endorsements {
 		opacity: 0.9;
 	}
 
-
 	div.highlight {
 		position: absolute;
 		padding: 48px;
@@ -69,25 +68,5 @@ main.endorsements {
 			font-size: 30px;
 			line-height: 1.6;
 		}
-	}
-
-	div.endorsement:nth-child(1) {
-		top: 20px;
-		left: 30px;
-	}
-	div.endorsement:nth-child(2) {
-		top: 20px;
-		left: 855px;
-	}
-	div.endorsement:nth-child(3) {
-		top: 270px;
-		left: 30px;
-	}
-	div.endorsement:nth-child(4) {
-		top: 270px; left: 855px;
-	}
-	div.highlight:nth-child(5) {
-		top: 20px;
-		left: 280px;
 	}
 }

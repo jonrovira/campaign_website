@@ -9,9 +9,45 @@
  */
 angular.module('campaignWebsiteApp')
   .controller('EndorsementsCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+
+  	var $container = $('.js-masonry');
+	// initialize
+	$('.js-masonry').imagesLoaded(function() {
+		$container.masonry({
+	  		gutter: 20,
+	  		itemSelector: '.block',
+	  		isAnimated: true,
+		});
+	});
+
+	// var msnry = $container.data('masonry');
+
+
+    $scope.blocks = [
+    	{
+    		className: 'endorsement',
+    		name: 'Patrick Franks',
+    		position: 'President, Robotics Club',
+    		image: 'https://unsplash.it/500/500?image=646',
+    		rowCol: [0, 1],
+    		size: [1, 1]
+
+    	},
+    	{
+    		className: 'endorsement',
+    		name: 'Jon Rovira',
+    		position: 'Ex-CEO, AirHop',
+    		image: 'https://unsplash.it/500/500?image=550',
+    		rowCol: [0, 2],
+    		size: [1, 1]
+    	},
+    	{
+    		className: 'endorsement',
+    		name: 'Cody Schiffer',
+    		position: 'President, Bitch Club',
+    		image: 'https://unsplash.it/500/500?image=633',
+    		rowCol: [0, 3],
+    		size: [1, 1]
+    	}
+    ]
   });
