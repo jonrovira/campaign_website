@@ -8,13 +8,15 @@
  * Controller of the campaignWebsiteApp
  */
 angular.module('campaignWebsiteApp')
-  .controller('MainCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
-  })
+ 	.controller('MainCtrl', function ($rootScope, $scope, $route) {
+    	$scope.awesomeThings = [
+      		'HTML5 Boilerplate',
+      		'AngularJS',
+      		'Karma'
+    	];
+
+    	$rootScope.activeTab = $route.current.activeTab;
+  	})
 
  	.directive('resizemain', function ($window) {
 	    return function (scope, element) {

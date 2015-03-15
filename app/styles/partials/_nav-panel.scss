@@ -46,6 +46,9 @@ section.nav-panel {
 						text-decoration: none;
 					}
 				}
+				li.active {
+					text-decoration: underline;
+				}
 			}
 		}
 	}

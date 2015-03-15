@@ -8,10 +8,12 @@
  * Controller of the campaignWebsiteApp
  */
 angular.module('campaignWebsiteApp')
-  .controller('VisionCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
-  });
+  	.controller('VisionCtrl', function ($rootScope, $scope, $route) {
+    	$scope.awesomeThings = [
+      		'HTML5 Boilerplate',
+      		'AngularJS',
+      		'Karma'
+    	];
+
+    	$rootScope.activeTab = $route.current.activeTab;
+  	});

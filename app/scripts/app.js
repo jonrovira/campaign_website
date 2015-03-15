@@ -21,31 +21,38 @@ angular
     $routeProvider
       .when('/', {
         templateUrl: 'views/main.html',
-        controller: 'MainCtrl'
+        controller: 'MainCtrl',
+        activeTab: 'main'
       })
       .when('/about', {
         templateUrl: 'views/about.html',
-        controller: 'AboutCtrl'
+        controller: 'AboutCtrl',
+        activeTab: 'about'
       })
       .when('/vision', {
         templateUrl: 'views/vision.html',
-        controller: 'VisionCtrl'
+        controller: 'VisionCtrl',
+        activeTab: 'vision'
       })
       .when('/endorsements', {
         templateUrl: 'views/endorsements.html',
-        controller: 'EndorsementsCtrl'
+        controller: 'EndorsementsCtrl',
+        activeTab: 'endorsements'
       })
       .when('/team', {
         templateUrl: 'views/team.html',
-        controller: 'TeamCtrl'
+        controller: 'TeamCtrl',
+        activeTab: 'team'
       })
       .when('/join-us', {
         templateUrl: 'views/join-us.html',
-        controller: 'JoinCtrl'
+        controller: 'JoinCtrl',
+        activeTab: 'join'
       })
       .when('/we-are-listening', {
         templateUrl: 'views/listening.html',
-        controller: 'ListeningCtrl'
+        controller: 'ListeningCtrl',
+        activeTab: 'listening'
       })
       .otherwise({
         redirectTo: '/'
