@@ -32,7 +32,7 @@ angular.module('campaignWebsiteApp')
 
 	        // Banner fade in
 	        setTimeout(function() {
-	    		$('main.main div.banner').fadeIn(800);
-	    	}, 2000);
+	    		$('main.main div.banner').fadeIn(2000);
+	    	}, 1200);
 	    }
 	})

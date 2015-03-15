@@ -1,4 +1,4 @@
-$border-color: #ccc;
+$border-color: #ddd;
 
 section.nav-panel {
 	position: fixed;
@@ -11,10 +11,13 @@ section.nav-panel {
 		width: 100%;
 		border-bottom: 1px solid $border-color;
 
-		img {
-			display: block;
-			margin: 0 auto;
-			width: calc(100% - 40px);
+		a {
+
+			img {
+				display: block;
+				margin: 0 auto;
+				width: calc(100% - 40px);
+			}
 		}
 	}
 
@@ -33,11 +36,15 @@ section.nav-panel {
 
 				li {
 					padding: 9px 0;
-					font-family: $fixed-font-family2;
-					font-size: $base-font-size;
-					letter-spacing: 1px;
-					color: #aaa;
-					text-transform: uppercase;
+
+					a {
+						font-family: $fixed-font-family2;
+						font-size: $base-font-size;
+						letter-spacing: 1px;
+						color: #aaa;
+						text-transform: uppercase;
+						text-decoration: none;
+					}
 				}
 			}
 		}

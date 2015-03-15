@@ -16,12 +16,12 @@ label, table, caption {
 section.nav-panel {
   position: fixed;
   width: 202px;
-  border-right: 1px solid #ccc; }
+  border-right: 1px solid #ddd; }
   section.nav-panel div.logo {
     padding: 20px 0;
     width: 100%;
-    border-bottom: 1px solid #ccc; }
-    section.nav-panel div.logo img {
+    border-bottom: 1px solid #ddd; }
+    section.nav-panel div.logo a img {
       display: block;
       margin: 0 auto;
       width: calc(100% - 40px); }
@@ -35,19 +35,21 @@ section.nav-panel {
         list-style: none;
         text-align: center; }
         section.nav-panel div.nav-container nav ul li {
-          padding: 9px 0;
-          font-family: Slim Joe;
-          font-size: 13px;
-          letter-spacing: 1px;
-          color: #aaa;
-          text-transform: uppercase; }
+          padding: 9px 0; }
+          section.nav-panel div.nav-container nav ul li a {
+            font-family: Slim Joe;
+            font-size: 13px;
+            letter-spacing: 1px;
+            color: #aaa;
+            text-transform: uppercase;
+            text-decoration: none; }
   section.nav-panel div.social-media {
     position: absolute;
     bottom: 0;
     width: 100%; }
     section.nav-panel div.social-media ul {
       width: 100%;
-      border-top: 1px solid #ccc;
+      border-top: 1px solid #ddd;
       list-style: none; }
       section.nav-panel div.social-media ul li {
         float: left;
@@ -55,7 +57,7 @@ section.nav-panel {
         section.nav-panel div.social-media ul li i {
           color: #222; }
       section.nav-panel div.social-media ul li:not(:last-child) {
-        border-right: 1px solid #ccc; }
+        border-right: 1px solid #ddd; }
 
 main.main {
   position: relative;
@@ -86,8 +88,79 @@ main.main {
         main.main div.banner h1 span.row span.slim {
           font-family: Slim Joe; }
       main.main div.banner h1 span.row:nth-child(2) {
-        margin-left: 355px; }
+        margin-left: 287px; }
       main.main div.banner h1 span.row:nth-child(3) {
-        margin-left: 524px; }
+        margin-left: 519px; }
+
+main.about {
+  float: right;
+  width: calc(100% - 203px); }
+  main.about section.candidate {
+    padding: 20px;
+    overflow: auto; }
+    main.about section.candidate div.image-wrapper {
+      position: relative;
+      float: left;
+      width: calc(100% - 400px); }
+      main.about section.candidate div.image-wrapper img {
+        width: 100%; }
+      main.about section.candidate div.image-wrapper h2 {
+        position: absolute;
+        bottom: 10px;
+        right: 20px;
+        font-size: 50px;
+        color: #fff; }
+        main.about section.candidate div.image-wrapper h2 span.big {
+          font-family: Big John; }
+        main.about section.candidate div.image-wrapper h2 span.slim {
+          font-family: Slim Joe; }
+    main.about section.candidate div.info {
+      float: right;
+      padding: 10px;
+      width: calc(400px - 20px);
+      padding-top: 10px;
+      overflow: auto; }
+      main.about section.candidate div.info h3 {
+        margin-bottom: 12px;
+        font-family: Slim Joe;
+        font-size: 15px;
+        color: #333; }
+      main.about section.candidate div.info h6 {
+        margin-bottom: 3px;
+        font-family: Big John;
+        font-size: 12px;
+        color: #555; }
+      main.about section.candidate div.info div.paragraph {
+        float: left;
+        width: calc(100% - 200px); }
+        main.about section.candidate div.info div.paragraph p {
+          float: left;
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 13px;
+          line-height: 1.6;
+          color: #555; }
+      main.about section.candidate div.info div.facts {
+        float: right;
+        padding: 13px 9px;
+        width: calc(160px - 18px);
+        border: 1px solid #ddd; }
+        main.about section.candidate div.info div.facts ul {
+          padding-left: 16px;
+          list-style-type: square; }
+          main.about section.candidate div.info div.facts ul li {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 13px;
+            color: #555; }
+          main.about section.candidate div.info div.facts ul li:not(:first-child) {
+            margin-top: 11px; }
+  main.about section.candidate:first-child {
+    margin-bottom: 14px; }
+  main.about hr {
+    margin: 0 auto;
+    width: calc(100% - 40px);
+    height: 0;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3); }
 
 /*# sourceMappingURL=main.css.map */
