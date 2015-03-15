@@ -262,4 +262,19 @@ main.team {
             main.team ul.js-masonry li.member div.member-content div.info h5 span.slim {
               font-family: Slim Joe; }
 
+main.listening {
+  position: relative;
+  float: right;
+  padding: 20px 50px;
+  width: calc(100% - 227px - 100px);
+  background: #f4f5f6; }
+  main.listening div.twitter-feed {
+    width: 50%;
+    float: left; }
+  main.listening div.instagram-feed {
+    width: 50%;
+    float: right; }
+    main.listening div.instagram-feed div.insta-item {
+      margin-bottom: 10px; }
+
 /*# sourceMappingURL=main.css.map */
