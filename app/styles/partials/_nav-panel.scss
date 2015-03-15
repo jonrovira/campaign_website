@@ -1,8 +1,8 @@
-$border-color: #ddd;
+$border-color: #eee;
 
 section.nav-panel {
 	position: fixed;
-	width: 202px;
+	width: 226px;
 	box-shadow: 1px  0    0 #d6d7d8;
 
 
@@ -23,7 +23,7 @@ section.nav-panel {
 
 
 	div.nav-container {
-		padding: 140px 0;
+		padding: 190px 0;
 		width: 100%;
 
 		nav {
@@ -47,7 +47,16 @@ section.nav-panel {
 					}
 				}
 				li.active {
-					text-decoration: underline;
+
+					a {
+						color: $accent-color1;;
+					}
+				}
+				li:hover {
+
+					a {
+						color: #000;
+					}
 				}
 			}
 		}
@@ -66,14 +75,29 @@ section.nav-panel {
 
 			li {
 				float: left;
-				padding: 8px 27px;
 
-				i {
-					color: #222;
+				a {
+					display: block;
+					padding: 15px 31px;
+
+					i {
+						color: $accent-color1;;
+					}
 				}
 			}
 			li:not(:last-child) {
 				border-right: 1px solid $border-color;
+			}
+			li:hover {
+				
+				a {
+					background-color: $accent-color1;
+
+					i {
+						color: #fff;
+					}
+				}
+
 			}
 		}
 	}

@@ -16,9 +16,9 @@ angular.module('campaignWebsiteApp')
       	var $container = $('ul.js-masonry');
     	$('ul.js-masonry').imagesLoaded(function() {
     		$container.masonry({
-                columnWidth: 330,
+                columnWidth: 270,
                 itemSelector: '.block',
-    	  		gutter: 20,
+    	  		gutter: 5,
     	  		isAnimated: true,
     		});
     	});

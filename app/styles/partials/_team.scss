@@ -1,18 +1,18 @@
 main.team {
 	position: relative;
 	float: right;
-	padding: 20px 30px;
-	width: calc(100% - 203px - 60px);
-	background-color: #f4f5f6;
+	padding: 20px 50px;
+	width: calc(100% - 227px - 100px);
+	background-color: #f8f8f8;
 
 	ul.js-masonry {
 		list-style: none;
 
 		li.member {
 			position: absolute;
-			margin-bottom: 20px;
-			width: 330px;
-			height: 330px;
+			margin-bottom: 5px;
+			width: 270px;
+			height: 270px;
 			box-shadow: 1px  0    0 #d6d7d8,
 						0    1px  1px #cccdce,
 						-1px 0    0 #d6d7d8,
@@ -41,6 +41,7 @@ main.team {
 						font-size: 21px;
 						word-spacing: 3px;
 						color: #fff;
+						text-align: right;
 
 						span.big { font-family: $fixed-font-family1; }
 						span.slim { font-family: $fixed-font-family2; }

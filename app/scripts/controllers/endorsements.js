@@ -14,7 +14,7 @@ angular.module('campaignWebsiteApp')
     		$container.masonry({
                 columnWidth: 260,
                 itemSelector: '.block',
-    	  		gutter: 20,
+    	  		gutter: 5,
     	  		isAnimated: true,
     		});
     	});
@@ -75,7 +75,7 @@ angular.module('campaignWebsiteApp')
 
             {
                 className: 'highlight',
-                text: "Normally, both your asses would be dead as fucking fried chicken, but you happen to pull this shit while I'm in a transitional period so I don't wanna kill you, I wanna help you."
+                text: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes."
             },
 
             {
@@ -158,7 +158,7 @@ angular.module('campaignWebsiteApp')
 
             {
                 className: 'highlight',
-                text: "Normally, both your asses would be dead as fucking fried chicken, but you happen to pull this shit while I'm in a transitional period so I don't wanna kill you, I wanna help you. "
+                text: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes."
             },
 
 
