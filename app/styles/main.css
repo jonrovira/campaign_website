@@ -219,78 +219,38 @@ main.team {
   float: right;
   padding: 20px 30px;
   width: calc(100% - 203px - 60px);
-  height: 1900px;
   background-color: #f4f5f6; }
-  main.team div.member {
-    position: absolute;
-    width: 300px;
-    height: 300px;
-    box-shadow: 1px  0    0 #d6d7d8, 0    1px  1px #cccdce, -1px 0    0 #d6d7d8, 0    -1px 0 #e7e8e9;
-    cursor: pointer; }
-    main.team div.member div.endorsement-content {
-      position: relative;
-      width: 100%; }
-      main.team div.member div.endorsement-content img {
+  main.team ul.js-masonry {
+    list-style: none; }
+    main.team ul.js-masonry li.member {
+      position: absolute;
+      margin-bottom: 20px;
+      width: 330px;
+      height: 330px;
+      box-shadow: 1px  0    0 #d6d7d8, 0    1px  1px #cccdce, -1px 0    0 #d6d7d8, 0    -1px 0 #e7e8e9;
+      cursor: pointer; }
+      main.team ul.js-masonry li.member div.member-content {
+        position: relative;
         width: 100%; }
-      main.team div.member div.endorsement-content div.info {
-        position: absolute;
-        bottom: 3px;
-        left: 0;
-        padding: 10px;
-        width: calc(100% - 20px);
-        height: 25px;
-        background-color: rgba(0, 0, 0, 0.3); }
-        main.team div.member div.endorsement-content div.info h5 {
-          font-family: Arial, Helvetica, sans-serif;
-          font-weight: bold;
-          font-size: 21px;
-          word-spacing: 3px;
-          color: #fff; }
-          main.team div.member div.endorsement-content div.info h5 span.big {
-            font-family: Big John; }
-          main.team div.member div.endorsement-content div.info h5 span.slim {
-            font-family: Slim Joe; }
-  main.team div.member:nth-child(1) {
-    top: 20px;
-    left: 30px; }
-  main.team div.member:nth-child(2) {
-    top: 20px;
-    left: 400px; }
-  main.team div.member:nth-child(3) {
-    top: 20px;
-    left: 780px; }
-  main.team div.member:nth-child(4) {
-    top: 350px;
-    left: 30px; }
-  main.team div.member:nth-child(5) {
-    top: 350px;
-    left: 400px; }
-  main.team div.member:nth-child(6) {
-    top: 350px;
-    left: 780px; }
-  main.team div.member:nth-child(7) {
-    top: 680px;
-    left: 30px; }
-  main.team div.member:nth-child(8) {
-    top: 680px;
-    left: 400px; }
-  main.team div.member:nth-child(9) {
-    top: 680px;
-    left: 780px; }
-  main.team div.member:nth-child(10) {
-    top: 1010px;
-    left: 30px; }
-  main.team div.member:nth-child(11) {
-    top: 1010px;
-    left: 400px; }
-  main.team div.member:nth-child(12) {
-    top: 1010px;
-    left: 780px; }
-  main.team div.member:nth-child(13) {
-    top: 1340px;
-    left: 30px; }
-  main.team div.member:nth-child(14) {
-    top: 1340px;
-    left: 400px; }
+        main.team ul.js-masonry li.member div.member-content img {
+          width: 100%; }
+        main.team ul.js-masonry li.member div.member-content div.info {
+          position: absolute;
+          bottom: 3px;
+          left: 0;
+          padding: 10px;
+          width: calc(100% - 20px);
+          height: 25px;
+          background-color: rgba(0, 0, 0, 0.3); }
+          main.team ul.js-masonry li.member div.member-content div.info h5 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: 21px;
+            word-spacing: 3px;
+            color: #fff; }
+            main.team ul.js-masonry li.member div.member-content div.info h5 span.big {
+              font-family: Big John; }
+            main.team ul.js-masonry li.member div.member-content div.info h5 span.slim {
+              font-family: Slim Joe; }
 
 /*# sourceMappingURL=main.css.map */

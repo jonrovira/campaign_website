@@ -27,10 +27,6 @@ angular.module('campaignWebsiteApp')
         		position: 'President, Robotics Club',
         		image: 'https://unsplash.it/500/500?image=646'
         	},
-            {
-                className: 'highlight',
-                text: "Normally, both your asses would be dead as fucking fried chicken, but you happen to pull this shit while I'm in a transitional period so I don't wanna kill you, I wanna help you."
-            },
         	{
         		className: 'endorsement',
         		name: 'Jon Rovira',
@@ -49,6 +45,8 @@ angular.module('campaignWebsiteApp')
                 position: 'President, Carib Nation',
                 image: 'https://unsplash.it/500/500?image=634'
             },
+
+
             {
                 className: 'endorsement',
                 name: 'Bryan Berger',
@@ -62,10 +60,6 @@ angular.module('campaignWebsiteApp')
                 image: 'https://unsplash.it/500/500?image=636'
             },
             {
-                className: 'highlight',
-                text: "Normally, both your asses would be dead as fucking fried chicken, but you happen to pull this shit while I'm in a transitional period so I don't wanna kill you, I wanna help you. "
-            },
-            {
                 className: 'endorsement',
                 name: 'Christina Kim',
                 position: 'Vice President, ASG',
@@ -73,13 +67,102 @@ angular.module('campaignWebsiteApp')
             },
             {
                 className: 'endorsement',
-                name: 'Noah Starr',
+                name: 'Noah Star',
                 position: 'President, ASG',
                 image: 'https://unsplash.it/500/500?image=638'
             },
+
+
+            {
+                className: 'highlight',
+                text: "Normally, both your asses would be dead as fucking fried chicken, but you happen to pull this shit while I'm in a transitional period so I don't wanna kill you, I wanna help you."
+            },
+
+            {
+                className: 'endorsement',
+                name: 'Bryan Berger',
+                position: 'President, Points for a Purpose',
+                image: 'https://unsplash.it/500/500?image=639'
+            },
+            {
+                className: 'endorsement',
+                name: 'Chris Howard',
+                position: 'Vice President, ODB',
+                image: 'https://unsplash.it/500/500?image=640'
+            },
+            {
+                className: 'endorsement',
+                name: 'Christina Kim',
+                position: 'Vice President, ASG',
+                image: 'https://unsplash.it/500/500?image=641'
+            },
+            {
+                className: 'endorsement',
+                name: 'Noah Star',
+                position: 'President, ASG',
+                image: 'https://unsplash.it/500/500?image=642'
+            },
+
+
+            {
+                className: 'endorsement',
+                name: 'Bryan Berger',
+                position: 'President, Points for a Purpose',
+                image: 'https://unsplash.it/500/500?image=643'
+            },
+            {
+                className: 'endorsement',
+                name: 'Chris Howard',
+                position: 'Vice President, ODB',
+                image: 'https://unsplash.it/500/500?image=644'
+            },
+            {
+                className: 'endorsement',
+                name: 'Christina Kim',
+                position: 'Vice President, ASG',
+                image: 'https://unsplash.it/500/500?image=645'
+            },
+            {
+                className: 'endorsement',
+                name: 'Noah Star',
+                position: 'President, ASG',
+                image: 'https://unsplash.it/500/500?image=646'
+            },
+
+
+            {
+                className: 'endorsement',
+                name: 'Bryan Berger',
+                position: 'President, Points for a Purpose',
+                image: 'https://unsplash.it/500/500?image=647'
+            },
+            {
+                className: 'endorsement',
+                name: 'Chris Howard',
+                position: 'Vice President, ODB',
+                image: 'https://unsplash.it/500/500?image=648'
+            },
+            {
+                className: 'endorsement',
+                name: 'Christina Kim',
+                position: 'Vice President, ASG',
+                image: 'https://unsplash.it/500/500?image=649'
+            },
+            {
+                className: 'endorsement',
+                name: 'Noah Starr',
+                position: 'President, ASG',
+                image: 'https://unsplash.it/500/500?image=650'
+            },
+
+
+            {
+                className: 'highlight',
+                text: "Normally, both your asses would be dead as fucking fried chicken, but you happen to pull this shit while I'm in a transitional period so I don't wanna kill you, I wanna help you. "
+            },
+
+
+
         ];
 
-        $scope.random = function() {
-            return 0.5 - Math.random();
-        }
   });

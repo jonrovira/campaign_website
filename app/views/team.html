@@ -1,129 +1,16 @@
 <main class="team">
 
-	<div class="member">
-		<div class="endorsement-content">
-			<img src="https://unsplash.it/500/500?image=646" />
-			<div class="info">
-				<h5 class="name"><span class="big">Nevil</span> <span class="slim">George</span></h5>
-			</div>
-		</div>
-	</div>
+	<ul class="js-masonry">
 
-	<div class="member">
-		<div class="endorsement-content">
-			<img src="https://unsplash.it/500/500?image=447" />
-			<div class="info">
-				<h5 class="name"><span class="big">Jon</span> <span class="slim">Rovira</span></h5>
+		<li ng-repeat="member in blocks" class="block member">
+			<div class="member-content">
+				<img src="{{member.image}}" />
+				<div class="info">
+					<h5 class="name"><span class="big">{{member.firstName}}</span> <span class="slim">{{member.lastName}}</span></h5>
+				</div>
 			</div>
-		</div>
-	</div>
+		</li>
 
-	<div class="member">
-		<div class="endorsement-content">
-			<img src="https://unsplash.it/500/500?image=550" />
-			<div class="info">
-				<h5 class="name"><span class="big">Patrick</span> <span class="slim">Franks</span></h5>
-			</div>
-		</div>
-	</div>
-
-	<div class="member">
-		<div class="endorsement-content">
-			<img src="https://unsplash.it/500/500?image=633" />
-			<div class="info">
-				<h5 class="name"><span class="big">Cody</span> <span class="slim">Schiffer</span></h5>
-			</div>
-		</div>
-	</div>
-
-	<div class="member">
-		<div class="endorsement-content">
-			<img src="https://unsplash.it/500/500?image=634" />
-			<div class="info">
-				<h5 class="name"><span class="big">Chris</span> <span class="slim">Howard</span></h5>
-			</div>
-		</div>
-	</div>
-
-	<div class="member">
-		<div class="endorsement-content">
-			<img src="https://unsplash.it/500/500?image=635" />
-			<div class="info">
-				<h5 class="name"><span class="big">Chris</span> <span class="slim">Dayal</span></h5>
-			</div>
-		</div>
-	</div>
-
-	<div class="member">
-		<div class="endorsement-content">
-			<img src="https://unsplash.it/500/500?image=636" />
-			<div class="info">
-				<h5 class="name"><span class="big">Lupe</span> <span class="slim">Gomez</span></h5>
-			</div>
-		</div>
-	</div>
-
-	<div class="member">
-		<div class="endorsement-content">
-			<img src="https://unsplash.it/500/500?image=637" />
-			<div class="info">
-				<h5 class="name"><span class="big">Ritij</span> <span class="slim">Goel</span></h5>
-			</div>
-		</div>
-	</div>
-
-	<div class="member">
-		<div class="endorsement-content">
-			<img src="https://unsplash.it/500/500?image=638" />
-			<div class="info">
-				<h5 class="name"><span class="big">Alex</span> <span class="slim">Kaldjian</span></h5>
-			</div>
-		</div>
-	</div>
-
-	<div class="member">
-		<div class="endorsement-content">
-			<img src="https://unsplash.it/500/500?image=639" />
-			<div class="info">
-				<h5 class="name"><span class="big">Robert</span> <span class="slim">Ludew</span></h5>
-			</div>
-		</div>
-	</div>
-
-	<div class="member">
-		<div class="endorsement-content">
-			<img src="https://unsplash.it/500/500?image=640" />
-			<div class="info">
-				<h5 class="name"><span class="big">Dan</span> <span class="slim">Rufolo</span></h5>
-			</div>
-		</div>
-	</div>
-
-	<div class="member">
-		<div class="endorsement-content">
-			<img src="https://unsplash.it/500/500?image=641" />
-			<div class="info">
-				<h5 class="name"><span class="big">Stephen</span> <span class="slim">Piotrowski</span></h5>
-			</div>
-		</div>
-	</div>
-
-	<div class="member">
-		<div class="endorsement-content">
-			<img src="https://unsplash.it/500/500?image=642" />
-			<div class="info">
-				<h5 class="name"><span class="big">Christian</span> <span class="slim">Cizek</span></h5>
-			</div>
-		</div>
-	</div>
-
-	<div class="member">
-		<div class="endorsement-content">
-			<img src="https://unsplash.it/500/500?image=643" />
-			<div class="info">
-				<h5 class="name"><span class="big">Adam</span> <span class="slim">Greenstein</span></h5>
-			</div>
-		</div>
-	</div>
+	</ul>
 
 </main>
