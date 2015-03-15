@@ -40,7 +40,7 @@ section.nav-panel {
             font-family: Slim Joe;
             font-size: 13px;
             letter-spacing: 1px;
-            color: #aaa;
+            color: #777;
             text-transform: uppercase;
             text-decoration: none; }
   section.nav-panel div.social-media {
@@ -120,8 +120,8 @@ main.about {
           font-family: Slim Joe; }
     main.about section.candidate div.info {
       float: right;
-      padding: 10px;
-      width: calc(400px - 20px);
+      padding: 25px;
+      width: calc(400px - 50px);
       padding-top: 10px;
       overflow: auto; }
       main.about section.candidate div.info h3 {
@@ -147,7 +147,8 @@ main.about {
         float: right;
         padding: 13px 9px;
         width: calc(160px - 18px);
-        border: 1px solid #ddd; }
+        border: 1px solid #ddd;
+        border-radius: 2px; }
         main.about section.candidate div.info div.facts ul {
           padding-left: 16px;
           list-style-type: square; }
@@ -159,5 +160,69 @@ main.about {
             margin-top: 11px; }
   main.about section.candidate:first-child {
     margin-bottom: 30px; }
+
+main.endorsements {
+  position: relative;
+  float: right;
+  padding: 20px 30px;
+  width: calc(100% - 203px - 60px);
+  height: 1000px;
+  background-color: #f4f5f6; }
+  main.endorsements div.endorsement {
+    position: absolute;
+    padding: 10px;
+    width: 200px;
+    background-color: #fff;
+    box-shadow: 1px  0    0 #d6d7d8, 0    1px  1px #cccdce, -1px 0    0 #d6d7d8, 0    -1px 0 #e7e8e9;
+    cursor: pointer; }
+    main.endorsements div.endorsement div.endorsement-content {
+      position: relative;
+      width: 100%; }
+      main.endorsements div.endorsement div.endorsement-content img {
+        width: 100%; }
+      main.endorsements div.endorsement div.endorsement-content div.info {
+        position: absolute;
+        bottom: 3px;
+        left: 0;
+        padding: 10px;
+        width: calc(100% - 20px);
+        height: 25px;
+        background-color: rgba(0, 0, 0, 0.3); }
+        main.endorsements div.endorsement div.endorsement-content div.info h5 {
+          font-family: Arial, Helvetica, sans-serif;
+          font-weight: bold;
+          font-size: 13px;
+          color: #fff; }
+        main.endorsements div.endorsement div.endorsement-content div.info span {
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 11px;
+          color: #bbb; }
+  main.endorsements div.endorsement:hover {
+    opacity: 0.9; }
+  main.endorsements div.highlight {
+    position: absolute;
+    padding: 48px;
+    width: 450px;
+    background-color: #fff;
+    box-shadow: 1px  0    0 #d6d7d8, 0    1px  1px #cccdce, -1px 0    0 #d6d7d8, 0    -1px 0 #e7e8e9; }
+    main.endorsements div.highlight p {
+      font-family: Slim Joe;
+      font-size: 30px;
+      line-height: 1.6; }
+  main.endorsements div.endorsement:nth-child(1) {
+    top: 20px;
+    left: 30px; }
+  main.endorsements div.endorsement:nth-child(2) {
+    top: 20px;
+    left: 855px; }
+  main.endorsements div.endorsement:nth-child(3) {
+    top: 270px;
+    left: 30px; }
+  main.endorsements div.endorsement:nth-child(4) {
+    top: 270px;
+    left: 855px; }
+  main.endorsements div.highlight:nth-child(5) {
+    top: 20px;
+    left: 280px; }
 
 /*# sourceMappingURL=main.css.map */

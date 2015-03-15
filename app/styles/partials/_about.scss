@@ -34,8 +34,8 @@ main.about {
 		}
 		div.info {
 			float: right;
-			padding: 10px;
-			width: calc(400px - 20px);
+			padding: 25px;
+			width: calc(400px - 50px);
 			padding-top: 10px;
 			overflow: auto;
 
@@ -68,6 +68,7 @@ main.about {
 				padding: 13px 9px;
 				width: calc(160px - 18px);
 				border: 1px solid #ddd;
+				border-radius: 2px;
 
 				ul {
 					padding-left: 16px;
