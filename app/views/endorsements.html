@@ -1,178 +1,24 @@
 <main class="endorsements">
 
-	<div class="js-masonry">
+	<ul class="js-masonry">
 
-		<div class="block endorsement">
-			<div class="endorsement-content">
-				<img src="https://unsplash.it/500/500?image=646" />
-				<div class="info">
-					<h5 class="name">Patrick Franks</h5>
-					<span class="position">President, Robotics Club</span>
+		<li ng-repeat="endorsement in blocks|orderBy:random" class="block {{endorsement.className}}">
+			<div ng-switch on="endorsement.className">
+				<div ng-switch-when="endorsement">
+					<div class="endorsement-content">
+						<img src="{{endorsement.image}}" />
+						<div class="info">
+							<h5 class="name">{{endorsement.name}}</h5>
+							<span class="position">{{endorsement.position}}</span>
+						</div>
+					</div>
+				</div>
+				<div ng-switch-when="highlight">
+					<p>{{endorsement.text}}</p>
 				</div>
 			</div>
-		</div>
+		</li>
 
-		<div class="block endorsement">
-			<div class="endorsement-content">
-				<img src="https://unsplash.it/500/500?image=447" />
-				<div class="info">
-					<h5 class="name">Nevil George</h5>
-					<span class="position">Treasurer, Sigma Chi</span>
-				</div>
-			</div>
-		</div>
-
-		<div class="block endorsement">
-			<div class="endorsement-content">
-				<img src="https://unsplash.it/500/500?image=550" />
-				<div class="info">
-					<h5 class="name">Jon Rovira</h5>
-					<span class="position">Not Involved</span>
-				</div>
-			</div>
-		</div>
-
-		<div class="block endorsement">
-			<div class="endorsement-content">
-				<img src="https://unsplash.it/500/500?image=633" />
-				<div class="info">
-					<h5 class="name">Cody Schiffer</h5>
-					<span class="position">President, Bitch Club</span>
-				</div>
-			</div>
-		</div>
-
-		<div class="block endorsement">
-			<div class="endorsement-content">
-				<img src="https://unsplash.it/500/500?image=633" />
-				<div class="info">
-					<h5 class="name">Cody Schiffer</h5>
-					<span class="position">President, Bitch Club</span>
-				</div>
-			</div>
-		</div>
-
-		<div class="block endorsement">
-			<div class="endorsement-content">
-				<img src="https://unsplash.it/500/500?image=633" />
-				<div class="info">
-					<h5 class="name">Cody Schiffer</h5>
-					<span class="position">President, Bitch Club</span>
-				</div>
-			</div>
-		</div>
-
-		<div class="block highlight">
-			<p>
-				Normally, both your asses would be dead as fucking fried chicken, but you happen to pull this shit while I'm in a transitional period so I don't wanna kill you, I wanna help you. 
-			</p>
-		</div>
-
-		<div class="block endorsement">
-			<div class="endorsement-content">
-				<img src="https://unsplash.it/500/500?image=633" />
-				<div class="info">
-					<h5 class="name">Cody Schiffer</h5>
-					<span class="position">President, Bitch Club</span>
-				</div>
-			</div>
-		</div>
-
-		<div class="block highlight">
-			<p>
-				Normally, both your asses would be dead as fucking fried chicken, but you happen to pull this shit while I'm in a transitional period so I don't wanna kill you, I wanna help you. 
-			</p>
-		</div>
-
-		<div class="block endorsement">
-			<div class="endorsement-content">
-				<img src="https://unsplash.it/500/500?image=633" />
-				<div class="info">
-					<h5 class="name">Cody Schiffer</h5>
-					<span class="position">President, Bitch Club</span>
-				</div>
-			</div>
-		</div>
-
-		<div class="block highlight">
-			<p>
-				Normally, both your asses would be dead as fucking fried chicken, but you happen to pull this shit while I'm in a transitional period so I don't wanna kill you, I wanna help you. 
-			</p>
-		</div>
-
-		<div class="block endorsement">
-			<div class="endorsement-content">
-				<img src="https://unsplash.it/500/500?image=633" />
-				<div class="info">
-					<h5 class="name">Cody Schiffer</h5>
-					<span class="position">President, Bitch Club</span>
-				</div>
-			</div>
-		</div>
-
-		<div class="block endorsement">
-			<div class="endorsement-content">
-				<img src="https://unsplash.it/500/500?image=633" />
-				<div class="info">
-					<h5 class="name">Cody Schiffer</h5>
-					<span class="position">President, Bitch Club</span>
-				</div>
-			</div>
-		</div>
-
-		<div class="block endorsement">
-			<div class="endorsement-content">
-				<img src="https://unsplash.it/500/500?image=633" />
-				<div class="info">
-					<h5 class="name">Cody Schiffer</h5>
-					<span class="position">President, Bitch Club</span>
-				</div>
-			</div>
-		</div>
-
-		<div class="block highlight">
-			<p>
-				Normally, both your asses would be dead as fucking fried chicken, but you happen to pull this shit while I'm in a transitional period so I don't wanna kill you, I wanna help you. 
-			</p>
-		</div>
-
-		<div class="block endorsement">
-			<div class="endorsement-content">
-				<img src="https://unsplash.it/500/500?image=633" />
-				<div class="info">
-					<h5 class="name">Cody Schiffer</h5>
-					<span class="position">President, Bitch Club</span>
-				</div>
-			</div>
-		</div>
-
-		<div class="block endorsement">
-			<div class="endorsement-content">
-				<img src="https://unsplash.it/500/500?image=633" />
-				<div class="info">
-					<h5 class="name">Cody Schiffer</h5>
-					<span class="position">President, Bitch Club</span>
-				</div>
-			</div>
-		</div>
-
-		<div class="block endorsement">
-			<div class="endorsement-content">
-				<img src="https://unsplash.it/500/500?image=633" />
-				<div class="info">
-					<h5 class="name">Cody Schiffer</h5>
-					<span class="position">President, Bitch Club</span>
-				</div>
-			</div>
-		</div>
-
-		<div class="block highlight">
-			<p>
-				Normally, both your asses would be dead as fucking fried chicken, but you happen to pull this shit while I'm in a transitional period so I don't wanna kill you, I wanna help you. 
-			</p>
-		</div>
-
-	</div>
-
+	</ul>
 
 </main>
