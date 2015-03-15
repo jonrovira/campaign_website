@@ -3,7 +3,7 @@ $border-color: #ddd;
 section.nav-panel {
 	position: fixed;
 	width: 202px;
-	border-right: 1px solid $border-color;
+	box-shadow: 1px  0    0 #d6d7d8;
 
 
 	div.logo {

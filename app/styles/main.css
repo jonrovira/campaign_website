@@ -16,7 +16,7 @@ label, table, caption {
 section.nav-panel {
   position: fixed;
   width: 202px;
-  border-right: 1px solid #ddd; }
+  box-shadow: 1px  0    0 #d6d7d8; }
   section.nav-panel div.logo {
     padding: 20px 0;
     width: 100%;
@@ -94,9 +94,13 @@ main.main {
 
 main.about {
   float: right;
-  width: calc(100% - 203px); }
+  padding: 20px 30px;
+  width: calc(100% - 203px - 60px);
+  background-color: #f4f5f6; }
   main.about section.candidate {
-    padding: 20px;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 1px  0    0 #d6d7d8, 0    1px  1px #cccdce, -1px 0    0 #d6d7d8, 0    -1px 0 #e7e8e9;
     overflow: auto; }
     main.about section.candidate div.image-wrapper {
       position: relative;
@@ -154,13 +158,6 @@ main.about {
           main.about section.candidate div.info div.facts ul li:not(:first-child) {
             margin-top: 11px; }
   main.about section.candidate:first-child {
-    margin-bottom: 14px; }
-  main.about hr {
-    margin: 0 auto;
-    width: calc(100% - 40px);
-    height: 0;
-    border: 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3); }
+    margin-bottom: 30px; }
 
 /*# sourceMappingURL=main.css.map */
