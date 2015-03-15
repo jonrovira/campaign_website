@@ -1,0 +1,21 @@
+main.listening {
+	position: relative;
+	float: right;
+	padding: 20px 30px;
+	width: calc(100% - 203px - 60px);
+	background: #f4f5f6;
+
+	div.twitter-feed {
+		width: 50%;
+		float: left;
+	}
+
+	div.instagram-feed {
+		width: 50%;
+		float: right;
+
+		div.insta-item {
+			margin-bottom: 10px;
+		}
+	}
+}
