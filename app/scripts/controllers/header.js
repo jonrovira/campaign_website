@@ -3,12 +3,6 @@
 
 angular.module('campaignWebsiteApp')
 	.controller('headerCtrl', function ($scope) {
-		$scope.awesomeThings = [
-		  	'HTML5 Boilerplate',
-		  	'AngularJS',
-		  	'Karma'
-		];
-
 
 		$scope.joinClicked = false;
 		$scope.sayClicked = false;
