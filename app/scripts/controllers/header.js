@@ -55,6 +55,11 @@ angular.module('campaignWebsiteApp')
 			$http.post('https://afternoon-atoll-8482.herokuapp.com/feedback', email).
 				success(function(data, status, headers, config) {
 					console.log(data);
+					if (data) {
+						alert('Email sent');
+					} else {
+						alert('Email sending failed.');
+					}
 				}).
 				error(function(data, status, headers, config) {
 					console.log('Error occurred ' + data);
