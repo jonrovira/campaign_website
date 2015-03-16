@@ -3,19 +3,70 @@ main.listening {
 	float: right;
 	padding: 20px 50px;
 	width: calc(100% - 227px - 100px);
-	background: #f4f5f6;
+	background-color: $main-background;
 
-	div.twitter-feed {
-		width: 50%;
-		float: left;
-	}
+	div.form-container {
+		position: fixed;
+		width: calc(100% - 227px - 100px - 40px);
+		padding: 20px;
+		background-color: #fff;
+		box-shadow: 1px  0    0 #d6d7d8,
+						0    1px  1px #cccdce,
+						-1px 0    0 #d6d7d8,
+						0    -1px 0 #e7e8e9;
 
-	div.instagram-feed {
-		width: 50%;
-		float: right;
+		h2 {
+			font-family: $fixed-font-family1;
+			color: $accent-color1;
+		}
+		form.contact-form {
+			overflow: auto;
 
-		div.insta-item {
-			margin-bottom: 10px;
+			textarea {
+				margin-bottom: 15px;
+				padding: 10px;
+				width: calc(100% - 20px - 2px); // - padding - border
+				height: 80px;
+				font-family: $base-font-family;
+				border: 1px solid #ddd;
+				outline: none;
+				resize: none;
+			}
+			div.signed {
+				float: right;
+
+				h5 {
+					display: inline-block;
+					margin-right: 10px;
+					font-family: $fixed-font-family1;
+					font-size: 17px;
+					color: #444;
+				}
+				input {
+					font-size: 15px;
+					border-style: none;
+					border-bottom: 1px solid #ddd;
+					outline: none;
+				}
+			}
 		}
 	}
+
+	div.media-feeds {
+
+		div.twitter-feed {
+			width: 50%;
+			float: left;
+		}
+
+		div.instagram-feed {
+			width: 50%;
+			float: right;
+
+			div.insta-item {
+				margin-bottom: 10px;
+			}
+		}
+	}
+
 }

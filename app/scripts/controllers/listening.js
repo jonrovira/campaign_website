@@ -1,16 +1,15 @@
 'use strict';
 
-/**
- * @ngdoc function
- * @name campaignWebsiteApp.controller:ListeningCtrl
- * @description
- * # ListeningCtrl
- * Controller of the campaignWebsiteApp
- */
+
 angular.module('campaignWebsiteApp')
  	.controller('ListeningCtrl', function ($rootScope, $scope, $route, $http, $sce) {
+
+
+        // For nav panel active li's
     	$rootScope.activeTab = $route.current.activeTab;
     	
+
+        // Instagram widget
     	$http.get('https://afternoon-atoll-8482.herokuapp.com/instagram')
     		.success(function(data, status, headers, config) {
     			var arr = [];
@@ -19,4 +18,4 @@ angular.module('campaignWebsiteApp')
     			}
     			$scope.instas = arr;
     		});
-  });
+    });

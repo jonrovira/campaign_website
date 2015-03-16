@@ -3,7 +3,7 @@ main.endorsements {
 	float: right;
 	padding: 20px 50px;
 	width: calc(100% - 227px - 100px);
-	background-color: #f8f8f8;
+	background-color: $main-background;
 
 
 	ul.js-masonry {
@@ -39,12 +39,15 @@ main.endorsements {
 					background-color: rgba(0, 0, 0, 0.3);
 
 					h5 {
-						font-family: $base-font-family;
 						font-weight: bold;
 						font-size: 13px;
+						word-spacing: 3px;
 						color: #fff;
+
+						span.big { font-family: $fixed-font-family1; }
+						span.slim { font-family: $fixed-font-family2; }
 					}
-					span {
+					> span {
 						font-family: $base-font-family;
 						font-size: 11px;
 						color: #bbb;
