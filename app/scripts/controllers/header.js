@@ -2,7 +2,7 @@
 
 
 angular.module('campaignWebsiteApp')
-	.controller('headerCtrl', function ($scope) {
+	.controller('headerCtrl', function ($scope, $http) {
 
 		$scope.joinClicked = false;
 		$scope.sayClicked = false;
@@ -41,5 +41,23 @@ angular.module('campaignWebsiteApp')
 					$scope.sayClicked = false;
 					break;
 			}
+		}
+
+		$scope.sendEmail = function(firstName, lastName, emailAddress, messageText) {
+			if (typeof emailAddress === 'undefined') {
+				return;
+			}
+			var email = {
+				name: firstName + ' ' + lastName,
+				from: emailAddress,
+				text: messageText
+			};
+			$http.post('https://afternoon-atoll-8482.herokuapp.com/feedback', email).
+				success(function(data, status, headers, config) {
+					console.log(data);
+				}).
+				error(function(data, status, headers, config) {
+					console.log('Error occurred ' + data);
+				});
 		}
 	})

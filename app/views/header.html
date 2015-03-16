@@ -27,8 +27,8 @@
 							<h5>Signed: </h5>
 							<input ng-model="firstName" type="text" name="firstName" placeholder="First Name" />
 							<input ng-model="lastName" type="text" name="lastName" placeholder="Last Name" />
-							<input ng-model="email" type="email" name="email" placeholder="Email" />
-							<button ng-click="sendEmail()">Send</button>
+							<input ng-model="emailAddress" type="email" name="email" placeholder="Email" />
+							<button ng-click="sendEmail(firstName, lastName, emailAddress, messageText)">Send</button>
 						</div>
 					</form>
 				</div>
