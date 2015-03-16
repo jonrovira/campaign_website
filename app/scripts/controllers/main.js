@@ -9,11 +9,17 @@
  */
 angular.module('campaignWebsiteApp')
  	.controller('MainCtrl', function ($rootScope, $scope, $route) {
-    	$scope.awesomeThings = [
-      		'HTML5 Boilerplate',
-      		'AngularJS',
-      		'Karma'
-    	];
+ 		var videos = ["video/MVI_4038.mp4", "video/MVI_4039.mp4", "video/MVI_4040.mp4"],
+ 			i = 0,
+ 			length = videos.length;
+    	$scope.currentVideo = videos[i];
+    	var videoPlayer = document.getElementById('video-player');
+    	videoPlayer.addEventListener('ended', function() {
+    		i++;
+    		$scope.currentVideo = videos[i % length];
+    		console.log($scope.currentVideo);
+    		videoPlayer.play();
+    	}, false);
 
     	$rootScope.activeTab = $route.current.activeTab;
   	})
@@ -25,7 +31,7 @@ angular.module('campaignWebsiteApp')
 	    		$('main.main').height($(window).height());
 	    		var videoHalfHeight = $('main.main video').height() * 0.5;
 	    		$('main.main video').css('margin-top', '-' + videoHalfHeight + 'px');
-	    	}, 100);
+	    	}, 300);
 	        $(window).resize(function () {
 	        	$('main.main').height($(window).height());
 	        	var mainHalfHeight = $('main.main video').height() * 0.5;
