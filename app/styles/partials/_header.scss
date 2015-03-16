@@ -91,11 +91,16 @@ header {
 					width: 390px;
 
 					h4 {
-						margin-bottom: 8px;
 						font-family: $fixed-font-family1;
 						font-size: 15px;
 						text-align: left;
 						color: #fff;
+					}
+					span {
+						float: left;
+						margin-bottom: 11px;
+						padding: 0;
+						font-family: $base-font-family;
 					}
 					form {
 

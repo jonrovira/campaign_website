@@ -18,4 +18,18 @@ angular.module('campaignWebsiteApp')
     			}
     			$scope.instas = arr;
     		});
+
+
+        // Set up Masonry
+        setTimeout(function() {
+            var $container = $('ul.instagram-feed');
+            $container.imagesLoaded(function() {
+                $container.masonry({
+                    columnWidth: 240,
+                    itemSelector: '.insta-item',
+                    gutter: 10,
+                    isAnimated: true,
+                });
+            });
+        }, 4000);
     });
