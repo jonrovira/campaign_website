@@ -3,7 +3,7 @@ main.team {
 	float: right;
 	padding: 20px 50px;
 	width: calc(100% - 227px - 100px);
-	background-color: #f8f8f8;
+	background-color: $main-background;
 
 	ul.js-masonry {
 		list-style: none;
