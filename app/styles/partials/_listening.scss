@@ -1,72 +1,27 @@
 main.listening {
 	position: relative;
 	float: right;
-	padding: 20px 50px;
+	padding: 55px 50px;
 	width: calc(100% - 227px - 100px);
 	background-color: $main-background;
 
-	div.form-container {
-		position: fixed;
-		width: calc(100% - 227px - 100px - 40px);
-		padding: 20px;
-		background-color: #fff;
-		box-shadow: 1px  0    0 #d6d7d8,
-						0    1px  1px #cccdce,
-						-1px 0    0 #d6d7d8,
-						0    -1px 0 #e7e8e9;
+	div.main-feed {
+		width: calc(100% - 350px);
 
-		h2 {
-			font-family: $fixed-font-family1;
-			color: $accent-color1;
-		}
-		form.contact-form {
-			overflow: auto;
+		ul.instagram-feed {
+			width: 100%;
+			list-style: none;
 
-			textarea {
-				margin-bottom: 15px;
-				padding: 10px;
-				width: calc(100% - 20px - 2px); // - padding - border
-				height: 80px;
-				font-family: $base-font-family;
-				border: 1px solid #ddd;
-				outline: none;
-				resize: none;
-			}
-			div.signed {
-				float: right;
-
-				h5 {
-					display: inline-block;
-					margin-right: 10px;
-					font-family: $fixed-font-family1;
-					font-size: 17px;
-					color: #444;
-				}
-				input {
-					font-size: 15px;
-					border-style: none;
-					border-bottom: 1px solid #ddd;
-					outline: none;
-				}
+			li.insta-item {
+				width: 240px;
+				height: 380px;
 			}
 		}
 	}
-
-	div.media-feeds {
-
-		div.twitter-feed {
-			width: 50%;
-			float: left;
-		}
-
-		div.instagram-feed {
-			width: 50%;
-			float: right;
-
-			div.insta-item {
-				margin-bottom: 10px;
-			}
-		}
+	div.twitter-feed {
+		position: fixed;
+		top: 55px;
+		right: 50px;
 	}
 
 }

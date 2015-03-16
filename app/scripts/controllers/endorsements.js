@@ -14,7 +14,7 @@ angular.module('campaignWebsiteApp')
     		$container.masonry({
                 columnWidth: 260,
                 itemSelector: '.block',
-    	  		gutter: 5,
+    	  		gutter: 0,
     	  		isAnimated: true,
     		});
     	});
@@ -146,7 +146,7 @@ angular.module('campaignWebsiteApp')
             },
 
 
-             {
+            {
                 className: 'endorsement',
                 firstName: 'Bryan',
                 lastName: 'Berger',
@@ -182,7 +182,34 @@ angular.module('campaignWebsiteApp')
             },
 
 
-
+            {
+                className: 'endorsement',
+                firstName: 'Bryan',
+                lastName: 'Berger',
+                position: 'President, Points for a Purpose',
+                image: 'https://unsplash.it/500/500?image=200'
+            },
+            {
+                className: 'endorsement',
+                firstName: 'Chris',
+                lastName: 'Howard',
+                position: 'Vice President, ODB',
+                image: 'https://unsplash.it/500/500?image=201'
+            },
+            {
+                className: 'endorsement',
+                firstName: 'Christina',
+                lastName: 'Kim',
+                position: 'Vice President, ASG',
+                image: 'https://unsplash.it/500/500?image=202'
+            },
+            {
+                className: 'endorsement',
+                firstName: 'Noah',
+                lastName: 'Star',
+                position: 'President, ASG',
+                image: 'https://unsplash.it/500/500?image=203'
+            },
         ];
 
   });

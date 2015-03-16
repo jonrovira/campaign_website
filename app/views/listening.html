@@ -1,34 +1,26 @@
 <main class="listening">
-
-	<div class="form-container">
-		<h2>Say something. We'll listen.</h2>
-		<form class="contact-form">
-			<textarea type="text" name="message" placeholder="Type your message here..."></textarea>
-			<div class="signed">
-				<h5>Signed: </h5>
-				<input type="text" name="firstName" placeholder="First Name" />
-				<input type="text" name="lastName" placeholder="Last Name" />
-				<input type="email" name="email" placeholder="Email" />
-			</div>
-		</form>
-	</div>
 	
-	<div class="media-feeds">
+	<div class="main-feed">
 
-		<div class="twitter-feed">
-			<a class="twitter-timeline" href="https://twitter.com/TechCrunch" data-widget-id="577210336102760448">Tweets by @TechCrunch</a>
-			<script>
-				!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
-			</script>
-		</div>
-
-
-		<div class="instagram-feed">
-			<div class="insta-item" ng-repeat="insta in instas" ng-bind-html="insta">
+		<ul class="instagram-feed">
+			<li class="insta-item" ng-repeat="insta in instas" ng-bind-html="insta">
 				{{insta}}
-			</div>
-		</div>
+			</li>
+		</ul>
 
+	</div>
+
+	<div class="twitter-feed">
+		<a class="twitter-timeline"
+		   href="https://twitter.com/TechCrunch"
+		   data-widget-id="577210336102760448"
+		   width="300"
+  		   height="500">
+		   Tweets by @TechCrunch
+		</a>
+		<script>
+			!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+		</script>
 	</div>
 
 </main>

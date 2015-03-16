@@ -1,0 +1,38 @@
+<header>
+	<div class="header-inner">
+		<ul class="controls">
+			<li class="join click-action" ng-click="joinClick($event)">
+				<i class="fa fa-user-plus click-action"></i>
+				<span class="click-action">Join Us</span>
+				<div class="hidden-action join-action">
+					<button class="download">
+						<i class="fa fa-download"></i>
+						<span>Download profile and cover photos</span>
+					</button>
+					<button class="facebook">
+						<i class="fa fa-facebook-official"></i>
+						<span>Add them to your profile</span>
+					</button>
+				</div>
+			</li>
+			<li class="say click-action" ng-click="sayClick($event)">
+				<i class="fa fa-comment-o click-action"></i>
+				<span class="click-action">Say Something</span>
+				<div class="hidden-action say-action">
+					<h4>Say something. We'll listen.</h4>
+					<span>Absolutely anything from comments to ideas, questions, or criticisms</span>
+					<form class="contact-form">
+						<textarea ng-model="messageText" type="text" name="message" placeholder="Type your message here..."></textarea>
+						<div class="signed">
+							<h5>Signed: </h5>
+							<input ng-model="firstName" type="text" name="firstName" placeholder="First Name" />
+							<input ng-model="lastName" type="text" name="lastName" placeholder="Last Name" />
+							<input ng-model="email" type="email" name="email" placeholder="Email" />
+							<button ng-click="sendEmail()">Send</button>
+						</div>
+					</form>
+				</div>
+			</li>
+		</div>
+	</div>
+</header>

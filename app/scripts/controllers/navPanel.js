@@ -15,19 +15,17 @@ angular.module('campaignWebsiteApp')
 		  	'Karma'
 		];
 
-		$('section.nav-panel').load(function() {
-			var windowHeight = $(window).height();
-			console.log(windowHeight);
-			$('section.nav-panel').height(windowHeight);
-		});
-
 	})
 
+
+	// Dynamic height directive
 	.directive('resizenavpanel', function ($window) {
 	    return function (scope, element) {
-	        $('section.nav-panel').height($(window).height());
+	        var navPanelHeight = $(window).height() - $('header').height();
+			$('section.nav-panel').height(navPanelHeight);
 	        $(window).resize(function () {
-	        	$('section.nav-panel').height($(window).height());
+	        	var navPanelHeight = $(window).height() - $('header').height();
+				$('section.nav-panel').height(navPanelHeight);
 	        });
 	    }
 	})

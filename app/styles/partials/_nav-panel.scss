@@ -2,16 +2,18 @@ $border-color: #eee;
 
 section.nav-panel {
 	position: fixed;
+	top: 47px;
 	width: 226px;
 	box-shadow: 1px  0    0 #d6d7d8;
 
 
 	div.logo {
-		padding: 20px 0;
 		width: 100%;
 		border-bottom: 1px solid $border-color;
 
 		a {
+			display: block;
+			padding: 20px 0;
 
 			img {
 				display: block;

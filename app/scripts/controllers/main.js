@@ -28,12 +28,13 @@ angular.module('campaignWebsiteApp')
 	    return function (scope, element) {
 	    	// Dynamic height
 	    	setTimeout(function() {
-	    		$('main.main').height($(window).height());
+	    		$('main.main').height($(window).height() - $('header').height());
 	    		var videoHalfHeight = $('main.main video').height() * 0.5;
 	    		$('main.main video').css('margin-top', '-' + videoHalfHeight + 'px');
-	    	}, 300);
+	    	}, 500);
+
 	        $(window).resize(function () {
-	        	$('main.main').height($(window).height());
+	        	$('main.main').height($(window).height() - $('header').height());
 	        	var mainHalfHeight = $('main.main video').height() * 0.5;
 	        	$('main.main video').css('margin-top', '-' + mainHalfHeight + 'px');
 	        });

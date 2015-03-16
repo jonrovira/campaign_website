@@ -49,7 +49,7 @@ angular
         controller: 'JoinCtrl',
         activeTab: 'join'
       })
-      .when('/we-are-listening', {
+      .when('/media-gallery', {
         templateUrl: 'views/listening.html',
         controller: 'ListeningCtrl',
         activeTab: 'listening'

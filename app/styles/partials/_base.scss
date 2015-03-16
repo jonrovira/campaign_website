@@ -30,6 +30,7 @@ $header-font-weight: $bold;
 
 // Colors
 $accent-color1: #1cafd1;
+$accent-color2: #84c775;
 $main-background: #f8f8f8;
 
 
@@ -44,3 +45,5 @@ $main-background: #f8f8f8;
 @import "endorsements";
 @import "team";
 @import "listening";
+@import "header";
+@import "loader";
