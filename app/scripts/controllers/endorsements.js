@@ -14,7 +14,7 @@ angular.module('campaignWebsiteApp')
     		$container.masonry({
                 columnWidth: 260,
                 itemSelector: '.block',
-    	  		gutter: 5,
+    	  		gutter: 0,
     	  		isAnimated: true,
     		});
     	});

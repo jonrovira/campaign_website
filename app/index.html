@@ -20,6 +20,7 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         
+        <ng-include ng-controller="headerCtrl" src="'views/header.html'"></ng-include>
         <ng-include ng-controller="navPanelCtrl" src="'views/nav-panel.html'" resizenavPanel></ng-include>
 
         <div class="container">
@@ -52,6 +53,7 @@
         <script src="scripts/controllers/team.js"></script>
         <script src="scripts/controllers/vision.js"></script>
         <script src="scripts/controllers/navPanel.js"></script>
+        <script src="scripts/controllers/header.js"></script>
         <!-- endbuild -->
     </body>
 </html>

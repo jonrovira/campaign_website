@@ -1,5 +1,6 @@
 main.main {
 	position: relative;
+	padding-top: 47px;
 	float: right;
 	width: calc(100% - 227px);
 	background-color: #202020;
@@ -16,17 +17,15 @@ main.main {
 	div.banner {
 		display: none;
 		position: absolute;
-		top: 50%;
-		margin-top: calc(-1 * 289px / 2);
+		top: 70px;
+		right: 25px;
 		width: 100%;
-		text-align: center;
 
 		h1 {
-			display: inline-block;
-			margin-left: -25%;
+			display: inline;
+			float: right;
 			font-size: 80px;
 			color: #fff;
-			text-align: center;
 
 			span.row {
 				display: block;
@@ -35,10 +34,10 @@ main.main {
 				span.slim { font-family: $fixed-font-family2; }
 			}
 			span.row:nth-child(2) {
-				margin-left: 287px;
+				margin-left: 172px;
 			}
 			span.row:nth-child(3) {
-				margin-left: 519px;
+				margin-left: 292px;
 			}
 		}
 	}
