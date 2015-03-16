@@ -194,7 +194,7 @@ main.endorsements {
           width: 100%; }
         main.endorsements ul.js-masonry li.endorsement div.endorsement-content div.info {
           position: absolute;
-          bottom: 1px;
+          bottom: 4px;
           left: 0;
           padding: 10px;
           width: calc(100% - 20px);
@@ -328,6 +328,7 @@ header {
     header div.header-inner ul.controls {
       list-style: none; }
       header div.header-inner ul.controls li {
+        position: relative;
         display: inline-block;
         padding: 12px 19px;
         cursor: pointer; }
@@ -339,9 +340,87 @@ header {
         header div.header-inner ul.controls li span {
           font-family: Slim Joe;
           font-size: 11px; }
+        header div.header-inner ul.controls li div.hidden-action {
+          display: none;
+          position: absolute;
+          top: 47px;
+          left: 0px;
+          padding: 15px;
+          background-color: #2c292c;
+          border-radius: 0 0 2px 2px; }
+        header div.header-inner ul.controls li div.hidden-action.join-action {
+          width: 340px; }
+          header div.header-inner ul.controls li div.hidden-action.join-action button {
+            float: left;
+            padding: 10px 14px;
+            width: 170px;
+            height: 60px;
+            border: none;
+            color: #fff;
+            text-align: left;
+            box-shadow: 1px  0    0 #444, 0    1px  1px #333, -1px 0    0 #444, 0    -1px 0 #555;
+            cursor: pointer;
+            outline: none; }
+            header div.header-inner ul.controls li div.hidden-action.join-action button i {
+              display: inline-block;
+              font-size: 29px;
+              color: #fff; }
+            header div.header-inner ul.controls li div.hidden-action.join-action button span {
+              display: inline-block;
+              width: calc(100% - 40px);
+              font-family: Arial, Helvetica, sans-serif;
+              font-size: 11px;
+              line-height: 1.4;
+              color: #fff; }
+          header div.header-inner ul.controls li div.hidden-action.join-action button.download {
+            background-color: #84c775;
+            border-radius: 2px 0 0 2px; }
+          header div.header-inner ul.controls li div.hidden-action.join-action button.download:focus {
+            background-color: #64b851; }
+          header div.header-inner ul.controls li div.hidden-action.join-action button.facebook {
+            background-color: #1cafd1;
+            border-radius: 0 2px 2px 0; }
+          header div.header-inner ul.controls li div.hidden-action.join-action button.facebook:focus {
+            background-color: #1689a4; }
+        header div.header-inner ul.controls li div.hidden-action.say-action {
+          width: 390px; }
+          header div.header-inner ul.controls li div.hidden-action.say-action h4 {
+            margin-bottom: 8px;
+            font-family: Big John;
+            font-size: 15px;
+            text-align: left;
+            color: #fff; }
+          header div.header-inner ul.controls li div.hidden-action.say-action form textarea {
+            margin-bottom: 10px;
+            padding: 10px;
+            width: calc(100% - 20px);
+            height: 80px;
+            border: 0;
+            resize: none;
+            outline: none; }
+          header div.header-inner ul.controls li div.hidden-action.say-action form div.signed {
+            text-align: right; }
+            header div.header-inner ul.controls li div.hidden-action.say-action form div.signed h5 {
+              display: inline-block;
+              font-family: Big John;
+              color: #fff; }
+            header div.header-inner ul.controls li div.hidden-action.say-action form div.signed input {
+              margin-left: 5px;
+              width: 80px;
+              color: #fff;
+              background-color: transparent;
+              border: none;
+              border-bottom: 1px solid #fff;
+              outline: none; }
       header div.header-inner ul.controls li:hover {
         background-color: #2c292c; }
-        header div.header-inner ul.controls li:hover i, header div.header-inner ul.controls li:hover span {
+        header div.header-inner ul.controls li:hover > i, header div.header-inner ul.controls li:hover > span {
           color: #fff; }
+      header div.header-inner ul.controls li.active {
+        background-color: #2c292c; }
+        header div.header-inner ul.controls li.active > i, header div.header-inner ul.controls li.active > span {
+          color: #fff; }
+        header div.header-inner ul.controls li.active div.hidden-action {
+          display: block; }
 
 /*# sourceMappingURL=main.css.map */
