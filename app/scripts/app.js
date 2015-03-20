@@ -50,8 +50,8 @@ angular
         activeTab: 'join'
       })
       .when('/media-gallery', {
-        templateUrl: 'views/listening.html',
-        controller: 'ListeningCtrl',
+        templateUrl: 'views/media-gallery.html',
+        controller: 'MediaGalleryCtrl',
         activeTab: 'listening'
       })
       .otherwise({

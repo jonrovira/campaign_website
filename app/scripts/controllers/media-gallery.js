@@ -2,7 +2,7 @@
 
 
 angular.module('campaignWebsiteApp')
- 	.controller('ListeningCtrl', function ($rootScope, $scope, $route, $http, $sce) {
+ 	.controller('MediaGalleryCtrl', function ($rootScope, $scope, $route, $http, $sce) {
 
 
         // For nav panel active li's
