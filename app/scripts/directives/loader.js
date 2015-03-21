@@ -36,5 +36,5 @@ angular.module('campaignWebsiteApp')
 					$('div.main-feed').show();
 				}, 500);
 			}
-		}
+		};
 	});

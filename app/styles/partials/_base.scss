@@ -14,11 +14,13 @@ $base-line-height: 1.4;
 // Fixed Font
 @font-face {
 	font-family: Big John;
-	src: url('fonts/BigJohnSlimJoe/BIG JOHN.otf');
+	// src: url('fonts/BigJohnSlimJoe/BIG JOHN.otf');
+	src: url('https://s3-us-west-2.amazonaws.com/campaignwebsite/BIG+JOHN.otf');
 }
 @font-face {
 	font-family: Slim Joe;
-	src: url('fonts/BigJohnSlimJoe/Slim Joe.otf');
+	// src: url('fonts/BigJohnSlimJoe/Slim Joe.otf');
+	src: url('https://s3-us-west-2.amazonaws.com/campaignwebsite/Slim+Joe.otf');
 }
 $fixed-font-family1: Big John;
 $fixed-font-family2: Slim Joe;

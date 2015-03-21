@@ -8,7 +8,7 @@ angular.module('campaignWebsiteApp')
 		$scope.sayClicked = false;
 		$scope.joinClick = function(e) {
 			var className = e.target.className;
-			if (className.indexOf("click-action") <= -1) {
+			if (className.indexOf('click-action') <= -1) {
 				return;
 			}
 			$scope.sayClicked = false;
@@ -23,10 +23,10 @@ angular.module('campaignWebsiteApp')
 					$scope.joinClicked = false;
 					break;
 			}
-		}
+		};
 		$scope.sayClick = function(e) {
 			var className = e.target.className;
-			if (className.indexOf("click-action") <= -1) {
+			if (className.indexOf('click-action') <= -1) {
 				return;
 			}
 			$scope.joinClicked = false;
@@ -41,7 +41,7 @@ angular.module('campaignWebsiteApp')
 					$scope.sayClicked = false;
 					break;
 			}
-		}
+		};
 
 		$scope.sendEmail = function(firstName, lastName, emailAddress, messageText) {
 			if (typeof emailAddress === 'undefined') {
@@ -64,5 +64,5 @@ angular.module('campaignWebsiteApp')
 				error(function(data, status, headers, config) {
 					console.log('Error occurred ' + data);
 				});
-		}
-	})
+		};
+	});

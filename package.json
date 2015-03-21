@@ -1,7 +1,9 @@
 {
   "name": "campaignwebsite",
   "version": "0.0.0",
-  "dependencies": {},
+  "dependencies": {
+    "jquery-bridget": "^1.1.0"
+  },
   "repository": {},
   "devDependencies": {
     "grunt": "^0.4.5",
