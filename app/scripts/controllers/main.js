@@ -9,16 +9,24 @@
  */
 angular.module('campaignWebsiteApp')
  	.controller('MainCtrl', function ($rootScope, $scope, $route) {
- 		var videos = ["video/MVI_4038.mp4", "video/MVI_4039.mp4", "video/MVI_4040.mp4"],
- 			i = 0,
+ 		var i = 0,
+ 			videos = ["video/MVI_4038.mp4", "video/MVI_4039.mp4", "video/MVI_4040.mp4"],
+ 			// videos = [
+ 			// 	'https://nandc.firebaseapp.com/video/MVI_4038.mp4',
+ 			// 	'https://nandc.firebaseapp.com/video/MVI_4039.mp4',
+ 			// 	'https://nandc.firebaseapp.com/video/MVI_4040.mp4'
+ 			// ],
  			length = videos.length;
-    	$scope.currentVideo = videos[i];
+    	// $scope.currentVideo = videos[i];
     	var videoPlayer = document.getElementById('video-player');
+    	videoPlayer.src = videos[i];
+    	console.log(videoPlayer);
     	videoPlayer.addEventListener('ended', function() {
     		i++;
-    		$scope.currentVideo = videos[i % length];
+    		// $scope.currentVideo = videos[i % length];
+    		this.src = videos[i % length];
     		console.log($scope.currentVideo);
-    		videoPlayer.play();
+    		this.play();
     	}, false);
 
     	$rootScope.activeTab = $route.current.activeTab;
@@ -44,4 +52,4 @@ angular.module('campaignWebsiteApp')
 	    		$('main.main div.banner').fadeIn(2000);
 	    	}, 1200);
 	    }
-	})
+	});
