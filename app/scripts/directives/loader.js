@@ -15,12 +15,8 @@ angular.module('campaignWebsiteApp')
 angular.module('campaignWebsiteApp')
 	.directive('ngLoader', function() {
 
-		var hideEl = function(element) {
-			element.css('display', 'none');
-		};
-
 		return {
-			restrict: 'E',
+			restrict: 'EA',
 			template: 
 				'<div class="loader-container">' +
  					'<div class="loader"></div>' +
@@ -35,7 +31,9 @@ angular.module('campaignWebsiteApp')
 				});
 
 				setTimeout(function() {
-					hideEl(element);
+					console.log('Hiding loader');
+					element.css('display', 'none');
+					$('div.main-feed').show();
 				}, 500);
 			}
 		}
