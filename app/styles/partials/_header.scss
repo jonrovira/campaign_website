@@ -3,7 +3,7 @@ header {
 	top: 0;
 	left: 0;
 	width: 100%;
-	background-color: #1f1d20;
+	background-color: #211f22;
 	z-index: 10;
 
 	div.header-inner {
@@ -21,13 +21,15 @@ header {
 				cursor: pointer;
 
 				i, span {
-					color: #696869;
+					color: #999;
 				}
 				i {
 					margin-right: 5px;
 					font-size: 22px;
 				}
 				span {
+					position: relative;
+					top: -2px;
 					font-family: $fixed-font-family2;
 					font-size: 11px;
 				}
@@ -149,6 +151,14 @@ header {
 				}
 				div.hidden-action {
 					display: block;
+				}
+			}
+			li:first-child {
+
+				i:first-child {
+					position: relative;
+					top: 1px;
+					font-size: 23px;
 				}
 			}
 		}

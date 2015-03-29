@@ -7,10 +7,10 @@ label, table, caption {
 /* Variables */
 @font-face {
   font-family: Big John;
-  src: url("fonts/BigJohnSlimJoe/BIG JOHN.otf"); }
+  src: url("https://s3-us-west-2.amazonaws.com/campaignwebsite/BIG+JOHN.otf"); }
 @font-face {
   font-family: Slim Joe;
-  src: url("fonts/BigJohnSlimJoe/Slim Joe.otf"); }
+  src: url("https://s3-us-west-2.amazonaws.com/campaignwebsite/Slim+Joe.otf"); }
 /* Modules */
 /* Partials */
 section.nav-panel {
@@ -290,7 +290,7 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #1f1d20;
+  background-color: #211f22;
   z-index: 10; }
   header div.header-inner {
     padding: 0 30px;
@@ -304,11 +304,13 @@ header {
         padding: 12px 19px;
         cursor: pointer; }
         header div.header-inner ul.controls li i, header div.header-inner ul.controls li span {
-          color: #696869; }
+          color: #999; }
         header div.header-inner ul.controls li i {
           margin-right: 5px;
           font-size: 22px; }
         header div.header-inner ul.controls li span {
+          position: relative;
+          top: -2px;
           font-family: Slim Joe;
           font-size: 11px; }
         header div.header-inner ul.controls li div.hidden-action {
@@ -397,10 +399,14 @@ header {
           color: #fff; }
         header div.header-inner ul.controls li.active div.hidden-action {
           display: block; }
+      header div.header-inner ul.controls li:first-child i:first-child {
+        position: relative;
+        top: 1px;
+        font-size: 23px; }
 
 div.loader-container {
-  position: absolute;
-  width: 100%; }
+  width: 100%;
+  margin: 0 auto; }
 
 div.loader {
   top: 50%;
