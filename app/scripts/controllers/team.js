@@ -20,7 +20,7 @@ angular.module('campaignWebsiteApp')
             $container.masonry({
                 columnWidth: 260,
                 itemSelector: '.block',
-                gutter: 0,
+                gutter: 5,
                 isAnimated: true,
             });
         });
@@ -259,4 +259,7 @@ angular.module('campaignWebsiteApp')
                 image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/VickyHo.jpg'
             },
         ];
+
+
+        // Styling
   	});
