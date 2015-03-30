@@ -59,7 +59,7 @@ main.team {
 
 			div.member-content div.info h5 span.slim {
 				max-width: 300px;
-				animation: nameSlide 0.7s ease-out;
+				animation: nameSlide 0.8s ease-in;
 			}
 			@-webkit-keyframes nameSlide {
 				0% { max-width: 0; }

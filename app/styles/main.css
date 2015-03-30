@@ -269,7 +269,7 @@ main.team {
               font-family: Slim Joe; }
     main.team ul.js-masonry li.member:hover div.member-content div.info h5 span.slim {
       max-width: 300px;
-      animation: nameSlide 0.7s ease-out; }
+      animation: nameSlide 0.8s ease-in; }
 @-webkit-keyframes nameSlide {
   0% {
     max-width: 0; }
@@ -375,39 +375,49 @@ header {
           header div.header-inner ul.controls li div.hidden-action.join-action button.facebook:focus {
             background-color: #1689a4; }
         header div.header-inner ul.controls li div.hidden-action.say-action {
-          width: 390px; }
+          width: 412px; }
           header div.header-inner ul.controls li div.hidden-action.say-action h4 {
+            margin-bottom: 4px;
             font-family: Big John;
-            font-size: 15px;
+            font-size: 17px;
             text-align: left;
             color: #fff; }
           header div.header-inner ul.controls li div.hidden-action.say-action span {
             float: left;
-            margin-bottom: 11px;
+            margin-bottom: 15px;
             padding: 0;
-            font-family: Arial, Helvetica, sans-serif; }
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 13px; }
           header div.header-inner ul.controls li div.hidden-action.say-action form textarea {
-            margin-bottom: 10px;
+            margin-bottom: 17px;
             padding: 10px;
             width: calc(100% - 20px);
-            height: 80px;
+            height: 100px;
+            font-size: 14px;
             border: 0;
             resize: none;
             outline: none; }
-          header div.header-inner ul.controls li div.hidden-action.say-action form div.signed {
-            text-align: right; }
-            header div.header-inner ul.controls li div.hidden-action.say-action form div.signed h5 {
-              display: inline-block;
-              font-family: Big John;
-              color: #fff; }
-            header div.header-inner ul.controls li div.hidden-action.say-action form div.signed input {
-              margin-left: 5px;
-              width: 80px;
-              color: #fff;
-              background-color: transparent;
-              border: none;
-              border-bottom: 1px solid #fff;
-              outline: none; }
+          header div.header-inner ul.controls li div.hidden-action.say-action form div.signed input {
+            padding: 5px 8px;
+            width: 113px;
+            color: #fff;
+            background-color: transparent;
+            border: 1px solid #666;
+            outline: none; }
+          header div.header-inner ul.controls li div.hidden-action.say-action form div.signed input:not(:first-child) {
+            margin-left: 5px; }
+          header div.header-inner ul.controls li div.hidden-action.say-action form div.signed button {
+            display: block;
+            float: right;
+            margin-top: 10px;
+            padding: 7px 8px 3px 8px;
+            width: 100%;
+            font-family: Slim Joe;
+            font-size: 15px;
+            color: #fff;
+            background-color: #1cafd1;
+            border: none;
+            outline: none; }
       header div.header-inner ul.controls li:hover {
         background-color: #2c292c; }
         header div.header-inner ul.controls li:hover > i, header div.header-inner ul.controls li:hover > span {
