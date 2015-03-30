@@ -14,31 +14,15 @@ angular.module('campaignWebsiteApp')
     	$rootScope.activeTab = $route.current.activeTab;
 
 
-        // Show loader while setting up masonry
-        var promise = new Promise(function(resolve, reject) {
-
-            // Set up Masonry
-            var $container = $('ul.js-masonry');
-            $('ul.js-masonry').imagesLoaded(function() {
-                $container.masonry({
-                    columnWidth: 260,
-                    itemSelector: '.block',
-                    gutter: 0,
-                    isAnimated: true,
-                });
+        // Set up Masonry
+        var $container = $('ul.js-masonry');
+        $container.imagesLoaded(function() {
+            $container.masonry({
+                columnWidth: 260,
+                itemSelector: '.block',
+                gutter: 0,
+                isAnimated: true,
             });
-
-            if (true) {
-                $('div.loader-container').hide();
-            }
-            else {
-                console.log('fuck');
-            }
-        });
-        promise.then(function(result) {
-            console.log(result); // "Stuff worked!"
-        }, function(err) {
-            console.log(err); // Error: "It broke"
         });
 
 

@@ -57,10 +57,10 @@ section.nav-panel {
 						color: $accent-color1;;
 					}
 				}
-				li:hover {
+				li:not(.active):hover {
 
 					a {
-						color: #000;
+						color: #ccc;
 					}
 				}
 			}

@@ -4,6 +4,9 @@ label, table, caption {
   margin: 0;
   padding: 0; }
 
+[ng\:cloak], [ng-cloak], .ng-cloak {
+  display: none !important; }
+
 /* Variables */
 @font-face {
   font-family: Big John;
@@ -50,8 +53,8 @@ section.nav-panel {
             text-decoration: none; }
         section.nav-panel div.nav-container nav ul li.active a {
           color: #1cafd1; }
-        section.nav-panel div.nav-container nav ul li:hover a {
-          color: #000; }
+        section.nav-panel div.nav-container nav ul li:not(.active):hover a {
+          color: #ccc; }
   section.nav-panel div.social-media {
     position: absolute;
     bottom: 0;
@@ -272,15 +275,15 @@ main.listening {
   padding: 55px 50px;
   width: calc(100% - 227px - 100px);
   background-color: #f8f8f8; }
-  main.listening div.main-feed {
+  main.listening div.content div.main-feed {
     width: calc(100% - 350px); }
-    main.listening div.main-feed ul.instagram-feed {
+    main.listening div.content div.main-feed ul.instagram-feed {
       width: 100%;
       list-style: none; }
-      main.listening div.main-feed ul.instagram-feed li.insta-item {
+      main.listening div.content div.main-feed ul.instagram-feed li.insta-item {
         width: 240px;
         height: 380px; }
-  main.listening div.twitter-feed {
+  main.listening div.content div.twitter-feed {
     position: fixed;
     top: 55px;
     right: 50px; }
@@ -409,7 +412,6 @@ div.loader-container {
   margin: 0 auto; }
 
 div.loader {
-  top: 50%;
   left: 50%;
   position: absolute;
   transform: translate(-50%, -50%);

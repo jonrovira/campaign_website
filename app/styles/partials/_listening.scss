@@ -5,23 +5,26 @@ main.listening {
 	width: calc(100% - 227px - 100px);
 	background-color: $main-background;
 
-	div.main-feed {
-		width: calc(100% - 350px);
+	div.content {
 
-		ul.instagram-feed {
-			width: 100%;
-			list-style: none;
+		div.main-feed {
+			width: calc(100% - 350px);
 
-			li.insta-item {
-				width: 240px;
-				height: 380px;
+			ul.instagram-feed {
+				width: 100%;
+				list-style: none;
+
+				li.insta-item {
+					width: 240px;
+					height: 380px;
+				}
 			}
 		}
-	}
-	div.twitter-feed {
-		position: fixed;
-		top: 55px;
-		right: 50px;
+		div.twitter-feed {
+			position: fixed;
+			top: 55px;
+			right: 50px;
+		}
 	}
 
 }

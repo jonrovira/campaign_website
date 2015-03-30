@@ -6,6 +6,12 @@ label, table, caption, {
 }
 
 
+// For ng-cloak directive
+[ng\:cloak], [ng-cloak], .ng-cloak {
+	display: none !important;
+}
+
+
 
 // Partials
 @import "partials/base";

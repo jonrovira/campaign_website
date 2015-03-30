@@ -1,28 +1,31 @@
 <main class="listening">
 
-	<div ng-loader><div>
 
-	<div class="main-feed">
+	<div class="content" loader>
 
-		<ul class="instagram-feed">
-			<li class="insta-item" ng-repeat="insta in instas" ng-bind-html="insta">
-				{{insta}}
-			</li>
-		</ul>
+		<div class="main-feed">
 
-	</div>
+			<ul class="instagram-feed">
+				<li class="insta-item" ng-repeat="insta in instas" ng-bind-html="insta">
+					{{insta}}
+				</li>
+			</ul>
 
-	<div class="twitter-feed">
-		<a class="twitter-timeline"
-		   href="https://twitter.com/TechCrunch"
-		   data-widget-id="577210336102760448"
-		   width="300"
-  		   height="500">
-		   Tweets by @TechCrunch
-		</a>
-		<script>
-			!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
-		</script>
+		</div>
+
+		<div class="twitter-feed">
+			<a class="twitter-timeline"
+			   href="https://twitter.com/TechCrunch"
+			   data-widget-id="577210336102760448"
+			   width="300"
+	  		   height="500">
+			   Tweets by @TechCrunch
+			</a>
+			<script>
+				!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+			</script>
+		</div>
+
 	</div>
 
 </main>
