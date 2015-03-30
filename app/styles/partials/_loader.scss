@@ -10,12 +10,13 @@ $color-s: $accent-color2;
 
 div.loader-container {
     position: fixed;
-    width: 100%;
+    top: 0;
+    width: inherit;
     margin: 0 auto;
 }
 div.loader {
+    position: relative;
     left: 50%;
-    position: absolute;
     transform: translate(-50%, -50%);
 
     width: $f-size;
@@ -36,7 +37,6 @@ div.loader {
         left: 0;
         top: 0;
     }
-
     &:before{
         background: $color;
         box-shadow: $size 0 0 $color,
@@ -50,8 +50,6 @@ div.loader {
 
         animation: one $time ease infinite;
     } 
-
-
     &:after{
         background: $color-s;
         box-shadow: $size 0 0 $color-s,

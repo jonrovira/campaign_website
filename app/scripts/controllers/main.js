@@ -11,21 +11,12 @@ angular.module('campaignWebsiteApp')
  	.controller('MainCtrl', function ($rootScope, $scope, $route) {
  		var i = 0,
  			videos = ["video/MVI_4038.mp4", "video/MVI_4039.mp4", "video/MVI_4040.mp4"],
- 			// videos = [
- 			// 	'https://nandc.firebaseapp.com/video/MVI_4038.mp4',
- 			// 	'https://nandc.firebaseapp.com/video/MVI_4039.mp4',
- 			// 	'https://nandc.firebaseapp.com/video/MVI_4040.mp4'
- 			// ],
  			length = videos.length;
-    	// $scope.currentVideo = videos[i];
     	var videoPlayer = document.getElementById('video-player');
     	videoPlayer.src = videos[i];
-    	console.log(videoPlayer);
     	videoPlayer.addEventListener('ended', function() {
     		i++;
-    		// $scope.currentVideo = videos[i % length];
     		this.src = videos[i % length];
-    		console.log($scope.currentVideo);
     		this.play();
     	}, false);
 

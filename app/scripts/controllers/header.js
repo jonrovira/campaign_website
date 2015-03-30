@@ -54,11 +54,15 @@ angular.module('campaignWebsiteApp')
 			};
 			$http.post('https://afternoon-atoll-8482.herokuapp.com/feedback', email).
 				success(function(data, status, headers, config) {
-					console.log(data);
+					var $el = $('div.signed button');
 					if (data) {
-						alert('Email sent');
+						$el.html('Thank you');
+						$el.css('background-color', '#2F9849');
+						$el.css('border-color', '#2FB149');
 					} else {
-						alert('Email sending failed.');
+						$el.html('Uh oh. Something went wrong.');
+						$el.css('background-color', '#BD493E');
+						$el.css('border-color', '#FF6354');
 					}
 				}).
 				error(function(data, status, headers, config) {

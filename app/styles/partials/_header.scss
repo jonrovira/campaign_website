@@ -76,6 +76,7 @@ header {
 					}
 					button.download {
 						background-color: $accent-color2;
+						border: 1px solid lighten($accent-color2, 10%);
 						border-radius: 2px 0 0 2px;
 					}
 					button.download:focus {
@@ -83,6 +84,7 @@ header {
 					}
 					button.facebook {
 						background-color: $accent-color1;
+						border: 1px solid lighten($accent-color1, 10%);
 						border-radius: 0 2px 2px 0;
 					}
 					button.facebook:focus {
@@ -98,10 +100,10 @@ header {
 						font-size: 17px;
 						text-align: left;
 						color: #fff;
+						word-spacing: 2px;
 					}
 					span {
 						float: left;
-						margin-bottom: 15px;
 						padding: 0;
 						font-family: $base-font-family;
 						font-size: 13px;
@@ -109,10 +111,11 @@ header {
 					form {
 
 						textarea {
-							margin-bottom: 17px;
+							margin: 18px 0;
 							padding: 10px;
 							width: calc(100% - 20px);
 							height: 100px;
+							font-family: $base-font-family;
 							font-size: 14px;
 							border: 0;
 							resize: none;
@@ -121,28 +124,48 @@ header {
 						div.signed {
 
 							input {
-								padding: 5px 8px;
-								width: 113px;
+								float: left;
+								padding: 10px 12px;
+								width: 112px;
 								color: #fff;
-								background-color: transparent;
-								border: 1px solid #666;;
+								background-color: $accent-color2;
+								border: 1px solid lighten($accent-color2, 10%); 
 								outline: none;
 							}
+							input::-webkit-input-placeholder { color: #eee; }
+							input:-moz-placeholder { color: #eee; }
+							input::-moz-placeholder { color: #eee; }
+							input:ms-input-placeholder { color: #eee; }
 							input:not(:first-child) {
-								margin-left: 5px;
+								border-left: none;
+							}
+							input:focus {
+								background-color: darken($accent-color2, 10%);
 							}
 							button {
 								display: block;
 								float: right;
 								margin-top: 10px;
-								padding: 7px 8px 3px 8px;
+								padding: 10px 8px 6px 8px;
 								width: 100%;
 								font-family: $fixed-font-family2;
 								font-size: 15px;
 								color: #fff;
 								background-color: $accent-color1;
 								border: none;
+								border: 1px solid lighten($accent-color1, 10%);
 								outline: none;
+								cursor: pointer;
+
+								i {
+									margin-right: 10px;
+									font-size: 14px;
+									color: #fff;
+								}
+							}
+							button:active {
+								background-color: darken($accent-color1, 10%);
+								border: 1px solid darken($accent-color1, 3%);
 							}
 						}
 					}
