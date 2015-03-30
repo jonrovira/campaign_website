@@ -23,7 +23,7 @@ angular.module('campaignWebsiteApp')
 				scope.$watch('$viewContentLoaded', function() {
 
 					// Hide all children
-					element.children().css('visibility', 'hidden');
+					element.children().css('opacity', '0.0', 'visibility', 'visible');
 
 					// Insert and position loader
 					var loader = '<div class="loader-container">' +
@@ -43,7 +43,7 @@ angular.module('campaignWebsiteApp')
 						// Wait a bit, then remove loader & show children
 						setTimeout(function() {
 							$('div.loader-container').remove();
-							element.children().css('visibility', 'visible');
+							element.children().animate({ opacity: '1.0' }, 400);
 						}, 500);
 					});
 				});

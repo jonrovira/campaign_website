@@ -110,71 +110,63 @@ main.main {
         margin-left: 292px; }
 
 main.about {
+  position: relative;
   float: right;
   padding: 55px 50px;
   width: calc(100% - 227px - 100px);
   background-color: #f8f8f8; }
-  main.about section.candidate {
-    background-color: #fff;
-    box-shadow: 1px  0    0 #d6d7d8, 0    1px  1px #cccdce, -1px 0    0 #d6d7d8, 0    -1px 0 #e7e8e9;
-    overflow: auto; }
-    main.about section.candidate div.image-wrapper {
-      position: relative;
-      float: left;
-      width: calc(100% - 450px); }
-      main.about section.candidate div.image-wrapper img {
-        display: block;
-        width: 100%; }
-      main.about section.candidate div.image-wrapper h2 {
-        position: absolute;
-        bottom: 10px;
-        right: 20px;
-        font-size: 50px;
-        color: #fff; }
-        main.about section.candidate div.image-wrapper h2 span.big {
-          font-family: Big John; }
-        main.about section.candidate div.image-wrapper h2 span.slim {
-          font-family: Slim Joe; }
-    main.about section.candidate div.info {
-      float: right;
-      padding: 32px;
-      width: calc(450px - 64px);
+  main.about div.content {
+    position: relative; }
+    main.about div.content section.candidate {
+      background-color: #fff;
+      box-shadow: 1px  0    0 #d6d7d8, 0    1px  1px #cccdce, -1px 0    0 #d6d7d8, 0    -1px 0 #e7e8e9;
       overflow: auto; }
-      main.about section.candidate div.info h3 {
-        margin-bottom: 24px;
-        font-family: Slim Joe;
-        font-size: 26px;
-        color: #333; }
-      main.about section.candidate div.info h6 {
-        margin-bottom: 3px;
-        font-family: Big John;
-        font-size: 14px;
-        color: #1cafd1; }
-      main.about section.candidate div.info div.paragraph {
+      main.about div.content section.candidate div.image-wrapper {
+        position: relative;
         float: left;
-        width: calc(100% - 200px); }
-        main.about section.candidate div.info div.paragraph p {
-          float: left;
-          font-family: Arial, Helvetica, sans-serif;
-          font-size: 13px;
-          line-height: 1.6;
-          color: #666; }
-      main.about section.candidate div.info div.facts {
+        width: calc(100% - 520px); }
+        main.about div.content section.candidate div.image-wrapper img {
+          display: block;
+          width: 100%; }
+        main.about div.content section.candidate div.image-wrapper h2 {
+          position: absolute;
+          bottom: 10px;
+          right: 20px;
+          font-size: 50px;
+          color: #fff; }
+          main.about div.content section.candidate div.image-wrapper h2 span.big {
+            font-family: Big John; }
+          main.about div.content section.candidate div.image-wrapper h2 span.slim {
+            font-family: Slim Joe; }
+      main.about div.content section.candidate div.info {
         float: right;
-        padding: 13px 9px;
-        width: calc(160px - 18px);
-        box-shadow: 1px  0    1px #d6d7d8, 0    1px  2px #cccdce, -1px 0    1px #d6d7d8, 0    -1px 1px #e7e8e9; }
-        main.about section.candidate div.info div.facts ul {
-          padding-left: 16px;
-          list-style-type: square; }
-          main.about section.candidate div.info div.facts ul li {
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 13px;
-            color: #666; }
-          main.about section.candidate div.info div.facts ul li:not(:first-child) {
-            margin-top: 11px; }
-  main.about section.candidate:first-child {
-    margin-bottom: 30px; }
+        padding: 32px;
+        width: calc(520px - 64px);
+        overflow: auto; }
+        main.about div.content section.candidate div.info h3 {
+          margin-bottom: 24px;
+          font-family: Slim Joe;
+          font-size: 26px;
+          color: #333; }
+        main.about div.content section.candidate div.info h6 {
+          margin-bottom: 3px;
+          font-family: Big John;
+          font-size: 14px;
+          color: #1cafd1; }
+        main.about div.content section.candidate div.info div.paragraph {
+          float: left;
+          width: 100%; }
+          main.about div.content section.candidate div.info div.paragraph div.paragraphs {
+            column-count: 2; }
+            main.about div.content section.candidate div.info div.paragraph div.paragraphs p {
+              float: left;
+              padding-bottom: 8px;
+              font-family: Arial, Helvetica, sans-serif;
+              font-size: 13px;
+              line-height: 1.6;
+              color: #666; }
+    main.about div.content section.candidate:first-child {
+      margin-bottom: 30px; }
 
 main.endorsements {
   position: relative;
