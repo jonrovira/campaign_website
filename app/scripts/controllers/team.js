@@ -15,10 +15,11 @@ angular.module('campaignWebsiteApp')
 
 
         // Set up Masonry
-        var $container = $('ul.js-masonry');
+        var $container = $('main.team ul.js-masonry');
         $(window).resize(function() {
             $container.imagesLoaded(function() {
                 var squareSide = ($container.width() - (3 * 5)) / 4;
+                $container.height(squareSide * $('li.member'))
                 $('li.member').height(squareSide);
                 $container.masonry({
                     columnWidth: squareSide,

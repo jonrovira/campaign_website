@@ -9,7 +9,7 @@ angular.module('campaignWebsiteApp')
 
 
         // Set up Masonry
-      	var $container = $('ul.js-masonry');
+      	var $container = $('main.endorsements ul.js-masonry');
         $(window).resize(function() {
             $container.imagesLoaded(function() {
                 var squareSide = ($container.width() - (3 * 5)) / 4;
@@ -22,7 +22,6 @@ angular.module('campaignWebsiteApp')
                     isAnimated: true,
                 });
             });
-            console.log('hi');
         }).resize();
 
         // Endorsement list
