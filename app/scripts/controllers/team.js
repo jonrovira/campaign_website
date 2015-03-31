@@ -16,14 +16,18 @@ angular.module('campaignWebsiteApp')
 
         // Set up Masonry
         var $container = $('ul.js-masonry');
-        $container.imagesLoaded(function() {
-            $container.masonry({
-                columnWidth: 260,
-                itemSelector: '.block',
-                gutter: 5,
-                isAnimated: true,
+        $(window).resize(function() {
+            $container.imagesLoaded(function() {
+                var squareSide = ($container.width() - (3 * 5)) / 4;
+                $('li.member').height(squareSide);
+                $container.masonry({
+                    columnWidth: squareSide,
+                    itemSelector: '.block',
+                    gutter: 5,
+                    isAnimated: true,
+                });
             });
-        });
+        }).resize();
 
 
         // Endorsement list

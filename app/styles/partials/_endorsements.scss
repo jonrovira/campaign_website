@@ -1,8 +1,8 @@
 main.endorsements {
 	position: relative;
 	float: right;
-	padding: 55px 50px;
-	width: calc(100% - 227px - 100px);
+	padding: 55px 15px 55px 50px;
+	width: calc(100% - 227px - 65px);
 	background-color: $main-background;
 
 
@@ -13,8 +13,7 @@ main.endorsements {
 		li.endorsement {
 			display: block;
 			margin-bottom: 5px;
-			width: 260px;
-			height: 260px;
+			width: calc((100% - (3 * 5px)) /  4);
 			box-shadow: 1px  0    0 #d6d7d8,
 						0    1px  1px #cccdce,
 						-1px 0    0 #d6d7d8,
@@ -62,9 +61,9 @@ main.endorsements {
 
 
 		li.highlight {
+			margin-bottom: 5px;
 			padding: 47px;
-			width: calc(525px - 99px); // (2*endorsement + gutter) - padding
-			height: calc(525px - 99px); // same as width
+			width: calc(((100% - 5px) / 2) - 94px); // (2*endorsement + gutter) - padding
 			background-color: #fff;
 			box-shadow: 1px  0    0 #d6d7d8,
 						0    1px  1px #cccdce,
