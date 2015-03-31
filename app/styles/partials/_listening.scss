@@ -10,15 +10,18 @@ main.listening {
 		div.main-feed {
 			// width: calc(100% - 350px);
 			width: 100%;
+			float: left;
+			position: relative;
 
 			ul.instagram-feed {
-				width: 50%;
+				width: 60%;
 				list-style: none;
+				float: left;
 
 				li.insta-item {
-					width: 240px;
-					height: 280px;
-					margin-top: 5px;
+					width: 320px;
+					// height: 400px;
+					margin-top: 10px;
 					background-color: #fff;
 					box-shadow: 1px  0    0 #d6d7d8,
 						0    1px  1px #cccdce,
@@ -30,37 +33,81 @@ main.listening {
 						width: 100%;
 					}
 
-					div.insta-likes {
-						width: 50%;
+					div.insta-info {
+						width: 20%;
 						float: left;
 						margin: 0 auto;
 						text-align: center;
+
+						i {
+							color: $accent-color2;
+							font-size: 150%;
+						}
+
+						span {
+							font-family: $fixed-font-family1;
+							color: $accent-color1;
+						}
 					}
 
-					div.insta-comments {
-						width: 50%;
+					div.insta-caption {
 						float: right;
-						margin: 0 auto;
-						text-align: center;
-					}
+						width: 80%;
 
-					i {
-						color: $accent-color2;
-						font-size: 150%;
+						p {
+							margin: 8px;
+							font-family: $base-font-family;
+						}
 					}
-
-					span {
-						font-family: $fixed-font-family1;
-						color: $accent-color1;
-					}
-
 				}
 			}
-		}
-		div.twitter-feed {
-			position: fixed;
-			top: 55px;
-			right: 50px;
+
+			ul.twitter-feed {
+				width: 40%;
+				list-style: none;
+				float: right;
+				position: relative;
+
+				li.twitter-item {
+					width: 100%;
+					// height: 280px;
+					margin-top: 10px;
+					padding: 12px;
+					background-color: #fff;
+					box-shadow: 1px  0    0 #d6d7d8,
+						0    1px  1px #cccdce,
+						-1px 0    0 #d6d7d8,
+						0    -1px 0 #e7e8e9;
+					overflow: auto;
+
+					img.twit-img {
+						height: 100%;
+						float: left;
+						margin-right: 10px;
+					}
+
+					p.twit-text {
+						font-family: $base-font-family;
+					}
+
+					div.twit-info {
+						margin-top: 7px;
+						width: 100%;
+						text-align: center;
+
+						i {
+							color: $accent-color2;
+							font-size: 150%;
+						}
+
+						span {
+							font-family: $fixed-font-family1;
+							color: $accent-color1;
+							margin-right: 30px;
+						}
+					}
+				}
+			}
 		}
 	}
 
