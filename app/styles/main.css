@@ -292,13 +292,35 @@ main.listening {
   width: calc(100% - 227px - 100px);
   background-color: #f8f8f8; }
   main.listening div.content div.main-feed {
-    width: calc(100% - 350px); }
+    width: 100%; }
     main.listening div.content div.main-feed ul.instagram-feed {
-      width: 100%;
+      width: 50%;
       list-style: none; }
       main.listening div.content div.main-feed ul.instagram-feed li.insta-item {
         width: 240px;
-        height: 380px; }
+        height: 280px;
+        margin-top: 5px;
+        background-color: #fff;
+        box-shadow: 1px  0    0 #d6d7d8, 0    1px  1px #cccdce, -1px 0    0 #d6d7d8, 0    -1px 0 #e7e8e9;
+        overflow: auto; }
+        main.listening div.content div.main-feed ul.instagram-feed li.insta-item img.insta-img {
+          width: 100%; }
+        main.listening div.content div.main-feed ul.instagram-feed li.insta-item div.insta-likes {
+          width: 50%;
+          float: left;
+          margin: 0 auto;
+          text-align: center; }
+        main.listening div.content div.main-feed ul.instagram-feed li.insta-item div.insta-comments {
+          width: 50%;
+          float: right;
+          margin: 0 auto;
+          text-align: center; }
+        main.listening div.content div.main-feed ul.instagram-feed li.insta-item i {
+          color: #84c775;
+          font-size: 150%; }
+        main.listening div.content div.main-feed ul.instagram-feed li.insta-item span {
+          font-family: Big John;
+          color: #1cafd1; }
   main.listening div.content div.twitter-feed {
     position: fixed;
     top: 55px;

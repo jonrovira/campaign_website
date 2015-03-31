@@ -2,7 +2,7 @@
 
 	<div class="content">
 
-		<div class="main-feed">
+		<!-- <div class="main-feed">
 
 			<ul class="instagram-feed">
 				<li class="insta-item" ng-repeat="insta in instas" ng-bind-html="insta">
@@ -23,6 +23,22 @@
 			<script>
 				!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
 			</script>
+		</div> -->
+
+		<div class="main-feed">
+			<ul class="instagram-feed">
+				<li class="insta-item" ng-repeat="insta in instas">
+					<img class="insta-img" src="{{insta.url}}">
+					<div class="insta-likes">
+						<i class="fa fa-heart"></i>
+						<span class="insta-text">{{insta.likes}}<span>
+					</div>
+					<div class="insta-comments">
+						<i class="fa fa-comment"></i>
+						<span class="insta-text">{{insta.comments}}<span>
+					</div>
+				</li>
+			</ul>
 		</div>
 
 	</div>

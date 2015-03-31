@@ -8,15 +8,52 @@ main.listening {
 	div.content {
 
 		div.main-feed {
-			width: calc(100% - 350px);
+			// width: calc(100% - 350px);
+			width: 100%;
 
 			ul.instagram-feed {
-				width: 100%;
+				width: 50%;
 				list-style: none;
 
 				li.insta-item {
 					width: 240px;
-					height: 380px;
+					height: 280px;
+					margin-top: 5px;
+					background-color: #fff;
+					box-shadow: 1px  0    0 #d6d7d8,
+						0    1px  1px #cccdce,
+						-1px 0    0 #d6d7d8,
+						0    -1px 0 #e7e8e9;
+					overflow: auto;
+
+					img.insta-img {
+						width: 100%;
+					}
+
+					div.insta-likes {
+						width: 50%;
+						float: left;
+						margin: 0 auto;
+						text-align: center;
+					}
+
+					div.insta-comments {
+						width: 50%;
+						float: right;
+						margin: 0 auto;
+						text-align: center;
+					}
+
+					i {
+						color: $accent-color2;
+						font-size: 150%;
+					}
+
+					span {
+						font-family: $fixed-font-family1;
+						color: $accent-color1;
+					}
+
 				}
 			}
 		}
