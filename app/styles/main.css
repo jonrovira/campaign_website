@@ -291,17 +291,67 @@ main.listening {
   width: calc(100% - 227px - 100px);
   background-color: #f8f8f8; }
   main.listening div.content div.main-feed {
-    width: calc(100% - 350px); }
+    width: 100%;
+    float: left;
+    position: relative; }
     main.listening div.content div.main-feed ul.instagram-feed {
-      width: 100%;
-      list-style: none; }
+      width: 60%;
+      list-style: none;
+      float: left; }
       main.listening div.content div.main-feed ul.instagram-feed li.insta-item {
-        width: 240px;
-        height: 380px; }
-  main.listening div.content div.twitter-feed {
-    position: fixed;
-    top: 55px;
-    right: 50px; }
+        width: 320px;
+        margin-top: 10px;
+        background-color: #fff;
+        box-shadow: 1px  0    0 #d6d7d8, 0    1px  1px #cccdce, -1px 0    0 #d6d7d8, 0    -1px 0 #e7e8e9;
+        overflow: auto; }
+        main.listening div.content div.main-feed ul.instagram-feed li.insta-item img.insta-img {
+          width: 100%; }
+        main.listening div.content div.main-feed ul.instagram-feed li.insta-item div.insta-info {
+          width: 20%;
+          float: left;
+          margin: 0 auto;
+          text-align: center; }
+          main.listening div.content div.main-feed ul.instagram-feed li.insta-item div.insta-info i {
+            color: #84c775;
+            font-size: 150%; }
+          main.listening div.content div.main-feed ul.instagram-feed li.insta-item div.insta-info span {
+            font-family: Big John;
+            color: #1cafd1; }
+        main.listening div.content div.main-feed ul.instagram-feed li.insta-item div.insta-caption {
+          float: right;
+          width: 80%; }
+          main.listening div.content div.main-feed ul.instagram-feed li.insta-item div.insta-caption p {
+            margin: 8px;
+            font-family: Arial, Helvetica, sans-serif; }
+    main.listening div.content div.main-feed ul.twitter-feed {
+      width: 40%;
+      list-style: none;
+      float: right;
+      position: relative; }
+      main.listening div.content div.main-feed ul.twitter-feed li.twitter-item {
+        width: 100%;
+        margin-top: 10px;
+        padding: 12px;
+        background-color: #fff;
+        box-shadow: 1px  0    0 #d6d7d8, 0    1px  1px #cccdce, -1px 0    0 #d6d7d8, 0    -1px 0 #e7e8e9;
+        overflow: auto; }
+        main.listening div.content div.main-feed ul.twitter-feed li.twitter-item img.twit-img {
+          height: 100%;
+          float: left;
+          margin-right: 10px; }
+        main.listening div.content div.main-feed ul.twitter-feed li.twitter-item p.twit-text {
+          font-family: Arial, Helvetica, sans-serif; }
+        main.listening div.content div.main-feed ul.twitter-feed li.twitter-item div.twit-info {
+          margin-top: 7px;
+          width: 100%;
+          text-align: center; }
+          main.listening div.content div.main-feed ul.twitter-feed li.twitter-item div.twit-info i {
+            color: #84c775;
+            font-size: 150%; }
+          main.listening div.content div.main-feed ul.twitter-feed li.twitter-item div.twit-info span {
+            font-family: Big John;
+            color: #1cafd1;
+            margin-right: 30px; }
 
 header {
   position: fixed;
