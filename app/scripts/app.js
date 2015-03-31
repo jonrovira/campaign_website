@@ -20,9 +20,9 @@ angular
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
-        templateUrl: 'views/partials/main.html',
-        controller: 'MainCtrl',
-        activeTab: 'main'
+        templateUrl: 'views/partials/splash.html',
+        controller: 'SplashCtrl',
+        activeTab: 'splash'
       })
       .when('/about', {
         templateUrl: 'views/partials/about.html',
