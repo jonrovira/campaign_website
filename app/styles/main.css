@@ -587,4 +587,20 @@ main.vision {
   main.vision div.content {
     position: relative; }
 
+main.splash {
+  width: 100%; }
+  main.splash div.filter {
+    filter: grayscale(0.5); }
+    main.splash div.filter video {
+      width: 100%; }
+  main.splash div.banner {
+    position: absolute;
+    bottom: 20px;
+    width: 100%; }
+    main.splash div.banner h1 {
+      font-family: Slim Joe;
+      font-size: 80px;
+      color: #fff;
+      text-align: center; }
+
 /*# sourceMappingURL=main.css.map */

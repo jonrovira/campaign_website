@@ -1,0 +1,25 @@
+main.splash {
+	width: 100%;
+
+	div.filter {
+		filter: grayscale(0.5);
+
+		video {
+			width: 100%;
+		}
+	}
+
+
+	div.banner {
+		position: absolute;
+		bottom: 20px;
+		width: 100%;
+
+		h1 {
+			font-family: $fixed-font-family2;
+			font-size: 80px;
+			color: #fff;
+			text-align: center;
+		}
+	}
+}
