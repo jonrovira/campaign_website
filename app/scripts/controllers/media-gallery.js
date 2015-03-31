@@ -41,5 +41,5 @@ angular.module('campaignWebsiteApp')
                     isAnimated: true,
                 });
             });
-        }, 4000);
+        }, 500);
     });
