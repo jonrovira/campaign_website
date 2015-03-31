@@ -588,18 +588,39 @@ main.vision {
     position: relative; }
 
 main.splash {
-  width: 100%; }
+  position: relative;
+  width: 100%;
+  overflow: hidden; }
   main.splash div.filter {
-    filter: grayscale(0.5); }
+    position: relative;
+    top: 50%;
+    filter: grayscale(0.5) blur(3px); }
     main.splash div.filter video {
+      position: relative;
       width: 100%; }
+  main.splash div.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px; }
+    main.splash div.logo img {
+      width: 250px; }
   main.splash div.banner {
     position: absolute;
     bottom: 20px;
     width: 100%; }
     main.splash div.banner h1 {
+      font-family: Big John;
+      font-size: 85px;
+      color: #fff;
+      text-align: center; }
+    main.splash div.banner h2 {
       font-family: Slim Joe;
-      font-size: 80px;
+      font-size: 30px;
+      color: #fff;
+      text-align: center; }
+    main.splash div.banner h3 {
+      font-family: Slim Joe;
+      font-size: 20px;
       color: #fff;
       text-align: center; }
 

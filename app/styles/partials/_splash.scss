@@ -1,14 +1,28 @@
 main.splash {
+	position: relative;
 	width: 100%;
+	overflow: hidden;
 
 	div.filter {
-		filter: grayscale(0.5);
+		position: relative;
+		top: 50%;
+		filter: grayscale(0.5) blur(3px);
 
 		video {
+			position: relative;
 			width: 100%;
 		}
 	}
 
+	div.logo {
+		position: absolute;
+		top: 20px;
+		left: 20px;
+
+		img {
+			width: 250px;
+		}
+	}
 
 	div.banner {
 		position: absolute;
@@ -16,8 +30,20 @@ main.splash {
 		width: 100%;
 
 		h1 {
+			font-family: $fixed-font-family1;
+			font-size: 85px;
+			color: #fff;
+			text-align: center;
+		}
+		h2 {
 			font-family: $fixed-font-family2;
-			font-size: 80px;
+			font-size: 30px;
+			color: #fff;
+			text-align: center;
+		}
+		h3 {
+			font-family: $fixed-font-family2;
+			font-size: 20px;
 			color: #fff;
 			text-align: center;
 		}
