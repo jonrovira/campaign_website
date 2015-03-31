@@ -9,15 +9,20 @@ angular.module('campaignWebsiteApp')
 
 
         // Set up Masonry
-      	var $container = $('ul.js-masonry');
-    	$('ul.js-masonry').imagesLoaded(function() {
-    		$container.masonry({
-                columnWidth: 260,
-                itemSelector: '.block',
-    	  		gutter: 5,
-    	  		isAnimated: true,
-    		});
-    	});
+      	var $container = $('main.endorsements ul.js-masonry');
+        $(window).resize(function() {
+            $container.imagesLoaded(function() {
+                var squareSide = ($container.width() - (3 * 5)) / 4;
+                $('li.endorsement').height(squareSide);
+                $('li.highlight').height((squareSide * 2) + 5 - 94);
+                $container.masonry({
+                    columnWidth: squareSide,
+                    itemSelector: '.block',
+                    gutter: 5,
+                    isAnimated: true,
+                });
+            });
+        }).resize();
 
         // Endorsement list
         $scope.blocks = [

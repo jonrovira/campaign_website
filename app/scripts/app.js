@@ -20,39 +20,39 @@ angular
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
-        templateUrl: 'views/main.html',
+        templateUrl: 'views/partials/main.html',
         controller: 'MainCtrl',
         activeTab: 'main'
       })
       .when('/about', {
-        templateUrl: 'views/about.html',
+        templateUrl: 'views/partials/about.html',
         controller: 'AboutCtrl',
         activeTab: 'about'
       })
       .when('/vision', {
-        templateUrl: 'views/vision.html',
+        templateUrl: 'views/partials/vision.html',
         controller: 'VisionCtrl',
         activeTab: 'vision'
       })
       .when('/endorsements', {
-        templateUrl: 'views/endorsements.html',
+        templateUrl: 'views/partials/endorsements.html',
         controller: 'EndorsementsCtrl',
         activeTab: 'endorsements'
       })
       .when('/team', {
-        templateUrl: 'views/team.html',
+        templateUrl: 'views/partials/team.html',
         controller: 'TeamCtrl',
         activeTab: 'team'
       })
-      .when('/join-us', {
-        templateUrl: 'views/join-us.html',
-        controller: 'JoinCtrl',
-        activeTab: 'join'
-      })
       .when('/media-gallery', {
-        templateUrl: 'views/media-gallery.html',
+        templateUrl: 'views/partials/media-gallery.html',
         controller: 'MediaGalleryCtrl',
         activeTab: 'listening'
+      })
+      .when('/splash', {
+        templateUrl: 'views/partials/splash.html',
+        controller: 'SplashCtrl',
+        activeTab: 'splash'
       })
       .otherwise({
         redirectTo: '/'

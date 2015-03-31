@@ -1,18 +1,18 @@
 main.team {
 	position: relative;
 	float: right;
-	padding: 55px 50px;
-	width: calc(100% - 227px - 100px);
+	padding: 55px 15px 55px 50px;
+	width: calc(100% - 227px - 65px);
 	background-color: $main-background;
 
 	ul.js-masonry {
 		list-style: none;
+		width: 100%;
 
 		li.member {
 			position: absolute;
 			margin-bottom: 5px;
-			width: 260px;
-			height: 260px;
+			width: calc((100% - (3 * 5px)) /  4);
 			box-shadow: 1px  0    0 #d6d7d8,
 						0    1px  1px #cccdce,
 						-1px 0    0 #d6d7d8,

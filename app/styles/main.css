@@ -112,8 +112,8 @@ main.main {
 main.about {
   position: relative;
   float: right;
-  padding: 55px 50px;
-  width: calc(100% - 227px - 100px);
+  padding: 55px 15px 55px 50px;
+  width: calc(100% - 227px - 65px);
   background-color: #f8f8f8; }
   main.about div.content {
     position: relative; }
@@ -171,16 +171,15 @@ main.about {
 main.endorsements {
   position: relative;
   float: right;
-  padding: 55px 50px;
-  width: calc(100% - 227px - 100px);
+  padding: 55px 15px 55px 50px;
+  width: calc(100% - 227px - 65px);
   background-color: #f8f8f8; }
   main.endorsements ul.js-masonry {
     list-style: none; }
     main.endorsements ul.js-masonry li.endorsement {
       display: block;
       margin-bottom: 5px;
-      width: 260px;
-      height: 260px;
+      width: calc((100% - (3 * 5px)) /  4);
       box-shadow: 1px  0    0 #d6d7d8, 0    1px  1px #cccdce, -1px 0    0 #d6d7d8, 0    -1px 0 #e7e8e9;
       cursor: pointer; }
       main.endorsements ul.js-masonry li.endorsement div.endorsement-content {
@@ -213,9 +212,9 @@ main.endorsements {
     main.endorsements ul.js-masonry li.endorsement:hover {
       opacity: 0.9; }
     main.endorsements ul.js-masonry li.highlight {
+      margin-bottom: 5px;
       padding: 47px;
-      width: calc(525px - 99px);
-      height: calc(525px - 99px);
+      width: calc(((100% - 5px) / 2) - 94px);
       background-color: #fff;
       box-shadow: 1px  0    0 #d6d7d8, 0    1px  1px #cccdce, -1px 0    0 #d6d7d8, 0    -1px 0 #e7e8e9; }
       main.endorsements ul.js-masonry li.highlight p {
@@ -226,16 +225,16 @@ main.endorsements {
 main.team {
   position: relative;
   float: right;
-  padding: 55px 50px;
-  width: calc(100% - 227px - 100px);
+  padding: 55px 15px 55px 50px;
+  width: calc(100% - 227px - 65px);
   background-color: #f8f8f8; }
   main.team ul.js-masonry {
-    list-style: none; }
+    list-style: none;
+    width: 100%; }
     main.team ul.js-masonry li.member {
       position: absolute;
       margin-bottom: 5px;
-      width: 260px;
-      height: 260px;
+      width: calc((100% - (3 * 5px)) /  4);
       box-shadow: 1px  0    0 #d6d7d8, 0    1px  1px #cccdce, -1px 0    0 #d6d7d8, 0    -1px 0 #e7e8e9; }
       main.team ul.js-masonry li.member div.member-content {
         position: relative;
@@ -629,5 +628,50 @@ div.loader {
     transform: translate(-50%, -50%) rotate(270deg); }
   100% {
     transform: translate(-50%, -50%) rotate(360deg); } }
+main.vision {
+  position: relative;
+  float: right;
+  padding: 55px 15px 55px 50px;
+  width: calc(100% - 227px - 65px);
+  background-color: #f8f8f8; }
+  main.vision div.content {
+    position: relative; }
+
+main.splash {
+  position: relative;
+  width: 100%;
+  overflow: hidden; }
+  main.splash div.filter {
+    position: relative;
+    top: 50%;
+    filter: grayscale(0.5) blur(3px); }
+    main.splash div.filter video {
+      position: relative;
+      width: 100%; }
+  main.splash div.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px; }
+    main.splash div.logo img {
+      width: 250px; }
+  main.splash div.banner {
+    position: absolute;
+    bottom: 20px;
+    width: 100%; }
+    main.splash div.banner h1 {
+      font-family: Big John;
+      font-size: 85px;
+      color: #fff;
+      text-align: center; }
+    main.splash div.banner h2 {
+      font-family: Slim Joe;
+      font-size: 30px;
+      color: #fff;
+      text-align: center; }
+    main.splash div.banner h3 {
+      font-family: Slim Joe;
+      font-size: 20px;
+      color: #fff;
+      text-align: center; }
 
 /*# sourceMappingURL=main.css.map */
