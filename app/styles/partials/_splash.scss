@@ -1,12 +1,13 @@
 main.splash {
 	position: relative;
 	width: 100%;
+	background-color: #202020;
 	overflow: hidden;
 
 	div.filter {
 		position: relative;
 		top: 50%;
-		filter: grayscale(0.5) blur(3px);
+		filter: grayscale(1.0) blur(2px);
 
 		video {
 			position: relative;
@@ -20,7 +21,21 @@ main.splash {
 		left: 20px;
 
 		img {
-			width: 250px;
+			width: 140px;
+			filter: grayscale(1.0);
+		}
+
+		@media(min-width: 500px) {
+			img { width: 170px; }
+		}
+		@media(min-width: 600px) {
+			img { width: 190px; }
+		}
+		@media(min-width: 750px) {
+			img { width: 220px; }
+		}
+		@media(min-width: 950px) {
+			img { width: 250px; }
 		}
 	}
 
@@ -29,23 +44,55 @@ main.splash {
 		bottom: 20px;
 		width: 100%;
 
-		h1 {
-			font-family: $fixed-font-family1;
-			font-size: 85px;
+		span.big { font-family: $fixed-font-family1; }
+		span.slim { font-family: $fixed-font-family2; }
+
+		h1, h2, h3 {
 			color: #fff;
 			text-align: center;
 		}
-		h2 {
-			font-family: $fixed-font-family2;
-			font-size: 30px;
-			color: #fff;
-			text-align: center;
+		h2, h3 {
+			font-family: $base-font-family;
+			font-weight: normal;
+
+			ul {
+
+				li {
+					display: inline-block;
+					padding: 0 5px;
+					border-right: 1px solid #fff;
+				}
+				li:last-child {
+					border-right: none;
+				}
+			}
 		}
+		h1 { font-size: 33px; }
+		h2 { font-size: 12px; }
 		h3 {
-			font-family: $fixed-font-family2;
-			font-size: 20px;
-			color: #fff;
-			text-align: center;
+			margin-top: 8px;
+			font-size: 11px;
+		}
+
+		@media(min-width: 450px) {
+			h1 { font-size: 40px; }
+			h2 { font-size: 15px; }
+			h3 { font-size: 12px; }
+		}
+		@media(min-width: 550px) {
+			h1 { font-size: 50px; }
+			h2 { font-size: 17px; }
+			h3 { font-size: 12px; }
+		}
+		@media(min-width: 700px) {
+			h1 { font-size: 70px; }
+			h2 { font-size: 20px; }
+			h3 { font-size: 14px; }
+		}
+		@media(min-width: 850px) {
+			h1 { font-size: 85px; }
+			h2 { font-size: 30px; }
+			h3 { font-size: 20px; }
 		}
 	}
 }
