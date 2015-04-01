@@ -80,7 +80,7 @@ angular.module('campaignWebsiteApp')
             {
         		firstName: 'Eric',
         		lastName: 'Oringer',
-        		image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/EricOringer.jpg'
+        		image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/EricOringer2.jpg'
         	},
         	{
         		firstName: 'Erik',
