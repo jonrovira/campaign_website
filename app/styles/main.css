@@ -221,6 +221,11 @@ main.endorsements {
         font-family: Slim Joe;
         font-size: 30px;
         line-height: 1.6; }
+      main.endorsements ul.js-masonry li.highlight h2 {
+        margin: 20px;
+        text-align: right;
+        font-family: Slim Joe;
+        font-size: 20px; }
   main.endorsements div.endorse-panel {
     top: 47px;
     height: 800px;

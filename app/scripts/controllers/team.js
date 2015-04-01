@@ -93,11 +93,11 @@ angular.module('campaignWebsiteApp')
         		lastName: 'Hendrix',
         		image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/JennyHendrix.jpg'
         	},
-        	{
-        		firstName: 'Joji',
-        		lastName: 'Syed',
-        		image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/JojiSyed.jpg'
-        	},
+        	// {
+        	// 	firstName: 'Joji',
+        	// 	lastName: 'Syed',
+        	// 	image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/JojiSyed.jpg'
+        	// },
             {
                 firstName: 'Jon',
         		lastName: 'Rovira',
@@ -192,11 +192,6 @@ angular.module('campaignWebsiteApp')
                 firstName: 'Philip',
                 lastName: 'Lan',
                 image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/PhilipLan.jpg'
-            },
-            {
-                firstName: 'Ross',
-                lastName: 'Krasner',
-                image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/RossKrasner.jpg'
             }
         ];
 
