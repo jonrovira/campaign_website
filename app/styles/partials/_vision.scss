@@ -23,7 +23,6 @@ main.vision {
 					float: left;
 					margin-bottom: 20px;
 					font-size: 20px;
-					color: #fff;
 					font-family: $fixed-font-family2;
 				}
 				div.image-wrapper {
@@ -56,17 +55,40 @@ main.vision {
 					}
 				}
 			}
-
 		}
-		section.point.accountability div.point-content h2          { color: #45B29D; }
-		section.point.accessibility div.point-content h2           { color: #334D5C; }
-		section.point.opportunity div.point-content h2             { color: #E27A3F; }
-		section.point.sustainability div.point-content h2          { color: #EFC94C; }
-		section.point.diversity-and-inclusion div.point-content h2 { color: #45B29D; }
-		section.point.sexual-assault div.point-content h2          { color: #334D5C; }
-		section.point.financial-accessibility div.point-content h2 { color: #E27A3F; }
-		section.point.mental-health div.point-content h2           { color: #45B29D; }
-		section.point.academics div.point-content h2               { color: #334D5C; }
-		section.point.student-groups div.point-content h2          { color: #E27A3F; }
+		// section.point.accountability div.point-content h2 { color: #45B29D; }
+		// section.point.accessibility div.point-content h2  { color: #334D5C; }
+		// section.point.opportunity div.point-content h2    { color: #E27A3F; }
+		section.point.accountability div.point-content h2 { color: $accent-color1; }
+		section.point.accessibility div.point-content h2  { color: $accent-color2; }
+		section.point.opportunity div.point-content h2    { color: $accent-color1; }
+		section.header-point {
+
+			div.point-content {
+
+				h1 {
+					float: left;
+					font-size: 30px;
+					font-family: $fixed-font-family1;
+					color: $accent-color2;
+				}
+				div.text {
+					float: left;
+					clear: left;
+					margin-top: 10px;
+					font-family: $base-font-family;
+					font-size: 16px;
+					line-height: 1.5;
+					color: #666;
+
+					p {
+
+						b {
+							color: #555;
+						}
+					}
+				}
+			}
+		}
 	}
 }

@@ -646,7 +646,6 @@ main.vision {
           float: left;
           margin-bottom: 20px;
           font-size: 20px;
-          color: #fff;
           font-family: Slim Joe; }
         main.vision div.content section.point div.point-content div.image-wrapper {
           float: right;
@@ -669,25 +668,26 @@ main.vision {
             main.vision div.content section.point div.point-content div.text ol li {
               margin-bottom: 10px; }
     main.vision div.content section.point.accountability div.point-content h2 {
-      color: #45B29D; }
+      color: #1cafd1; }
     main.vision div.content section.point.accessibility div.point-content h2 {
-      color: #334D5C; }
+      color: #84c775; }
     main.vision div.content section.point.opportunity div.point-content h2 {
-      color: #E27A3F; }
-    main.vision div.content section.point.sustainability div.point-content h2 {
-      color: #EFC94C; }
-    main.vision div.content section.point.diversity-and-inclusion div.point-content h2 {
-      color: #45B29D; }
-    main.vision div.content section.point.sexual-assault div.point-content h2 {
-      color: #334D5C; }
-    main.vision div.content section.point.financial-accessibility div.point-content h2 {
-      color: #E27A3F; }
-    main.vision div.content section.point.mental-health div.point-content h2 {
-      color: #45B29D; }
-    main.vision div.content section.point.academics div.point-content h2 {
-      color: #334D5C; }
-    main.vision div.content section.point.student-groups div.point-content h2 {
-      color: #E27A3F; }
+      color: #1cafd1; }
+    main.vision div.content section.header-point div.point-content h1 {
+      float: left;
+      font-size: 30px;
+      font-family: Big John;
+      color: #84c775; }
+    main.vision div.content section.header-point div.point-content div.text {
+      float: left;
+      clear: left;
+      margin-top: 10px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 16px;
+      line-height: 1.5;
+      color: #666; }
+      main.vision div.content section.header-point div.point-content div.text p b {
+        color: #555; }
 
 main.splash {
   position: relative;
@@ -774,5 +774,64 @@ main.splash {
         font-size: 30px; }
       main.splash div.banner h3 {
         font-size: 20px; } }
+
+main.issues {
+  position: relative;
+  float: right;
+  padding: 55px 15px 55px 50px;
+  width: calc(100% - 227px - 65px);
+  background-color: #f8f8f8; }
+  main.issues div.content {
+    position: relative; }
+    main.issues div.content section.point {
+      margin-bottom: 15px;
+      box-shadow: 1px  0    0 #d6d7d8, 0    1px  1px #cccdce, -1px 0    0 #d6d7d8, 0    -1px 0 #e7e8e9; }
+      main.issues div.content section.point div.point-content {
+        padding: 30px;
+        overflow: auto; }
+        main.issues div.content section.point div.point-content h2 {
+          float: left;
+          margin-bottom: 20px;
+          font-size: 20px;
+          font-family: Slim Joe; }
+        main.issues div.content section.point div.point-content div.image-wrapper {
+          float: right;
+          width: 350px; }
+          main.issues div.content section.point div.point-content div.image-wrapper img {
+            width: 100%; }
+        main.issues div.content section.point div.point-content div.text {
+          float: left;
+          clear: left;
+          padding-right: 30px;
+          width: calc(100% - 350px - 30px);
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 14px;
+          line-height: 1.5;
+          color: #666; }
+          main.issues div.content section.point div.point-content div.text p {
+            margin-bottom: 10px; }
+          main.issues div.content section.point div.point-content div.text ol {
+            padding-left: 40px; }
+            main.issues div.content section.point div.point-content div.text ol li {
+              margin-bottom: 10px; }
+    main.issues div.content section.header-point div.point-content h1 {
+      float: left;
+      font-size: 30px;
+      font-family: Big John;
+      color: #84c775; }
+    main.issues div.content section.point.sustainability div.point-content h2 {
+      color: #45B29D; }
+    main.issues div.content section.point.diversity-and-inclusion div.point-content h2 {
+      color: #334D5C; }
+    main.issues div.content section.point.sexual-assault div.point-content h2 {
+      color: #E27A3F; }
+    main.issues div.content section.point.financial-accessibility div.point-content h2 {
+      color: #EFC94C; }
+    main.issues div.content section.point.mental-health div.point-content h2 {
+      color: #45B29D; }
+    main.issues div.content section.point.academics div.point-content h2 {
+      color: #334D5C; }
+    main.issues div.content section.point.student-groups div.point-content h2 {
+      color: #E27A3F; }
 
 /*# sourceMappingURL=main.css.map */
