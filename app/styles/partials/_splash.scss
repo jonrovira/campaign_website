@@ -7,7 +7,7 @@ main.splash {
 	div.filter {
 		position: relative;
 		top: 50%;
-		filter: grayscale(1.0) blur(2px);
+		filter: grayscale(1.0) blur(1px);
 
 		video {
 			position: relative;
@@ -22,7 +22,7 @@ main.splash {
 
 		img {
 			width: 140px;
-			filter: grayscale(1.0);
+			// filter: grayscale(1.0);
 		}
 
 		@media(min-width: 500px) {
