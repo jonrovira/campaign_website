@@ -28,61 +28,61 @@ angular.module('campaignWebsiteApp')
         $scope.blocks = [
         	{
         		className: 'endorsement',
-                firstName: 'Patrick',
-                lastName: 'Franks',
-        		position: 'President, Robotics Club',
+                firstName: 'Emily',
+                lastName: 'Mannheimer',
+        		position: 'Former Vice President of Standards for PHA',
         		image: 'https://unsplash.it/500/500?image=646'
         	},
         	{
         		className: 'endorsement',
-                firstName: 'Jon',
-                lastName: 'Rovira',
-        		position: 'Ex-CEO, AirHop',
+                firstName: 'Ben',
+                lastName: 'Terdich',
+        		position: 'Former President of Lambda Chi Alpha',
         		image: 'https://unsplash.it/500/500?image=550'
         	},
         	{
         		className: 'endorsement',
-                firstName: 'Cody',
-                lastName: 'Schiffer',
-        		position: 'President, Bitch Club',
-        		image: 'https://unsplash.it/500/500?image=633'
+                firstName: 'Erik',
+                lastName: 'Baker',
+        		position: 'MARS Programming Chair & WNUR Director',
+        		image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/ErikBaker.jpg'
         	},
             {
                 className: 'endorsement',
-                firstName: 'Chris',
-                lastName: 'Dayal',
-                position: 'President, Carib Nation',
-                image: 'https://unsplash.it/500/500?image=634'
+                firstName: 'Josh',
+                lastName: 'O\'Neil',
+                position: 'Elder Senator',
+                image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/JoshONeil.jpg'
             },
 
 
-            {
-                className: 'endorsement',
-                firstName: 'Bryan',
-                lastName: 'Berger',
-                position: 'President, Points for a Purpose',
-                image: 'https://unsplash.it/500/500?image=635'
-            },
-            {
-                className: 'endorsement',
-                firstName: 'Chris',
-                lastName: 'Howard',
-                position: 'Vice President, ODB',
-                image: 'https://unsplash.it/500/500?image=636'
-            },
-            {
-                className: 'endorsement',
-                firstName: 'Christina',
-                lastName: 'Kim',
-                position: 'Vice President, ASG',
-                image: 'https://unsplash.it/500/500?image=637'
-            },
             {
                 className: 'endorsement',
                 firstName: 'Noah',
-                lastName: 'Star',
-                position: 'President, ASG',
-                image: 'https://unsplash.it/500/500?image=638'
+                lastName: 'Whinston',
+                position: 'Position',
+                image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/NoahWhinston.jpg'
+            },
+            {
+                className: 'endorsement',
+                firstName: 'Ariel',
+                lastName: 'Roitman',
+                position: 'Vice President, ODB',
+                image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/ArielRoitman.jpg'
+            },
+            {
+                className: 'endorsement',
+                firstName: 'Michael',
+                lastName: 'Graf',
+                position: 'Vice President, ASG',
+                image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/MichaelGraf.jpg'
+            },
+            {
+                className: 'endorsement',
+                firstName: 'Nei',
+                lastName: 'Dalvie',
+                position: 'Former President, MARS',
+                image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/NeilDalvie.jpg'
             },
 
 
@@ -91,72 +91,72 @@ angular.module('campaignWebsiteApp')
                 text: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.'
             },
 
-             {
+            {
                 className: 'endorsement',
-                firstName: 'Bryan',
-                lastName: 'Berger',
+                firstName: 'Ronak',
+                lastName: 'Patel',
                 position: 'President, Points for a Purpose',
-                image: 'https://unsplash.it/500/500?image=635'
+                image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/RonakPatel.jpg'
             },
             {
                 className: 'endorsement',
-                firstName: 'Chris',
-                lastName: 'Howard',
+                firstName: 'Maroua',
+                lastName: 'Sallami',
+                position: 'Vice President, ODB',
+                image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/MarouaSallami.jpg'
+            },
+            {
+                className: 'endorsement',
+                firstName: 'Melody',
+                lastName: 'Song',
+                position: 'Vice President, ASG',
+                image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/MelodySong.jpg'
+            },
+            {
+                className: 'endorsement',
+                firstName: 'Vicky',
+                lastName: 'Ho',
+                position: 'President, UPS',
+                image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/VickyHo.jpg'
+            },
+
+
+            {
+                className: 'endorsement',
+                firstName: 'Archit',
+                lastName: 'Baskaran',
+                position: 'President, Points for a Purpose',
+                image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/ArchitBaskaran.jpg'
+            },
+            {
+                className: 'endorsement',
+                firstName: 'Luke',
+                lastName: 'Bertolet',
                 position: 'Vice President, ODB',
                 image: 'https://unsplash.it/500/500?image=636'
             },
             {
                 className: 'endorsement',
-                firstName: 'Christina',
-                lastName: 'Kim',
-                position: 'Vice President, ASG',
+                firstName: 'Bryan',
+                lastName: 'Berger',
+                position: 'President, Points for a Purpose',
                 image: 'https://unsplash.it/500/500?image=637'
             },
             {
                 className: 'endorsement',
-                firstName: 'Noah',
-                lastName: 'Star',
-                position: 'President, ASG',
-                image: 'https://unsplash.it/500/500?image=638'
-            },
-
-
-             {
-                className: 'endorsement',
-                firstName: 'Bryan',
-                lastName: 'Berger',
-                position: 'President, Points for a Purpose',
-                image: 'https://unsplash.it/500/500?image=635'
-            },
-            {
-                className: 'endorsement',
-                firstName: 'Chris',
-                lastName: 'Howard',
-                position: 'Vice President, ODB',
-                image: 'https://unsplash.it/500/500?image=636'
-            },
-            {
-                className: 'endorsement',
-                firstName: 'Christina',
-                lastName: 'Kim',
-                position: 'Vice President, ASG',
-                image: 'https://unsplash.it/500/500?image=637'
-            },
-            {
-                className: 'endorsement',
-                firstName: 'Noah',
-                lastName: 'Star',
-                position: 'President, ASG',
-                image: 'https://unsplash.it/500/500?image=638'
+                firstName: 'Andrew',
+                lastName: 'Green',
+                position: 'Chief of Staff, ASG',
+                image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/AndrewGreen.jpg'
             },
 
 
             {
                 className: 'endorsement',
-                firstName: 'Bryan',
-                lastName: 'Berger',
-                position: 'President, Points for a Purpose',
-                image: 'https://unsplash.it/500/500?image=635'
+                firstName: 'Emily',
+                lastName: 'Shanker',
+                position: 'Vice President of Standards, PHA',
+                image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/EmilyShanker.jpg'
             },
             {
                 className: 'endorsement',

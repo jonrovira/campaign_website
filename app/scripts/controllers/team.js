@@ -31,7 +31,7 @@ angular.module('campaignWebsiteApp')
         }).resize();
 
 
-        // Endorsement list
+        // team list
         $scope.blocks = [
         	{
         		firstName: 'AJ',
@@ -43,21 +43,6 @@ angular.module('campaignWebsiteApp')
         		lastName: 'Cohen',
         		image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/AlexCohen.jpg'
         	},
-        	{
-        		firstName: 'Andrew',
-        		lastName: 'Green',
-        		image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/AndrewGreen.jpg'
-        	},
-            {
-                firstName: 'Archit',
-                lastName: 'Baskaran',
-                image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/ArchitBaskaran.jpg'
-            },
-            {
-                firstName: 'Ariel',
-                lastName: 'Roitman',
-                image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/ArielRoitman.jpg'
-            },
             {
                 firstName: 'Ben',
                 lastName: 'Zimmerman',
@@ -74,22 +59,12 @@ angular.module('campaignWebsiteApp')
                 image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/ElaynaShanker.jpg'
             },
             {
-                firstName: 'Emily',
-        		lastName: 'Shanker',
-                image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/EmilyShanker.jpg'
-            },
-            {
         		firstName: 'Eric',
         		lastName: 'Oringer',
         		image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/EricOringer.jpg'
         	},
         	{
-        		firstName: 'Erik',
-        		lastName: 'Baker',
-        		image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/ErikBaker.jpg'
-        	},
-        	{
-        		firstName: 'Iwani',
+        		firstName: 'Imani',
         		lastName: 'Wilson',
         		image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/IwaniWilson.jpg'
         	},
@@ -134,11 +109,6 @@ angular.module('campaignWebsiteApp')
                 image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/JonathanMcBride.jpg'
             },
             {
-                firstName: 'Josh',
-        		lastName: 'O\'Neil',
-                image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/JoshONeil.jpg'
-            },
-            {
                 firstName: 'Joris',
                 lastName: 'Cyizere',
                 image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/JorisCyizere.jpg'
@@ -179,11 +149,6 @@ angular.module('campaignWebsiteApp')
                 image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/LizDeadrick.jpg'
             },
             {
-                firstName: 'Maroua',
-                lastName: 'Sallami',
-                image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/MarouaSallami.jpg'
-            },
-            {
                 firstName: 'Mary',
                 lastName: 'Felder',
                 image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/MaryFelder.jpg'
@@ -214,21 +179,6 @@ angular.module('campaignWebsiteApp')
                 image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/MeganMcDowell.jpg'
             },
             {
-                firstName: 'Melody',
-                lastName: 'Song',
-                image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/MelodySong.jpg'
-            },
-            {
-                firstName: 'Michael',
-                lastName: 'Graf',
-                image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/MichaelGraf.jpg'
-            },
-            {
-                firstName: 'Neil',
-                lastName: 'Dalvie',
-                image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/NeilDalvie.jpg'
-            },
-            {
                 firstName: 'Nevil',
                 lastName: 'George',
                 image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/NevilGeorge.jpg'
@@ -239,30 +189,15 @@ angular.module('campaignWebsiteApp')
                 image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/NicholasMcCombe.jpg'
             },
             {
-                firstName: 'Noah',
-                lastName: 'Whinston',
-                image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/NoahWhinston.jpg'
-            },
-            {
                 firstName: 'Philip',
                 lastName: 'Lan',
                 image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/PhilipLan.jpg'
             },
             {
-                firstName: 'Ronak',
-                lastName: 'Patel',
-                image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/RonakPatel.jpg'
-            },
-            {
                 firstName: 'Ross',
                 lastName: 'Krasner',
                 image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/RossKrasner.jpg'
-            },
-            {
-                firstName: 'Vicky',
-                lastName: 'Ho',
-                image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/VickyHo.jpg'
-            },
+            }
         ];
 
 
