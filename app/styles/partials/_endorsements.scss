@@ -86,61 +86,59 @@ main.endorsements {
 	}
 
 	div.endorse-panel {
-		top: 47px;
-		height: 800px;
-		width: 450px;
 		display: block;
 		position: fixed;
+		top: -5px;
+		right: -470px;
+		padding: 55px 20px 20px 20px;
+		width: calc(450px - 20px);
+		background-color: #333;
 		z-index: 2;
-		right: -450px;
-		background-color: #fff;
-		box-shadow: 1px  0    0 #d6d7d8,
-						0    1px  1px #cccdce,
-						-5px 0    0 #d6d7d8,
-						0    -1px 0 #e7e8e9;
 
 		img {
-			display: block;
-			width: 90%;
-			// height: 90%;
+			padding: 0 15px 15px 0;
+			width: 230px;
 			margin: 0 auto;
 			margin-top: 15px;
 		}
-
-		p {
-			margin: 10px;
-			margin-top: 40px;
+		h3 {
+			margin-top: 15px;
+			font-family: $fixed-font-family1;
+			font-size: 30px;
+			color: $accent-color2;
+			word-break: break-all;
+		}
+		h4 {
 			font-family: $base-font-family;
+			font-weight: normal;
+			font-size: 14px;
+			color: #aaa;
+		}
+		p {
+			margin-top: 25px;
+			font-family: $base-font-family;
+			font-size: 14px;
+			line-height: 1.5;
+			color: #ddd;
+
 		}
 	}
-
-	@keyframes slidein {
-		0% {
-			right: -450px;
-		}
-		100% {
-			right: 0px;
-		}
-	}
-
 	div.slidein {
 		right: 0px;
 		animation-name: slidein;
 		animation-duration: 1s;
 	}
-
-	@keyframes slideout {
-		0% {
-			right: 0px;
-		}
-		100% {
-			right: -450px;
-		}
-	}
-
 	div.slideout {
-		right: -450px;
+		right: -471px;
 		animation-name: slideout;
 		animation-duration: 1s;
+	}
+	@keyframes slidein {
+		0% { right: -450px; }
+		100% { right: 0px; }
+	}
+	@keyframes slideout {
+		0% { right: 0px; }
+		100% { right: -450px; }
 	}
 }

@@ -227,43 +227,54 @@ main.endorsements {
         font-family: Slim Joe;
         font-size: 20px; }
   main.endorsements div.endorse-panel {
-    top: 47px;
-    height: 800px;
-    width: 450px;
     display: block;
     position: fixed;
-    z-index: 2;
-    right: -450px;
-    background-color: #fff;
-    box-shadow: 1px  0    0 #d6d7d8, 0    1px  1px #cccdce, -5px 0    0 #d6d7d8, 0    -1px 0 #e7e8e9; }
+    top: -5px;
+    right: -470px;
+    padding: 55px 20px 20px 20px;
+    width: calc(450px - 20px);
+    background-color: #333;
+    z-index: 2; }
     main.endorsements div.endorse-panel img {
-      display: block;
-      width: 90%;
+      padding: 0 15px 15px 0;
+      width: 230px;
       margin: 0 auto;
       margin-top: 15px; }
+    main.endorsements div.endorse-panel h3 {
+      margin-top: 15px;
+      font-family: Big John;
+      font-size: 30px;
+      color: #84c775;
+      word-break: break-all; }
+    main.endorsements div.endorse-panel h4 {
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: normal;
+      font-size: 14px;
+      color: #aaa; }
     main.endorsements div.endorse-panel p {
-      margin: 10px;
-      margin-top: 40px;
-      font-family: Arial, Helvetica, sans-serif; }
+      margin-top: 25px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 14px;
+      line-height: 1.5;
+      color: #ddd; }
+  main.endorsements div.slidein {
+    right: 0px;
+    animation-name: slidein;
+    animation-duration: 1s; }
+  main.endorsements div.slideout {
+    right: -471px;
+    animation-name: slideout;
+    animation-duration: 1s; }
 @keyframes slidein {
   0% {
     right: -450px; }
   100% {
     right: 0px; } }
-  main.endorsements div.slidein {
-    right: 0px;
-    animation-name: slidein;
-    animation-duration: 1s; }
 @keyframes slideout {
   0% {
     right: 0px; }
   100% {
     right: -450px; } }
-  main.endorsements div.slideout {
-    right: -450px;
-    animation-name: slideout;
-    animation-duration: 1s; }
-
 main.team {
   position: relative;
   float: right;
