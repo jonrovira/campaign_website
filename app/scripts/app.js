@@ -24,20 +24,20 @@ angular
         controller: 'MainCtrl',
         activeTab: 'main'
       })
-      // .when('/', {
-      //   templateUrl: 'views/partials/splash.html',
-      //   controller: 'SplashCtrl',
-      //   activeTab: 'splash'
-      // })
       .when('/about', {
         templateUrl: 'views/partials/about.html',
         controller: 'AboutCtrl',
         activeTab: 'about'
       })
-      .when('/vision', {
+      .when('/plan', {
         templateUrl: 'views/partials/vision.html',
         controller: 'VisionCtrl',
         activeTab: 'vision'
+      })
+      .when('/issues', {
+        templateUrl: 'views/partials/key-issues.html',
+        controller: 'IssuesCtrl',
+        activeTab: 'issues'
       })
       .when('/endorsements', {
         templateUrl: 'views/partials/endorsements.html',

@@ -9,16 +9,6 @@ angular.module('campaignWebsiteApp')
     	$rootScope.activeTab = $route.current.activeTab;
     	
 
-        // Instagram widget
-    	// $http.get('https://afternoon-atoll-8482.herokuapp.com/instagram')
-    	// 	.success(function(data, status, headers, config) {
-    	// 		var arr = [];
-    	// 		for (var i = 0; i < data.length; i++) {
-    	// 			arr.push($sce.trustAsHtml(data[i]));
-    	// 		}
-    	// 		$scope.instas = arr;
-    	// 	});
-
         $http.get('https://afternoon-atoll-8482.herokuapp.com/instagram')
             .success(function(data, status, headers, config) {
                 $scope.instas = data;
@@ -32,14 +22,17 @@ angular.module('campaignWebsiteApp')
 
         // Set up Masonry
         setTimeout(function() {
-            var $container = $('ul.instagram-feed');
-            $container.imagesLoaded(function() {
-                $container.masonry({
-                    columnWidth: 320,
-                    itemSelector: '.insta-item',
-                    gutter: 10,
-                    isAnimated: true,
+            var $container = $('main.listening ul.instagram-feed');
+            $(window).resize(function() {
+                $container.imagesLoaded(function() {
+                    var squareSide = ($container.width() - 5) / 2;
+                    $container.masonry({
+                        columnWidth: squareSide,
+                        itemSelector: '.insta-item',
+                        gutter: 5,
+                        isAnimated: true,
+                    });
                 });
-            });
+            }).resize();
         }, 500);
     });

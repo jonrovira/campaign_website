@@ -8,6 +8,85 @@ main.vision {
 	div.content {
 		position: relative;
 
-		
+		section.point {
+			margin-bottom: 15px;
+			box-shadow: 1px  0    0 #d6d7d8,
+						0    1px  1px #cccdce,
+						-1px 0    0 #d6d7d8,
+						0    -1px 0 #e7e8e9;
+
+			div.point-content {
+				padding: 30px;
+				overflow: auto;
+
+				h2 {
+					float: left;
+					margin-bottom: 20px;
+					font-size: 20px;
+					font-family: $fixed-font-family2;
+				}
+				div.image-wrapper {
+					float: right;
+					width: 350px;
+
+					img {
+						width: 100%;
+					}
+				}
+				div.text {
+					float: left;
+					clear: left;
+					padding-right: 30px;
+					width: calc(100% - 350px - 30px);
+					font-family: $base-font-family;
+					font-size: 14px;
+					line-height: 1.5;
+					color: #666;
+
+					p {
+						margin-bottom: 10px;
+					}
+					ol {
+						padding-left: 40px;
+
+						li {
+							margin-bottom: 10px;
+						}
+					}
+				}
+			}
+		}
+		section.point.accountability div.point-content h2 { color: $accent-color1; }
+		section.point.accessibility div.point-content h2  { color: $accent-color2; }
+		section.point.opportunity div.point-content h2    { color: $accent-color1; }
+		section.header-point {
+
+			div.point-content {
+
+				h1 {
+					float: left;
+					font-size: 40px;
+					font-family: $fixed-font-family1;
+					color: $accent-color2;
+				}
+				div.text {
+					float: left;
+					clear: left;
+					margin-top: 10px;
+					width: 100%;
+					font-family: $base-font-family;
+					font-size: 16px;
+					line-height: 1.5;
+					color: #666;
+
+					p {
+
+						b {
+							color: #555;
+						}
+					}
+				}
+			}
+		}
 	}
 }
