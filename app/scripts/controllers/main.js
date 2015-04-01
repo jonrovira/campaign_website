@@ -9,16 +9,16 @@
  */
 angular.module('campaignWebsiteApp')
  	.controller('MainCtrl', function ($rootScope, $scope, $route) {
- 		var i = 0,
- 			videos = ["video/MVI_4038.mp4", "video/MVI_4039.mp4", "video/MVI_4040.mp4"],
- 			length = videos.length;
-    	var videoPlayer = document.getElementById('video-player');
-    	videoPlayer.src = videos[i];
-    	videoPlayer.addEventListener('ended', function() {
-    		i++;
-    		this.src = videos[i % length];
-    		this.play();
-    	}, false);
+ 		// var i = 0,
+ 		// 	videos = ["video/MVI_4038.mp4", "video/MVI_4039.mp4", "video/MVI_4040.mp4"],
+ 		// 	length = videos.length;
+   //  	var videoPlayer = document.getElementById('video-player');
+   //  	videoPlayer.src = videos[i];
+   //  	videoPlayer.addEventListener('ended', function() {
+   //  		i++;
+   //  		this.src = videos[i % length];
+   //  		this.play();
+   //  	}, false);
 
     	$rootScope.activeTab = $route.current.activeTab;
   	})
