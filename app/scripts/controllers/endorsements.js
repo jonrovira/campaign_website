@@ -76,14 +76,14 @@ angular.module('campaignWebsiteApp')
                 text: 'I\'m supporting Noah and Christina because I trust them to advocate for students, challenge administrators, and produce real change in ASG from the bottom up. As an outsider to ASG, my experience of NU student government has primarily been one of frustration and disappointment. Noah and Christina\'s vision has convinced me that they have what it takes to lead ASG away from business as usual and empower students.',
                 image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/ErikBaker.jpg'
             },
-        	{
-        		className: 'endorsement',
-                firstName: 'Ben',
-                lastName: 'Terdich',
-        		position: 'Former President, Lambda Chi Alpha',
-                text: 'I endorse Noah and Christina because they understand the need for a revolution in the way that ASG relates to the student body, and because they know how to make it happen. As someone who is not involved with ASG, I have all too often joked with friends, "wait, what does ASG do again?" ASG does good work, but if even some student leaders don\'t know what\'s happening, there is a real problem. Noah and Christina\'s platform seeks to make ASG accountable and accessible to the people it represents so that students will have the opportunity to help their government make a tangible, positive impact on their NU experience.',
-        		image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/endorsements/BenTerdich.jpg'
-        	},
+            {
+                className: 'endorsement',
+                firstName: 'Maroua',
+                lastName: 'Sallami',
+                position: 'Co-Director, NUCHR & President, MAL',
+                text: 'I support Christina and Noah because they genuinely want to make a difference in students’ experiences. At such an interesting time on campus where a lot of critical conversations are taking place, they both recognize ASG’s limits and have a plan to amplify the opinions of students’ experts rather than have ASG lead these conversations. I am confident they are a great choice for ASG and I am looking forward to all the fantastic things that they will do representing Northwestern.',
+                image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/MarouaSallami.jpg'
+            },
             {
                 className: 'endorsement',
                 firstName: 'Andrew',
@@ -153,11 +153,11 @@ angular.module('campaignWebsiteApp')
             },
             {
                 className: 'endorsement',
-                firstName: 'Melody',
-                lastName: 'Song',
-                position: '',
-                text: '',
-                image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/MelodySong.jpg'
+                firstName: 'Ben',
+                lastName: 'Terdich',
+                position: 'Former President, Lambda Chi Alpha',
+                text: 'I endorse Noah and Christina because they understand the need for a revolution in the way that ASG relates to the student body, and because they know how to make it happen. As someone who is not involved with ASG, I have all too often joked with friends, "wait, what does ASG do again?" ASG does good work, but if even some student leaders don\'t know what\'s happening, there is a real problem. Noah and Christina\'s platform seeks to make ASG accountable and accessible to the people it represents so that students will have the opportunity to help their government make a tangible, positive impact on their NU experience.',
+                image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/endorsements/BenTerdich.jpg'
             },
             {
                 className: 'endorsement',
@@ -220,11 +220,11 @@ angular.module('campaignWebsiteApp')
             },
             {
                 className: 'endorsement',
-                firstName: 'Maroua',
-                lastName: 'Sallami',
+                firstName: 'Melody',
+                lastName: 'Song',
                 position: '',
                 text: '',
-                image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/MarouaSallami.jpg'
+                image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/MelodySong.jpg'
             },
             {
                 className: 'endorsement',
