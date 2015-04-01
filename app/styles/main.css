@@ -160,10 +160,10 @@ main.about {
             column-count: 2; }
             main.about div.content section.candidate div.info div.paragraph div.paragraphs p {
               float: left;
-              padding-bottom: 8px;
+              margin-bottom: 10px;
               font-family: Arial, Helvetica, sans-serif;
-              font-size: 13px;
-              line-height: 1.6;
+              font-size: 14px;
+              line-height: 1.5;
               color: #666; }
     main.about div.content section.candidate:first-child {
       margin-bottom: 30px; }
@@ -636,6 +636,58 @@ main.vision {
   background-color: #f8f8f8; }
   main.vision div.content {
     position: relative; }
+    main.vision div.content section.point {
+      margin-bottom: 15px;
+      box-shadow: 1px  0    0 #d6d7d8, 0    1px  1px #cccdce, -1px 0    0 #d6d7d8, 0    -1px 0 #e7e8e9; }
+      main.vision div.content section.point div.point-content {
+        padding: 30px;
+        overflow: auto; }
+        main.vision div.content section.point div.point-content h2 {
+          float: left;
+          margin-bottom: 20px;
+          font-size: 20px;
+          color: #fff;
+          font-family: Slim Joe; }
+        main.vision div.content section.point div.point-content div.image-wrapper {
+          float: right;
+          width: 350px; }
+          main.vision div.content section.point div.point-content div.image-wrapper img {
+            width: 100%; }
+        main.vision div.content section.point div.point-content div.text {
+          float: left;
+          clear: left;
+          padding-right: 30px;
+          width: calc(100% - 350px - 30px);
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 14px;
+          line-height: 1.5;
+          color: #666; }
+          main.vision div.content section.point div.point-content div.text p {
+            margin-bottom: 10px; }
+          main.vision div.content section.point div.point-content div.text ol {
+            padding-left: 40px; }
+            main.vision div.content section.point div.point-content div.text ol li {
+              margin-bottom: 10px; }
+    main.vision div.content section.point.accountability div.point-content h2 {
+      color: #45B29D; }
+    main.vision div.content section.point.accessibility div.point-content h2 {
+      color: #334D5C; }
+    main.vision div.content section.point.opportunity div.point-content h2 {
+      color: #E27A3F; }
+    main.vision div.content section.point.sustainability div.point-content h2 {
+      color: #EFC94C; }
+    main.vision div.content section.point.diversity-and-inclusion div.point-content h2 {
+      color: #45B29D; }
+    main.vision div.content section.point.sexual-assault div.point-content h2 {
+      color: #334D5C; }
+    main.vision div.content section.point.financial-accessibility div.point-content h2 {
+      color: #E27A3F; }
+    main.vision div.content section.point.mental-health div.point-content h2 {
+      color: #45B29D; }
+    main.vision div.content section.point.academics div.point-content h2 {
+      color: #334D5C; }
+    main.vision div.content section.point.student-groups div.point-content h2 {
+      color: #E27A3F; }
 
 main.splash {
   position: relative;
@@ -645,7 +697,7 @@ main.splash {
   main.splash div.filter {
     position: relative;
     top: 50%;
-    filter: grayscale(1) blur(2px); }
+    filter: grayscale(1) blur(1px); }
     main.splash div.filter video {
       position: relative;
       width: 100%; }
@@ -654,8 +706,7 @@ main.splash {
     top: 20px;
     left: 20px; }
     main.splash div.logo img {
-      width: 140px;
-      filter: grayscale(1); }
+      width: 140px; }
     @media (min-width: 500px) {
       main.splash div.logo img {
         width: 170px; } }

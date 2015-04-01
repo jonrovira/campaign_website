@@ -8,6 +8,65 @@ main.vision {
 	div.content {
 		position: relative;
 
-		
+		section.point {
+			margin-bottom: 15px;
+			box-shadow: 1px  0    0 #d6d7d8,
+						0    1px  1px #cccdce,
+						-1px 0    0 #d6d7d8,
+						0    -1px 0 #e7e8e9;
+
+			div.point-content {
+				padding: 30px;
+				overflow: auto;
+
+				h2 {
+					float: left;
+					margin-bottom: 20px;
+					font-size: 20px;
+					color: #fff;
+					font-family: $fixed-font-family2;
+				}
+				div.image-wrapper {
+					float: right;
+					width: 350px;
+
+					img {
+						width: 100%;
+					}
+				}
+				div.text {
+					float: left;
+					clear: left;
+					padding-right: 30px;
+					width: calc(100% - 350px - 30px);
+					font-family: $base-font-family;
+					font-size: 14px;
+					line-height: 1.5;
+					color: #666;
+
+					p {
+						margin-bottom: 10px;
+					}
+					ol {
+						padding-left: 40px;
+
+						li {
+							margin-bottom: 10px;
+						}
+					}
+				}
+			}
+
+		}
+		section.point.accountability div.point-content h2          { color: #45B29D; }
+		section.point.accessibility div.point-content h2           { color: #334D5C; }
+		section.point.opportunity div.point-content h2             { color: #E27A3F; }
+		section.point.sustainability div.point-content h2          { color: #EFC94C; }
+		section.point.diversity-and-inclusion div.point-content h2 { color: #45B29D; }
+		section.point.sexual-assault div.point-content h2          { color: #334D5C; }
+		section.point.financial-accessibility div.point-content h2 { color: #E27A3F; }
+		section.point.mental-health div.point-content h2           { color: #45B29D; }
+		section.point.academics div.point-content h2               { color: #334D5C; }
+		section.point.student-groups div.point-content h2          { color: #E27A3F; }
 	}
 }
