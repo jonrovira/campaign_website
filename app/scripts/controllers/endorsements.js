@@ -6,7 +6,7 @@ angular.module('campaignWebsiteApp')
 
         // Allows nav panel to highlight active tab
       	$rootScope.activeTab = $route.current.activeTab;
-
+        $scope.panelVisible = false;
 
         // Set up Masonry
       	var $container = $('main.endorsements ul.js-masonry');
@@ -24,20 +24,54 @@ angular.module('campaignWebsiteApp')
             });
         }).resize();
 
+        var rightPanelHeight = $(window).height() - $('header').height();
+        $('section.endorse-panel').height(rightPanelHeight);
+        $(window).resize(function() {
+            var rightPanelHeight = $(window).height() - $('header').height();
+            $('section.endorse-panel').height(rightPanelHeight);
+        });
+
+        window.onclick = function() {
+            if (!$scope.panelClicked && $scope.panelVisible) {
+                $scope.panelVisible = false;
+                $scope.panelClicked = false;
+                // let angular know about the update
+                $scope.$apply();
+            }
+            $scope.panelClicked = false;
+        }
+
+        // click event handler
+        $scope.togglePanel = function(event, index) {
+            console.log($scope.panelVisible);
+            if (!$scope.panelVisible) {
+                $('li.block').fadeTo('fast', 0.6);
+            }
+            else {
+                $('li.block').fadeTo('fast', 1.0);
+            }
+            $scope.panelVisible = !$scope.panelVisible;
+            $scope.selectedEndorsement = $scope.blocks[index];
+            // doesn't work without stopPropagation()
+            event.stopPropagation();
+        };
+
         // Endorsement list
         $scope.blocks = [
         	{
         		className: 'endorsement',
                 firstName: 'Emily',
                 lastName: 'Mannheimer',
-        		position: 'Former Vice President of Standards for PHA',
+        		position: 'Former Vice President, Standards for PHA',
+                text: 'In my role as Vice President of Standards for the Panhellenic Association last year, I was the liaison between the Panhellenic community and ASG, and Noah was who I worked with on the other end. He was innovative when I was adapting the role that sorority members play in ASG, and helped me to write changes to our own Panhellenic bylaws. I am certain that Noah and Christina have the skills to to listen to the needs of the entire Northwestern community and respond to those needs in new and effective ways. I am proud to call them my friends and wholeheartedly endorse their campaign.',
         		image: 'https://unsplash.it/500/500?image=646'
         	},
         	{
         		className: 'endorsement',
                 firstName: 'Ben',
                 lastName: 'Terdich',
-        		position: 'Former President of Lambda Chi Alpha',
+        		position: 'Former President, Lambda Chi Alpha',
+                text: 'I endorse Noah and Christina because they understand the need for a revolution in the way that ASG relates to the student body, and because they know how to make it happen. As someone who is not involved with ASG, I have all too often joked with friends, "wait, what does ASG do again?" ASG does good work, but if even some student leaders don\'t know what\'s happening, there is a real problem. Noah and Christina\'s platform seeks to make ASG accountable and accessible to the people it represents so that students will have the opportunity to help their government make a tangible, positive impact on their NU experience.',
         		image: 'https://unsplash.it/500/500?image=550'
         	},
         	{
@@ -79,9 +113,9 @@ angular.module('campaignWebsiteApp')
             },
             {
                 className: 'endorsement',
-                firstName: 'Nei',
+                firstName: 'Neil',
                 lastName: 'Dalvie',
-                position: 'Former President, MARS',
+                position: 'Former President, Delta Tau Delta',
                 image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/NeilDalvie.jpg'
             },
 

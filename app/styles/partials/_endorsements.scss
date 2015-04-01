@@ -77,4 +77,63 @@ main.endorsements {
 		}
 
 	}
+
+	div.endorse-panel {
+		top: 47px;
+		height: 800px;
+		width: 450px;
+		display: block;
+		position: fixed;
+		z-index: 2;
+		right: -450px;
+		background-color: #fff;
+		box-shadow: 1px  0    0 #d6d7d8,
+						0    1px  1px #cccdce,
+						-5px 0    0 #d6d7d8,
+						0    -1px 0 #e7e8e9;
+
+		img {
+			display: block;
+			width: 90%;
+			// height: 90%;
+			margin: 0 auto;
+			margin-top: 15px;
+		}
+
+		p {
+			margin: 10px;
+			margin-top: 40px;
+			font-family: $base-font-family;
+		}
+	}
+
+	@keyframes slidein {
+		0% {
+			right: -450px;
+		}
+		100% {
+			right: 0px;
+		}
+	}
+
+	div.slidein {
+		right: 0px;
+		animation-name: slidein;
+		animation-duration: 1s;
+	}
+
+	@keyframes slideout {
+		0% {
+			right: 0px;
+		}
+		100% {
+			right: -450px;
+		}
+	}
+
+	div.slideout {
+		right: -450px;
+		animation-name: slideout;
+		animation-duration: 1s;
+	}
 }
