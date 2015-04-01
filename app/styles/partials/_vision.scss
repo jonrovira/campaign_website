@@ -56,9 +56,6 @@ main.vision {
 				}
 			}
 		}
-		// section.point.accountability div.point-content h2 { color: #45B29D; }
-		// section.point.accessibility div.point-content h2  { color: #334D5C; }
-		// section.point.opportunity div.point-content h2    { color: #E27A3F; }
 		section.point.accountability div.point-content h2 { color: $accent-color1; }
 		section.point.accessibility div.point-content h2  { color: $accent-color2; }
 		section.point.opportunity div.point-content h2    { color: $accent-color1; }
@@ -68,7 +65,7 @@ main.vision {
 
 				h1 {
 					float: left;
-					font-size: 30px;
+					font-size: 40px;
 					font-family: $fixed-font-family1;
 					color: $accent-color2;
 				}
@@ -76,6 +73,7 @@ main.vision {
 					float: left;
 					clear: left;
 					margin-top: 10px;
+					width: 100%;
 					font-family: $base-font-family;
 					font-size: 16px;
 					line-height: 1.5;

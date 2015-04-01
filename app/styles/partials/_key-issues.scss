@@ -62,18 +62,28 @@ main.issues {
 
 				h1 {
 					float: left;
-					font-size: 30px;
+					font-size: 34px;
 					font-family: $fixed-font-family1;
 					color: $accent-color2;
 				}
+				div.text {
+					float: left;
+					clear: left;
+					margin-top: 10px;
+					width: 100%;
+					font-family: $base-font-family;
+					font-size: 16px;
+					line-height: 1.5;
+					color: #666;
+				}
 			}
 		}
-		section.point.sustainability div.point-content h2          { color: #45B29D; }
-		section.point.diversity-and-inclusion div.point-content h2 { color: #334D5C; }
-		section.point.sexual-assault div.point-content h2          { color: #E27A3F; }
-		section.point.financial-accessibility div.point-content h2 { color: #EFC94C; }
-		section.point.mental-health div.point-content h2           { color: #45B29D; }
-		section.point.academics div.point-content h2               { color: #334D5C; }
-		section.point.student-groups div.point-content h2          { color: #E27A3F; }
+		section.point.sustainability div.point-content h2          { color: $accent-color1; }
+		section.point.diversity-and-inclusion div.point-content h2 { color: $accent-color2; }
+		section.point.sexual-assault div.point-content h2          { color: $accent-color1; }
+		section.point.financial-accessibility div.point-content h2 { color: $accent-color2; }
+		section.point.mental-health div.point-content h2           { color: $accent-color1; }
+		section.point.academics div.point-content h2               { color: $accent-color2; }
+		section.point.student-groups div.point-content h2          { color: $accent-color1; }
 	}
 }
