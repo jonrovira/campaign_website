@@ -13,8 +13,20 @@ angular.module('campaignWebsiteApp')
         // Set up Masonry
       	var $container = $('main.endorsements ul.js-masonry');
         $(window).resize(function() {
+            var windWidth = $(window).width();
             $container.imagesLoaded(function() {
-                var squareSide = ($container.width() - (3 * 5)) / 4;
+                if (windWidth < 600) {
+                    var squareSide = $container.width();
+                }
+                else if (windWidth < 950) {
+                    var squareSide = ($container.width() - (1*5)) / 2;
+                }
+                else if (windWidth < 1300) {
+                    var squareSide = ($container.width() - (2*5)) / 3;
+                }
+                else {
+                    var squareSide = ($container.width() - (3 * 5)) / 4;
+                }
                 $('li.endorsement').height(squareSide);
                 $('li.highlight').height((squareSide * 2) + 5 - 94);
                 $container.masonry({
@@ -34,6 +46,7 @@ angular.module('campaignWebsiteApp')
         }).resize();
 
 
+        // For endorsement panel
         window.onclick = function() {
             if (!$scope.panelClicked && $scope.panelVisible) {
                 $scope.panelVisible = false;
@@ -60,6 +73,7 @@ angular.module('campaignWebsiteApp')
             // doesn't work without stopPropagation()
             event.stopPropagation();
         };
+
 
         // Endorsement list
         $scope.blocks = [
@@ -118,7 +132,7 @@ angular.module('campaignWebsiteApp')
                 className: 'endorsement',
                 firstName: 'Michael',
                 lastName: 'Graf',
-                position: 'Co-Chair, Northwestern Community Building Initiative & Civic Engagement Fellow',
+                position: 'Co-Chair, Northwestern Community Building Initiative',
                 text: 'I believe Noah and Christina are best equipped to lead ASG because they have an inclusive and encompassing definition of Northwestern community. I find their platform most persuasive when they describe their commitment to student accessibility - connecting student groups to one another and serving as a pillar of support, rather than the ultimate arbiter of projects at Northwestern. We deserve Noah and Christina because we need leaders who are passionate about serving every student and forging partnerships across our campus.',
                 image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/MichaelGraf.jpg'
             },
