@@ -1,8 +1,11 @@
 main.vision {
+	@media(min-width: 860px) {
+		float: right;
+		padding: 55px 15px 55px 50px;
+		width: calc(100% - 227px - 65px);
+	}
 	position: relative;
-	float: right;
-	padding: 55px 15px 55px 50px;
-	width: calc(100% - 227px - 65px);
+	padding: 55px 27px;
 	background-color: $main-background;
 
 	div.content {
@@ -20,15 +23,19 @@ main.vision {
 				overflow: auto;
 
 				h2 {
+					@media(min-width: 860px) { font-size: 25px; }
 					float: left;
 					margin-bottom: 20px;
-					font-size: 20px;
+					padding-top: 30px;
+					font-size: 18px;
 					font-family: $fixed-font-family2;
 				}
 				div.text {
+					@media(min-width: 700px) { width: calc(100% - 30px - 10px); }
 					float: left;
-					clear: left;
 					padding-right: 30px;
+					padding-bottom: 30px;
+					width: calc(100% - 30px - 6px);
 					font-family: $base-font-family;
 					font-size: 14px;
 					line-height: 1.5;
@@ -47,9 +54,26 @@ main.vision {
 				}
 			}
 		}
+		section.point:not(.header-point) {
+
+			div.point-content {
+				padding-top: 0;
+				padding-right: 0;
+				padding-bottom: 0;
+
+				div.highlight {
+					@media(min-width: 700px) { width: 10px; }
+					float: right;
+					width: 6px;
+				}
+			}
+		}
 		section.point.accountability div.point-content h2 { color: $accent-color1; }
+		section.point.accountability div.point-content div.highlight { background-color: $accent-color1;}
 		section.point.accessibility div.point-content h2  { color: $accent-color2; }
+		section.point.accessibility div.point-content div.highlight { background-color: $accent-color2;}
 		section.point.opportunity div.point-content h2    { color: $accent-color1; }
+		section.point.opportunity div.point-content div.highlight { background-color: $accent-color1;}
 		section.header-point {
 
 			div.point-content {
