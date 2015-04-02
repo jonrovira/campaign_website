@@ -53,6 +53,8 @@ angular.module('campaignWebsiteApp')
 			}
 		};
 
+
+		// Send contact email
 		$scope.sendEmail = function(firstName, lastName, emailAddress, messageText) {
 			if (typeof emailAddress === 'undefined') {
 				return;
@@ -80,8 +82,11 @@ angular.module('campaignWebsiteApp')
 				});
 		};
 
+
+		// Download images
 		$scope.openPictures = function() {
 			$window.open('https://s3-us-west-2.amazonaws.com/campaignwebsite/images/ProfilePic.jpg', '_blank');
 			$window.open('https://s3-us-west-2.amazonaws.com/campaignwebsite/images/CoverPhoto.jpg', '_blank');
 		};
+
 	});
