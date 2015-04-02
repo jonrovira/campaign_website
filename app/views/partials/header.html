@@ -1,6 +1,12 @@
 <header>
 	<div class="header-inner">
+
+		<div class="small-width hamburger">
+			<i class="fa fa-bars" ng-click="toggleMenu($event)"></i>
+		</div>
+
 		<ul class="controls">
+
 			<li class="join click-action" ng-click="joinClick($event)">
 				<i class="fa fa-plus-square-o click-action"></i>
 				<span class="click-action">Join Us</span>
@@ -19,6 +25,7 @@
 					</a>
 				</div>
 			</li>
+
 			<li class="say click-action" ng-click="sayClick($event)">
 				<i class="fa fa-comment-o click-action"></i>
 				<span class="click-action">Speak Up</span>
@@ -36,6 +43,34 @@
 					</form>
 				</div>
 			</li>
-		</div>
+
+		</ul>
+
+	</div>
+
+	<div class="small-width menu">
+		<ul class="nav-menu">
+			<li ng-class="{active: activeTab == 'about'}">
+				<a href="/#/about">Who We Are</a>
+			</li>
+			<li ng-class="{active: activeTab == 'vision'}">
+				<a href="/#/plan">Plan of Action</a>
+			</li>
+			<li ng-class="{active: activeTab == 'issues'}">
+				<a href="/#/issues">Key Issues</a>
+			</li>
+			<li ng-class="{active: activeTab == 'endorsements'}">
+				<a href="/#/endorsements">Endorsements</a>
+			</li>
+			<li ng-class="{active: activeTab == 'team'}">
+				<a href="/#/team">The Team</a>
+			</li>
+			<li ng-class="{active: activeTab == 'listening'}">
+				<a href="/#/media-gallery">Media Gallery</a>
+			</li>
+			<li><a href="https://www.facebook.com/noahandchristina" target="_blank"><i class="fa fa-facebook"></i></a></li>
+			<li><a href="https://twitter.com/NoahChristina" target="_blank"><i class="fa fa-twitter"></i></a></li>
+			<li><a href="https://instagram.com/listenthenlead/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+		</ul>
 	</div>
 </header>

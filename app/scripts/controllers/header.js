@@ -4,8 +4,17 @@
 angular.module('campaignWebsiteApp')
 	.controller('headerCtrl', function ($scope, $http, $window) {
 
+		$scope.toggleMenu = function(e) {
+			$scope.sayClicked = false;
+			$scope.joinClicked = false;
+			$('header ul.controls li').removeClass('active');
+			var $menu = $('header div.small-width ul.nav-menu');
+			if ($menu.hasClass('active')) { $menu.slideUp(); }
+			else { $menu.slideDown(); }
+			$menu.toggleClass('active');
+		}
+
 		$scope.joinClicked = false;
-		$scope.sayClicked = false;
 		$scope.joinClick = function(e) {
 			var className = e.target.className;
 			if (className.indexOf('click-action') <= -1) {
@@ -24,6 +33,7 @@ angular.module('campaignWebsiteApp')
 					break;
 			}
 		};
+		$scope.sayClicked = false;
 		$scope.sayClick = function(e) {
 			var className = e.target.className;
 			if (className.indexOf('click-action') <= -1) {

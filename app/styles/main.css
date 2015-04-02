@@ -17,10 +17,14 @@ label, table, caption {
 /* Modules */
 /* Partials */
 section.nav-panel {
+  display: none;
   position: fixed;
   top: 47px;
   width: 226px;
   box-shadow: 1px  0    0 #d6d7d8; }
+  @media (min-width: 860px) {
+    section.nav-panel {
+      display: block; } }
   section.nav-panel div.logo {
     width: 100%;
     border-bottom: 1px solid #eee; }
@@ -87,12 +91,13 @@ main.main {
     position: relative;
     top: 50%;
     width: 100%; }
-  main.main div.banner {
-    display: none;
-    position: absolute;
-    bottom: 12px;
-    right: 25px;
+  main.main img.background-image {
+    position: relative;
     width: 100%; }
+  main.main div.banner {
+    position: absolute;
+    top: 80px;
+    right: 30px; }
     main.main div.banner h1 {
       display: inline;
       float: right;
@@ -102,7 +107,7 @@ main.main {
       main.main div.banner h1 span.row span.slim {
         font-family: Slim Joe; }
       main.main div.banner h1 span.row span {
-        color: #e5e5e5; }
+        color: #211f22; }
 
 main.about {
   position: relative;
