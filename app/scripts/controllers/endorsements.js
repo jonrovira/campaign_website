@@ -213,14 +213,14 @@ angular.module('campaignWebsiteApp')
                 text: 'As a senator, I have seen firsthand Noah and Christina’s leadership and fair-mindedness when tackling the toughest issues facing the Northwestern student body. These two will bring much needed accountability to ASG by setting attainable goals and bringing real change to Northwestern. They are willing to take a stand with the administration when necessary on behalf of the students.',
                 image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/RossKrasner.jpg'
             },
-            // {
-            //     className: 'endorsement',
-            //     firstName: 'Ronak',
-            //     lastName: 'Patel',
-            //     position: '',
-            //     text: '',
-            //     image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/RonakPatel.jpg'
-            // },
+            {
+                className: 'endorsement',
+                firstName: 'Joey',
+                lastName: 'Becker',
+                position: 'Former Vice President of Standards, IFC',
+                text: 'I am proud to endorse Noah and Christina for the upcoming ASG election. Over the past year, I served as Vice President of Standards for the Interfraternity Council, the liaison between IFC and ASG. In this role, I worked closely with Noah and saw his incredible passion for not only ASG, but the Northwestern community. Not only does Noah have great organizational knowledge and dedication to ASG and Northwestern, but he has a true capacity for innovation. I believe that Noah and Christina will make a great team, to ensure that the Northwestern community continues to improve.',
+                image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/endorsements/JoeyBecker.jpg' 
+            },
             
             // {
             //     className: 'endorsement',

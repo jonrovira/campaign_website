@@ -2,7 +2,7 @@
 
 
 angular.module('campaignWebsiteApp')
-	.controller('headerCtrl', function ($scope, $http) {
+	.controller('headerCtrl', function ($scope, $http, $window) {
 
 		$scope.joinClicked = false;
 		$scope.sayClicked = false;
@@ -68,5 +68,10 @@ angular.module('campaignWebsiteApp')
 				error(function(data, status, headers, config) {
 					console.log('Error occurred ' + data);
 				});
+		};
+
+		$scope.openPictures = function() {
+			$window.open('https://s3-us-west-2.amazonaws.com/campaignwebsite/images/ProfilePic.jpg', '_blank');
+			$window.open('https://s3-us-west-2.amazonaws.com/campaignwebsite/images/CoverPhoto.jpg', '_blank');
 		};
 	});
