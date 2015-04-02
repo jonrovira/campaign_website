@@ -24,8 +24,14 @@ angular.module('campaignWebsiteApp')
         setTimeout(function() {
             var $container = $('main.listening ul.instagram-feed');
             $(window).resize(function() {
+                var windWidth = $(window).width();
                 $container.imagesLoaded(function() {
-                    var squareSide = ($container.width() - 5) / 2;
+                    if (windWidth < 1150) {
+                        var squareSide = $container.width();
+                    }
+                    else {
+                        var squareSide = ($container.width() - (1*5)) / 2;
+                    }
                     $container.masonry({
                         columnWidth: squareSide,
                         itemSelector: '.insta-item',
