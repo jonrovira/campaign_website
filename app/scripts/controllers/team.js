@@ -17,8 +17,20 @@ angular.module('campaignWebsiteApp')
         // Set up Masonry
         var $container = $('main.team ul.js-masonry');
         $(window).resize(function() {
+            var windWidth = $(window).width();
             $container.imagesLoaded(function() {
-                var squareSide = ($container.width() - (3 * 5)) / 4;
+                if (windWidth < 600) {
+                    var squareSide = $container.width();
+                }
+                else if (windWidth < 950) {
+                    var squareSide = ($container.width() - (1*5)) / 2;
+                }
+                else if (windWidth < 1300) {
+                    var squareSide = ($container.width() - (2*5)) / 3;
+                }
+                else {
+                    var squareSide = ($container.width() - (3 * 5)) / 4;
+                }
                 $('li.member').height(squareSide);
                 $container.masonry({
                     columnWidth: squareSide,

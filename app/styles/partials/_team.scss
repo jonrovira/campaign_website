@@ -1,8 +1,11 @@
 main.team {
+	@media(min-width: 860px) {
+		float: right;
+		padding: 55px 15px 55px 50px;
+		width: calc(100% - 227px - 65px);
+	}
 	position: relative;
-	float: right;
-	padding: 55px 15px 55px 50px;
-	width: calc(100% - 227px - 65px);
+	padding: 55px 27px;
 	background-color: $main-background;
 
 	ul.js-masonry {
@@ -10,9 +13,12 @@ main.team {
 		width: 100%;
 
 		li.member {
-			position: absolute;
+			@media(min-width: 600px) { width: calc((100% - (1 * 5px)) /  2); }
+			@media(min-width: 950px) { width: calc((100% - (2 * 5px)) /  3); }
+			@media(min-width: 1300px) { width: calc((100% - (3 * 5px)) /  4); }
+			display: block;
 			margin-bottom: 5px;
-			width: calc((100% - (3 * 5px)) /  4);
+			width: 100%;
 			box-shadow: 1px  0    0 #d6d7d8,
 						0    1px  1px #cccdce,
 						-1px 0    0 #d6d7d8,
