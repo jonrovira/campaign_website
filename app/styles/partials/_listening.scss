@@ -1,8 +1,11 @@
 main.listening {
+	@media(min-width: 860px) {
+		float: right;
+		padding: 55px 15px 55px 50px;
+		width: calc(100% - 227px - 65px);
+	}
 	position: relative;
-	float: right;
-	padding: 55px 15px 55px 50px;
-	width: calc(100% - 227px - 65px);
+	padding: 55px 27px;
 	background-color: $main-background;
 
 	div.content {
@@ -13,8 +16,12 @@ main.listening {
 			position: relative;
 
 			section.instagram {
-				padding-right: 20px;
-				width: calc(100% - 290px - 20px);
+				@media(min-width: 1150px) {
+					padding-right: 20px;
+					width: calc(100% - 290px - 20px);
+				}
+				padding-right: 15px;
+				width: calc(100% - 40% - 15px);
 				float: left;
 
 				ul.instagram-feed {
@@ -22,7 +29,10 @@ main.listening {
 					list-style: none;
 
 					li.insta-item {
-						width: calc((100% - 5px) / 2);
+						@media(min-width: 1150px) {
+							width: calc((100% - 5px) / 2);							
+						}
+						width: 100%;
 						margin-bottom: 5px;
 						background-color: #fff;
 						box-shadow: 1px  0    0 #d6d7d8,
@@ -37,12 +47,21 @@ main.listening {
 						div.insta-info {
 
 							ul {
-								float: left;
+								@media(min-width: 1150px) {
+									float: left;
+									width: calc(20% - 20px);	
+								}
 								padding: 10px;
-								width: calc(20% - 20px);
+								width: calc(100% - 20px);
 								list-style: none;
 
 								li {
+									@media(min-width: 1150px) {
+										display: block;
+										margin-right: 0;
+									}
+									display: inline-block;
+									margin-right: 5px;
 									font-size: 15px;
 
 									i {
@@ -55,15 +74,20 @@ main.listening {
 								}
 							}
 							div.insta-caption {
-								float: right;
-								padding: 10px 10px 10px 0;
-								width: calc(80% - 10px);
+								@media(min-width: 1150px) {
+									float: right;
+									padding: 10px 10px 10px 0;
+									width: calc(80% - 10px);
+								}
+								padding: 10px 10px;
+								width: calc(100% - 20px);
 								text-align: center;
 
 								span {
+									@media(min-width: 1150px) { font-size: 15px; }
 									margin: 8px;
 									font-family: $base-font-family;
-									font-size: 15px;
+									font-size: 13px;
 									color: #444;
 								}
 							}
@@ -73,9 +97,10 @@ main.listening {
 			}
 
 			section.twitter {
+				@media(min-width: 1150px) { width: 290px; }
 				position: relative;
 				float: right;
-				width: 290px;
+				width: 40%;
 
 				ul.twitter-feed {
 					width: 100%;
@@ -106,8 +131,9 @@ main.listening {
 							width: calc(100% - 30px - 20px);
 
 							span {
+								@media(min-width: 1150px) { font-size: 12px; }
 								font-family: $base-font-family;
-								font-size: 12px;
+								font-size: 11px;
 							}
 						}
 
@@ -141,9 +167,13 @@ main.listening {
 			section.media {
 
 				div.section-header {
+					@media(min-width: 1150px) {
+						padding: 30px 30px 22px 30px;
+						width: calc(100% - 60px);
+					}
 					margin-bottom: 10px;
-					padding: 30px 30px 22px 30px;
-					width: calc(100% - 60px);
+					padding: 20px 10px 12px 10px;
+					width: calc(100% - 20px);
 					color: $accent-color2;
 					background-color: #fff;
 					box-shadow: 1px  0    0 #d6d7d8,
@@ -152,14 +182,19 @@ main.listening {
 								0    -1px 0 #e7e8e9;
 
 					h2 {
+						@media(min-width: 1150px) { font-size: 34px; }
 						display: inline-block;
-						font-size: 34px;
+						font-size: 14px;
 						font-family: $fixed-font-family1;
 					}
 					i {
+						@media(min-width: 1150px) {
+							margin-right: 10px;
+							font-size: 34px;
+						}
 						display: inline-block;
-						margin-right: 10px;
-						font-size: 34px;
+						margin-right: 1px;
+						font-size: 14px;
 					}
 				}
 			}
