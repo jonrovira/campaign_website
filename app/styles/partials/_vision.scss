@@ -25,19 +25,10 @@ main.vision {
 					font-size: 20px;
 					font-family: $fixed-font-family2;
 				}
-				div.image-wrapper {
-					float: right;
-					width: 350px;
-
-					img {
-						width: 100%;
-					}
-				}
 				div.text {
 					float: left;
 					clear: left;
 					padding-right: 30px;
-					width: calc(100% - 350px - 30px);
 					font-family: $base-font-family;
 					font-size: 14px;
 					line-height: 1.5;

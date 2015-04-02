@@ -729,16 +729,10 @@ main.vision {
           margin-bottom: 20px;
           font-size: 20px;
           font-family: Slim Joe; }
-        main.vision div.content section.point div.point-content div.image-wrapper {
-          float: right;
-          width: 350px; }
-          main.vision div.content section.point div.point-content div.image-wrapper img {
-            width: 100%; }
         main.vision div.content section.point div.point-content div.text {
           float: left;
           clear: left;
           padding-right: 30px;
-          width: calc(100% - 350px - 30px);
           font-family: Arial, Helvetica, sans-serif;
           font-size: 14px;
           line-height: 1.5;
@@ -877,16 +871,10 @@ main.issues {
           margin-bottom: 20px;
           font-size: 20px;
           font-family: Slim Joe; }
-        main.issues div.content section.point div.point-content div.image-wrapper {
-          float: right;
-          width: 350px; }
-          main.issues div.content section.point div.point-content div.image-wrapper img {
-            width: 100%; }
         main.issues div.content section.point div.point-content div.text {
           float: left;
           clear: left;
           padding-right: 30px;
-          width: calc(100% - 350px - 30px);
           font-family: Arial, Helvetica, sans-serif;
           font-size: 14px;
           line-height: 1.5;
@@ -897,6 +885,9 @@ main.issues {
             padding-left: 40px; }
             main.issues div.content section.point div.point-content div.text ol li {
               margin-bottom: 10px; }
+    main.issues div.content section.point::after {
+      content: "";
+      width: 15px; }
     main.issues div.content section.header-point div.point-content h1 {
       float: left;
       font-size: 34px;
@@ -913,6 +904,8 @@ main.issues {
       color: #666; }
     main.issues div.content section.point.sustainability div.point-content h2 {
       color: #1cafd1; }
+    main.issues div.content section.point::after {
+      background-color: #1cafd1; }
     main.issues div.content section.point.diversity-and-inclusion div.point-content h2 {
       color: #84c775; }
     main.issues div.content section.point.sexual-assault div.point-content h2 {
