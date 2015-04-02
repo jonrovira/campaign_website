@@ -190,14 +190,6 @@ angular.module('campaignWebsiteApp')
             },
             {
                 className: 'endorsement',
-                firstName: 'Matthew',
-                lastName: 'Clarkston',
-                position: 'Off-Campus Whip, ASG Senate',
-                text: 'I believe in Christina and Noah as the next leaders of ASG because I think that they are the most authentic, qualified, experienced, and communicative leaders. Other tickets might talk about empowering student voices but Christina and Noah are the only candidates with a track record on listening to students and using it to focus their work in student government.',
-                image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/MatthewClarkston.jpg'
-            },
-            {
-                className: 'endorsement',
                 firstName: 'Josh',
                 lastName: 'O\'Neil',
                 position: 'Elder Senator',
