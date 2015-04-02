@@ -48,7 +48,6 @@ angular.module('campaignWebsiteApp')
 
         // click event handler
         $scope.togglePanel = function(event, index) {
-            console.log($scope.panelVisible);
             if (!$scope.panelVisible) {
                 $('li.block').fadeTo('fast', 0.6);
                 $scope.selectedEndorsement = $scope.blocks[index];
