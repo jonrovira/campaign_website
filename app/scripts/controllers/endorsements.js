@@ -146,11 +146,11 @@ angular.module('campaignWebsiteApp')
             },
 
 
-            {
-                className: 'highlight',
-                text: '"I am certain that Noah and Christina have the skills to to listen to the needs of the entire Northwestern community and respond to those needs in new and effective ways."',
-                name: 'Emily Mannheimer'
-            },
+            // {
+            //     className: 'highlight',
+            //     text: '"I am certain that Noah and Christina have the skills to to listen to the needs of the entire Northwestern community and respond to those needs in new and effective ways."',
+            //     name: 'Emily Mannheimer'
+            // },
 
             {
                 className: 'endorsement',
