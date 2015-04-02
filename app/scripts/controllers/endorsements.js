@@ -4,9 +4,11 @@
 angular.module('campaignWebsiteApp')
 	.controller('EndorsementsCtrl', function ($rootScope, $scope, $route) {
 
+
         // Allows nav panel to highlight active tab
       	$rootScope.activeTab = $route.current.activeTab;
         $scope.panelVisible = false;
+
 
         // Set up Masonry
       	var $container = $('main.endorsements ul.js-masonry');
@@ -24,12 +26,13 @@ angular.module('campaignWebsiteApp')
             });
         }).resize();
 
-        var rightPanelHeight = $(window).height() - $('header').height();
-        $('section.endorse-panel').height(rightPanelHeight);
+
+        // Endorsement panel sizing
         $(window).resize(function() {
             var rightPanelHeight = $(window).height() - $('header').height();
-            $('section.endorse-panel').height(rightPanelHeight);
-        });
+            $('div.endorse-panel').height(rightPanelHeight);
+        }).resize();
+
 
         window.onclick = function() {
             if (!$scope.panelClicked && $scope.panelVisible) {
@@ -41,6 +44,7 @@ angular.module('campaignWebsiteApp')
             }
             $scope.panelClicked = false;
         }
+
 
         // click event handler
         $scope.togglePanel = function(event, index) {

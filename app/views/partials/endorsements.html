@@ -1,10 +1,10 @@
 <main class="endorsements" endorsements-masonry loader>
 
 	<div class="endorse-panel" id="endorsement-panel" ng-class=" {'slidein' : panelVisible, 'slideout': !panelVisible} " ng-click="panelClicked = true;">
-		<img src="{{selectedEndorsement.image}}"/>
-		<p>
-			{{selectedEndorsement.text}}
-		</p>
+		<img align="left" src="{{selectedEndorsement.image}}"/>
+		<h3>{{selectedEndorsement.firstName}}<br>{{selectedEndorsement.lastName}}</h3>
+		<h4>{{selectedEndorsement.position}}</h4>
+		<p>{{selectedEndorsement.text}}</p>
 	</div>
 
 	<ul class="js-masonry">
