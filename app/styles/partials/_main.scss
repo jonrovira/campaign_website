@@ -17,7 +17,7 @@ main.main {
 	div.banner {
 		display: none;
 		position: absolute;
-		top: 70px;
+		bottom: 12px;
 		right: 25px;
 		width: 100%;
 
@@ -25,19 +25,14 @@ main.main {
 			display: inline;
 			float: right;
 			font-size: 80px;
-			color: #fff;
 
 			span.row {
-				display: block;
 
 				span.big { font-family: $fixed-font-family1; }
 				span.slim { font-family: $fixed-font-family2; }
-			}
-			span.row:nth-child(2) {
-				margin-left: 172px;
-			}
-			span.row:nth-child(3) {
-				margin-left: 292px;
+				span {
+					color: #e5e5e5;
+				}
 			}
 		}
 	}

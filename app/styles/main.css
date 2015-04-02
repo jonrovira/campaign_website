@@ -90,24 +90,19 @@ main.main {
   main.main div.banner {
     display: none;
     position: absolute;
-    top: 70px;
+    bottom: 12px;
     right: 25px;
     width: 100%; }
     main.main div.banner h1 {
       display: inline;
       float: right;
-      font-size: 80px;
-      color: #fff; }
-      main.main div.banner h1 span.row {
-        display: block; }
-        main.main div.banner h1 span.row span.big {
-          font-family: Big John; }
-        main.main div.banner h1 span.row span.slim {
-          font-family: Slim Joe; }
-      main.main div.banner h1 span.row:nth-child(2) {
-        margin-left: 172px; }
-      main.main div.banner h1 span.row:nth-child(3) {
-        margin-left: 292px; }
+      font-size: 80px; }
+      main.main div.banner h1 span.row span.big {
+        font-family: Big John; }
+      main.main div.banner h1 span.row span.slim {
+        font-family: Slim Joe; }
+      main.main div.banner h1 span.row span {
+        color: #e5e5e5; }
 
 main.about {
   position: relative;
