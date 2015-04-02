@@ -127,7 +127,7 @@ angular.module('campaignWebsiteApp')
                 firstName: 'Emily',
                 lastName: 'Mannheimer',
                 position: 'Former Vice President, Standards for PHA',
-                text: 'In my role as Vice President of Standards for the Panhellenic Association last year, I was the liaison between the Panhellenic community and ASG, and Noah was who I worked with on the other end. He was innovative when I was adapting the role that sorority members play in ASG, and helped me to write changes to our own Panhellenic bylaws. I am certain that Noah and Christina have the skills to to listen to the needs of the entire Northwestern community and respond to those needs in new and effective ways. I am proud to call them my friends and wholeheartedly endorse their campaign.',
+                text: 'In my role as Vice President of Standards for the Panhellenic Association last year, I was the liaison between the Panhellenic community and ASG, and Noah was who I worked with on the other end. He was innovative when I was adapting the role that sorority members play in ASG, and helped me to write changes to our own Panhellenic bylaws. I am certain that Noah and Christina have the skills to listen to the needs of the entire Northwestern community and respond to those needs in new and effective ways. I am proud to call them my friends and wholeheartedly endorse their campaign.',
                 image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/endorsements/EmilyMannheimer.jpg'
             },
 
@@ -178,7 +178,7 @@ angular.module('campaignWebsiteApp')
                 lastName: 'Song',
                 position: 'Co-Director, NUCHR',
                 text: 'Noah and Christina have impressed me with the way that they have actively engaged with communities outside of their own. They are incredibly passionate about making ASG more representative of all student interests, especially of underrepresented students and communities. Above all, Noah and Christina have shown that they are ready and willing to fight for the changes that need to be made. I have no doubt that together, they can leave a strong impact on Northwestern.',
-                image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/MelodySong.jpg'
+                image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/endorsements/Melody-Crop.jpg'
             },
             {
                 className: 'endorsement',

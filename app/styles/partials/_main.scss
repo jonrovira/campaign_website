@@ -13,13 +13,23 @@ main.main {
 		width: 100%;
 	}
 
+	img.background-image {
+		position: relative;
+		width: 100%;
+		// top: 50%;
+	}
+
 
 	div.banner {
-		display: none;
+		// display: none;
+		// position: absolute;
+		// bottom: 12px;
+		// right: 25px;
+		// width: 100%;
+
 		position: absolute;
-		bottom: 12px;
-		right: 25px;
-		width: 100%;
+		top: 80px;
+		right: 30px;
 
 		h1 {
 			display: inline;
@@ -31,7 +41,8 @@ main.main {
 				span.big { font-family: $fixed-font-family1; }
 				span.slim { font-family: $fixed-font-family2; }
 				span {
-					color: #e5e5e5;
+					// color: #e5e5e5;
+					color: #211f22;
 				}
 			}
 		}
