@@ -153,11 +153,6 @@ angular.module('campaignWebsiteApp')
                 image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/MaryFelder.jpg'
             },
             {
-                firstName: 'Matthew',
-                lastName: 'Clarkston',
-                image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/MatthewClarkston.jpg'
-            },
-            {
                 firstName: 'Maya',
                 lastName: 'Hurley-Wales',
                 image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/MayaHurley-Wales.jpg'

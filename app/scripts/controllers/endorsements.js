@@ -166,19 +166,19 @@ angular.module('campaignWebsiteApp')
                 className: 'endorsement',
                 firstName: 'Vicky',
                 lastName: 'Ho',
-                position: 'President, UPS',
-                text: '',
+                position: 'President, Undergraduate Premedical Society',
+                text: 'I am so excited to endorse Noah and Christina as President and VP of ASG! Both Noah and Christina are incredibly passionate about and dedicated to getting student voices heard. They have the experience to understand how our student government functions in a way that best serves its students. I have watched both of them be personally involved in working on issues that affect people of all different backgrounds and work to increase the accessibility and inclusivity on our campus, something that I am very passionate about.',
                 image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/VickyHo.jpg'
             },
 
 
             {
                 className: 'endorsement',
-                firstName: 'Archit',
-                lastName: 'Baskaran',
-                position: '',
-                text: '',
-                image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/ArchitBaskaran.jpg'
+                firstName: 'Melody',
+                lastName: 'Song',
+                position: 'Co-Director, NUCHR',
+                text: 'Noah and Christina have impressed me with the way that they have actively engaged with communities outside of their own. They are incredibly passionate about making ASG more representative of all student interests, especially of underrepresented students and communities. Above all, Noah and Christina have shown that they are ready and willing to fight for the changes that need to be made. I have no doubt that together, they can leave a strong impact on Northwestern.',
+                image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/MelodySong.jpg'
             },
             {
                 className: 'endorsement',
@@ -190,11 +190,11 @@ angular.module('campaignWebsiteApp')
             },
             {
                 className: 'endorsement',
-                firstName: 'Ronak',
-                lastName: 'Patel',
-                position: '',
-                text: '',
-                image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/RonakPatel.jpg'
+                firstName: 'Matthew',
+                lastName: 'Clarkston',
+                position: 'Off-Campus Whip, ASG Senate',
+                text: 'I believe in Christina and Noah as the next leaders of ASG because I think that they are the most authentic, qualified, experienced, and communicative leaders. Other tickets might talk about empowering student voices but Christina and Noah are the only candidates with a track record on listening to students and using it to focus their work in student government.',
+                image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/MatthewClarkston.jpg'
             },
             {
                 className: 'endorsement',
@@ -221,22 +221,31 @@ angular.module('campaignWebsiteApp')
                 text: 'As a senator, I have seen firsthand Noah and Christina’s leadership and fair-mindedness when tackling the toughest issues facing the Northwestern student body. These two will bring much needed accountability to ASG by setting attainable goals and bringing real change to Northwestern. They are willing to take a stand with the administration when necessary on behalf of the students.',
                 image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/RossKrasner.jpg'
             },
-            {
-                className: 'endorsement',
-                firstName: 'Melody',
-                lastName: 'Song',
-                position: '',
-                text: '',
-                image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/MelodySong.jpg'
-            },
-            {
-                className: 'endorsement',
-                firstName: 'Noah',
-                lastName: 'Whinston',
-                position: '',
-                text: '',
-                image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/NoahWhinston.jpg'
-            },
+            // {
+            //     className: 'endorsement',
+            //     firstName: 'Ronak',
+            //     lastName: 'Patel',
+            //     position: '',
+            //     text: '',
+            //     image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/RonakPatel.jpg'
+            // },
+            
+            // {
+            //     className: 'endorsement',
+            //     firstName: 'Archit',
+            //     lastName: 'Baskaran',
+            //     position: '',
+            //     text: '',
+            //     image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/ArchitBaskaran.jpg'
+            // },
+            // {
+            //     className: 'endorsement',
+            //     firstName: 'Noah',
+            //     lastName: 'Whinston',
+            //     position: '',
+            //     text: '',
+            //     image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/NoahWhinston.jpg'
+            // },
 
 
             // {
