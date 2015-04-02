@@ -166,7 +166,7 @@ angular.module('campaignWebsiteApp')
                 className: 'endorsement',
                 firstName: 'Vicky',
                 lastName: 'Ho',
-                position: 'President, Undergraduate Premedical Society',
+                position: 'President, Undergraduate Premedical Society & Co-Coordinator of Moderators, Sustained Dialogue',
                 text: 'I am so excited to endorse Noah and Christina as President and VP of ASG! Both Noah and Christina are incredibly passionate about and dedicated to getting student voices heard. They have the experience to understand how our student government functions in a way that best serves its students. I have watched both of them be personally involved in working on issues that affect people of all different backgrounds and work to increase the accessibility and inclusivity on our campus, something that I am very passionate about.',
                 image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/VickyHo.jpg'
             },
