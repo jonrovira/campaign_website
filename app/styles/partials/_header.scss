@@ -238,14 +238,18 @@ header {
 	div.small-width.menu {
 		@media(min-width: 860px) { display: none; }
 		float: left;
+		clear: left;
+		width: 100%;
+		border-top: 1px solid #252525;
 
 		ul.nav-menu {
 			display: none;
+			width: 100%;
 			list-style: none;
 
 			li {
-				margin-bottom: 10px;
-				padding-left: 27px;
+				padding: 5px 0 5px 27px;
+				border-bottom: 1px solid #252525;
 
 				a {
 					font-family: $base-font-family;
@@ -254,7 +258,6 @@ header {
 					text-decoration: none;
 				}
 			}
-			li:first-child { margin-top: 10px; }
 		}
 		ul.nav-menu.active { display: block; }
 	}
