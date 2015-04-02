@@ -15,8 +15,12 @@ angular.module('campaignWebsiteApp')
       		'Karma'
     	];
 
+
+    	// For navbar highlighting
     	$rootScope.activeTab = $route.current.activeTab;
 
+
+    	// Highlight sizing
     	$(window).resize(function() {
     		$('div.highlight').each(function() {
     			var $point = $(this).parent().parent();

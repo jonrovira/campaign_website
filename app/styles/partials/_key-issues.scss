@@ -1,8 +1,11 @@
 main.issues {
+	@media(min-width: 860px) {
+		float: right;
+		padding: 55px 15px 55px 50px;
+		width: calc(100% - 227px - 65px);
+	}
 	position: relative;
-	float: right;
-	padding: 55px 15px 55px 50px;
-	width: calc(100% - 227px - 65px);
+	padding: 55px 27px;
 	background-color: $main-background;
 
 	div.content {
@@ -20,15 +23,21 @@ main.issues {
 				overflow: auto;
 
 				h2 {
+					@media(min-width: 860px) { font-size: 25px; }
+					@media(min-width: 700px) { width: calc(100% - 30px - 10px); }
 					float: left;
 					margin-bottom: 20px;
+					padding-top: 30px;
+					width: calc(100% - 30px - 6px);
 					font-size: 20px;
 					font-family: $fixed-font-family2;
 				}
 				div.text {
+					@media(min-width: 700px) { width: calc(100% - 30px - 10px); }
 					float: left;
-					clear: left;
 					padding-right: 30px;
+					padding-bottom: 30px;
+					width: calc(100% - 30px - 6px);
 					font-family: $base-font-family;
 					font-size: 14px;
 					line-height: 1.5;
@@ -37,19 +46,22 @@ main.issues {
 					p {
 						margin-bottom: 10px;
 					}
-					ol {
-						padding-left: 40px;
-
-						li {
-							margin-bottom: 10px;
-						}
-					}
 				}
 			}
 		}
-		section.point::after {
-			content: "";
-			width: 15px;
+		section.point:not(.header-point) {
+
+			div.point-content {
+				padding-top: 0;
+				padding-right: 0;
+				padding-bottom: 0;
+
+				div.highlight {
+					@media(min-width: 700px) { width: 10px; }
+					float: right;
+					width: 6px;
+				}
+			}
 		}
 		section.header-point {
 
@@ -74,12 +86,18 @@ main.issues {
 			}
 		}
 		section.point.sustainability div.point-content h2          { color: $accent-color1; }
-		section.point::after { background-color: $accent-color1; }
+		section.point.sustainability div.point-content div.highlight { background-color: $accent-color1;}
 		section.point.diversity-and-inclusion div.point-content h2 { color: $accent-color2; }
+		section.point.diversity-and-inclusion div.point-content div.highlight { background-color: $accent-color2;}
 		section.point.sexual-assault div.point-content h2          { color: $accent-color1; }
+		section.point.sexual-assault div.point-content div.highlight { background-color: $accent-color1;}
 		section.point.financial-accessibility div.point-content h2 { color: $accent-color2; }
+		section.point.financial-accessibility div.point-content div.highlight { background-color: $accent-color2;}
 		section.point.mental-health div.point-content h2           { color: $accent-color1; }
+		section.point.mental-health div.point-content div.highlight { background-color: $accent-color1;}
 		section.point.academics div.point-content h2               { color: $accent-color2; }
+		section.point.academics div.point-content div.highlight { background-color: $accent-color2;}
 		section.point.student-groups div.point-content h2          { color: $accent-color1; }
+		section.point.student-groups div.point-content div.highlight { background-color: $accent-color1;}
 	}
 }

@@ -24,10 +24,12 @@ main.vision {
 
 				h2 {
 					@media(min-width: 860px) { font-size: 25px; }
+					@media(min-width: 700px) { width: calc(100% - 30px - 10px); }
 					float: left;
 					margin-bottom: 20px;
 					padding-top: 30px;
-					font-size: 18px;
+					width: calc(100% - 30px - 6px);
+					font-size: 20px;
 					font-family: $fixed-font-family2;
 				}
 				div.text {
