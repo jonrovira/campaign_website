@@ -81,7 +81,7 @@ angular.module('campaignWebsiteApp')
                 className: 'endorsement',
                 firstName: 'Joji',
                 lastName: 'Syed',
-                position: 'President, SCNO',
+                position: 'President, Students Consulting for Nonprofit Organizations',
                 text: 'To me, a student leader is not someone who has dedicated their entire career at Northwestern to a particular student group or activity. A student leader is a well rounded individual--it is an individual who has devoted time to their academics, their extracurricular activities, their career, and their friends. A student leader is an individual who is able to find the optimal balance of being an active and engaged student. Noah Star and Christina Kim, two of my close friends and mentors, have done just that. They are real students--they care about their extracurriculars all while appreciating and experiencing many different aspects of the Northwestern experience. We need more leaders like this. As president of SCNO, often times I see young members struggling to find the optimal balance as they have a very narrow and skewed perception of leadership. By embracing well rounded leaders, we will redefine what it means to be a leader on this campus, and therefore, lay the foundation for a better (and happier) Northwestern. ',
                 image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/JojiSyed.jpg'
             },
@@ -89,7 +89,7 @@ angular.module('campaignWebsiteApp')
                 className: 'endorsement',
                 firstName: 'Erik',
                 lastName: 'Baker',
-                position: 'MARS Programming Chair & WNUR Director',
+                position: 'MARS Programming Chair & WNUR News Special Broadcast Director',
                 text: 'I\'m supporting Noah and Christina because I trust them to advocate for students, challenge administrators, and produce real change in ASG from the bottom up. As an outsider to ASG, my experience of NU student government has primarily been one of frustration and disappointment. Noah and Christina\'s vision has convinced me that they have what it takes to lead ASG away from business as usual and empower students.',
                 image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/ErikBaker.jpg'
             },
@@ -97,7 +97,7 @@ angular.module('campaignWebsiteApp')
                 className: 'endorsement',
                 firstName: 'Maroua',
                 lastName: 'Sallami',
-                position: 'Co-Director, NUCHR & President, MAL',
+                position: 'Co-Director, NU Community for Human Rights & President, Model Arab League',
                 text: 'I support Christina and Noah because they genuinely want to make a difference in students’ experiences. At such an interesting time on campus where a lot of critical conversations are taking place, they both recognize ASG’s limits and have a plan to amplify the opinions of students’ experts rather than have ASG lead these conversations. I am confident they are a great choice for ASG and I am looking forward to all the fantastic things that they will do representing Northwestern.',
                 image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/MarouaSallami.jpg'
             },
@@ -190,7 +190,7 @@ angular.module('campaignWebsiteApp')
                 className: 'endorsement',
                 firstName: 'Melody',
                 lastName: 'Song',
-                position: 'Co-Director, NUCHR',
+                position: 'Co-Director, NU Community for Human Rights',
                 text: 'Noah and Christina have impressed me with the way that they have actively engaged with communities outside of their own. They are incredibly passionate about making ASG more representative of all student interests, especially of underrepresented students and communities. Above all, Noah and Christina have shown that they are ready and willing to fight for the changes that need to be made. I have no doubt that together, they can leave a strong impact on Northwestern.',
                 image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/endorsements/Melody-Crop.jpg'
             },
