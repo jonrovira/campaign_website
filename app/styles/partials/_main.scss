@@ -1,47 +1,67 @@
 main.main {
+	@media(min-width: 860px) {
+		float: right;
+		width: calc(100% - 227px);
+		overflow: visible;
+	}
+	@media(min-width: 1270px) {
+		background-color: #202020;
+		background: none;
+	}
 	position: relative;
 	padding-top: 47px;
-	float: right;
-	width: calc(100% - 227px);
-	background-color: #202020;
+	background: url('https://s3-us-west-2.amazonaws.com/campaignwebsite/endorsements/background.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 
 
-
-	video {
-		position: relative;
-		top: 50%;
-		width: 100%;
-	}
 
 	img.background-image {
+		@media(min-width: 1270px) {
+			display: block;
+			width: 100%;
+			left: 0;
+			height: auto;
+		}
+		display: none;
 		position: relative;
-		width: 100%;
-		// top: 50%;
+		left: -80%;
+		height: 100%;
 	}
 
 
 	div.banner {
-		// display: none;
-		// position: absolute;
-		// bottom: 12px;
-		// right: 25px;
-		// width: 100%;
-
+		@media(min-width: 860px) { 
+			top: 80px;
+			right: 30px;
+			bottom: auto;
+			left: auto;
+		}
 		position: absolute;
-		top: 80px;
-		right: 30px;
+		bottom: 10px;
+		left: 20px;
 
 		h1 {
-			display: inline;
+			@media(min-width: 324px) { font-size: 55px; }
+			@media(min-width: 480px) { font-size: 67px; }
+			@media(min-width: 585px) { font-size: 75px; }
+			@media(min-width: 860px) { font-size: 55px; }
+			@media(min-width: 940px) { font-size: 60px; }
+			@media(min-width: 1000px) { font-size: 65px; }
+			@media(min-width: 1100px) { font-size: 70px; }
+			@media(min-width: 1200px) { font-size: 80px; }
 			float: right;
-			font-size: 80px;
+			font-size: 50px;
 
 			span.row {
+				@media(min-width: 860px) { display: inline; }
+				display: block;
 
 				span.big { font-family: $fixed-font-family1; }
 				span.slim { font-family: $fixed-font-family2; }
 				span {
-					// color: #e5e5e5;
 					color: #211f22;
 				}
 			}
