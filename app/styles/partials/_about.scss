@@ -6,6 +6,7 @@ main.about {
 	}
 	position: relative;
 	padding: 55px 27px;
+	width: calc(100% - 54px);
 	background-color: $main-background;
 
 	div.content {
