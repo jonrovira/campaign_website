@@ -121,11 +121,11 @@ angular.module('campaignWebsiteApp')
             },
             {
                 className: 'endorsement',
-                firstName: 'Bryan Berger + Dean Meisel',
-                lastName: '',
-                position: 'Co-Presidents, Points for a Purpose',
+                firstName: 'Bryan',
+                lastName: 'Berger',
+                position: 'Co-President, Points for a Purpose',
                 text: 'I am voting for Noah and Christina for ASG President and Vice-President because I am confident that they will bring voice back to the student body. I trust that their plans will help allow ASG to meet the needs of students in a way that is representative of student opinions. Noah and Christina are actually interested in hearing what we have to say and developing concrete plans in response to them. I am particularly drawn to their emphasis on the need for increased accessibility to mental health resources, assistance for student groups, and financial support for low-income students. I trust that Noah and Christina will serve as excellent advocates for student needs and that their passion and leadership abilities will contribute to the betterment of the NU community.',
-                image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/endorsements/BryanDean.jpg'
+                image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/endorsements/BryanBerger.jpg'
             },
 
             {
