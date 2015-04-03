@@ -121,9 +121,9 @@ angular.module('campaignWebsiteApp')
             },
             {
                 className: 'endorsement',
-                firstName: 'Bryan',
-                lastName: 'Berger',
-                position: 'Co-President, Points for a Purpose',
+                firstName: 'Bryan Berger + Dean Meisel',
+                lastName: '',
+                position: 'Co-Presidents, Points for a Purpose',
                 text: 'I am voting for Noah and Christina for ASG President and Vice-President because I am confident that they will bring voice back to the student body. I trust that their plans will help allow ASG to meet the needs of students in a way that is representative of student opinions. Noah and Christina are actually interested in hearing what we have to say and developing concrete plans in response to them. I am particularly drawn to their emphasis on the need for increased accessibility to mental health resources, assistance for student groups, and financial support for low-income students. I trust that Noah and Christina will serve as excellent advocates for student needs and that their passion and leadership abilities will contribute to the betterment of the NU community.',
                 image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/endorsements/BryanDean.jpg'
             },
@@ -236,22 +236,22 @@ angular.module('campaignWebsiteApp')
                 image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/endorsements/JoeyBecker.jpg' 
             },
             
-            // {
-            //     className: 'endorsement',
-            //     firstName: 'Archit',
-            //     lastName: 'Baskaran',
-            //     position: '',
-            //     text: '',
-            //     image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/ArchitBaskaran.jpg'
-            // },
-            // {
-            //     className: 'endorsement',
-            //     firstName: 'Noah',
-            //     lastName: 'Whinston',
-            //     position: '',
-            //     text: '',
-            //     image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/NoahWhinston.jpg'
-            // },
+            {
+                className: 'endorsement',
+                firstName: 'Jules',
+                lastName: 'Cantor',
+                position: 'Recruitment Chair, Delta Chi & Former President, Allison',
+                text: 'I have interacted with Noah as a member of the Greek and Wildcat Welcome communities and have seen, in his roles as his chapter Vice President and as a Peer Adviser, that Noah is a passionate, effective, and dynamic leader.  Put simply, Noah is a difference maker who positively impacts all of the organizations to which he commits himself. One need not look farther than his recent performance as Speaker to see that he is exceptionally committed to ASG, to Northwestern, and to the entire student body. I am proud to support him in his campaign for ASG president!',
+                image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/endorsements/JulesCantor.jpg'
+            },
+            {
+                className: 'endorsement',
+                firstName: 'Taylor',
+                lastName: 'Billings',
+                position: 'Co-Chair, NCDC & Former Co-Chair, FUP',
+                text: 'ASG accomplishes great things each year, and I want to see all of our amazing students who aren\'t a part of ASG play an active role in those achievements. NU students are extremely involved, and their expertise is invaluable. I\'m supporting Noah and Christina because I believe they not only want to tackle important issues on campus, but also have the ability to do so in a new and integrated way that actively involves knowledgeable students across campus.',
+                image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/endorsements/TaylorBillings.jpg'
+            },
 
 
             // {
