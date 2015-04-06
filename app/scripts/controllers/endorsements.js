@@ -94,6 +94,89 @@ angular.module('campaignWebsiteApp')
                 text: 'To me, a student leader is not someone who has dedicated their entire career at Northwestern to a particular student group or activity. A student leader is a well rounded individual--it is an individual who has devoted time to their academics, their extracurricular activities, their career, and their friends. A student leader is an individual who is able to find the optimal balance of being an active and engaged student. Noah Star and Christina Kim, two of my close friends and mentors, have done just that. They are real students--they care about their extracurriculars all while appreciating and experiencing many different aspects of the Northwestern experience. We need more leaders like this. As president of SCNO, often times I see young members struggling to find the optimal balance as they have a very narrow and skewed perception of leadership. By embracing well rounded leaders, we will redefine what it means to be a leader on this campus, and therefore, lay the foundation for a better (and happier) Northwestern. ',
                 image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/JojiSyed.jpg'
             },
+            
+            {
+                className: 'endorsement',
+                firstName: 'Andrew',
+                lastName: 'Green',
+                position: 'Chief of Staff, ASG',
+                text: 'I’ve had the pleasure of working with Noah and Christina on the ASG Executive Board, and I cannot think of two individuals who would be more qualified for these roles. Noah’s passion and commitment to representing the voices of students is exactly what ASG needs to be seen as a relevant part of the Northwestern Community. As the Chief of Staff, I worked very closely with the Executive Vice President to oversee internal project work, and I firmly believe that Christina’s demonstrated ability to execute and design projects that benefit students will make this ASG’s most productive year yet.',
+                image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/AndrewGreen.jpg'
+            },
+            {
+                className: 'endorsement',
+                firstName: 'Will',
+                lastName: 'Ginsberg',
+                position: 'Former Chief Operating Officer, Northwestern Student Holdings',
+                text: 'ASG needs to be held to the highest standards in order to best serve the student body. Noah and Christina are proven leaders in the Northwestern community and are the only candidates who will successfully ensure that ASG is both accountable and accessible. Their platform and experience gives me confidence in the future of Northwestern\'s student government.',
+                image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/endorsements/WillGinsberg.jpg'
+            },
+            {
+                className: 'endorsement',
+                firstName: 'Maddie',
+                lastName: 'Thurman',
+                position: 'Former Prose Editor, PROMPT Literary Magazine',
+                text: 'I had the opportunity to work with Noah when he served as a Peer Adviser this past year, and what stood out to me about Noah in particular was the respect he had for the position and how that translated to the care he took with his new students. To me, Noah and Christina\'s platform suggests that the respect they have for this university will reach and serve each of its individual members. I believe that Noah and Christina will be incredible assets to ASG, and by caring about the students that make up this school, they can better address the services, groups, and resources for these students. I am incredibly confident in their ability to serve this university and to serve this student body.',
+                image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/endorsements/MaddieThurman.jpg'
+            },
+            {
+                className: 'endorsement',
+                firstName: 'Leo',
+                lastName: 'Zhu',
+                position: 'President, CSA',
+                text: 'I support Noah and Christina because they embody the passion in our student body. They have contributed so much to Northwestern before, so they are extremely in touch with the struggles that every student and student organization has faced. Furthermore, their platform for a better student government addresses so many important issues within ASG. By emphasizing what ASG can do for us, by listening, Noah and Christina will help students and groups grow. I sincerely believe that they can make a difference because of their drive to make this school a better place, and because they genuinely care. Their vision for a more open and welcoming ASG makes me excited for the future.',
+                image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/LeoZhu.jpg'
+            },
+
+            {
+                className: 'endorsement',
+                firstName: 'Daniel',
+                lastName: 'Flores',
+                position: 'Founder, NU Quest Scholars Network',
+                text: 'Christina has been a committed Quest scholar before ASG even knew income inequality was an issue.  She has been an invaluable part of our community and has been our representation in ASG back when we had none.  Her unwavering loyalty and tireless support to our community is why I proudly endorse her today.  Northwestern needs an VP that truly understands the experiences of so many underrepresented voices on this campus, not individuals that claim they do. It would be a privilege to have one of our own be in a position to combat so many issues that we currently face.',
+                image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/endorsements/DanielFlores_.jpg'
+            },
+            {
+                className: 'endorsement',
+                firstName: 'Eliza',
+                lastName: 'Abramson',
+                position: 'Co-Executive Producer, Mayfest',
+                text: 'What makes a student leader great, is not the groups that they are involved in, the number of projects they have led, or the amount of time they have spent on the third floor of Norris. What makes a great student leader is someone who is willing to question the status quo, push-back on pre-existing systems, and fight for the undergraduate students of Northwestern. Noah and Christina not only have the skills to advocate for students, but they are not afraid to listen to the not so positive realities and ask the tough but constructive questions that will drive our campus forward.',
+                image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/endorsements/ElizaAbramson.png'
+            },
+            {
+                className: 'endorsement',
+                firstName: 'Sowa',
+                lastName: 'Imoisili',
+                position: 'Former President, Allison Hall & Team Leader, SCNO',
+                text: 'I\'m supporting Noah and Christina because I know they are the sort of leaders who put serving others first. They make it a point to actively listen to the student body and let students from all over campus, whether or not they are involved in ASG, have a say in the changes they want to see at NU. In addition to their passion for mental health and sustainability, Noah and Christina have impressed me in how they make it a point to engage communities outside of their own and make ASG more accessible to all students. I have no question that their leadership will make a positive impact on Northwestern.',
+                image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/endorsements/SowaImoisili.png'
+            },
+            {
+                className: 'endorsement',
+                firstName: 'Vicky',
+                lastName: 'Ho',
+                position: 'Co-Coordinator of Moderators, Sustained Dialogue & President, UPS ',
+                text: 'I am so excited to endorse Noah and Christina as President and VP of ASG! Both Noah and Christina are incredibly passionate about and dedicated to getting student voices heard. They have the experience to understand how our student government functions in a way that best serves its students. I have watched both of them be personally involved in working on issues that affect people of all different backgrounds and work to increase the accessibility and inclusivity on our campus, something that I am very passionate about.',
+                image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/VickyHo.jpg'
+            },
+            {
+                className: 'endorsement',
+                firstName: 'Antonio Jose',
+                lastName: 'Vielma',
+                position: 'President, Sigma Lambda Beta',
+                text: 'As president of Sigma Lambda Beta, our organization strives to be a catalyst for change at Northwestern and in the community. We aim to be that home away from home and support system for students who come from backgrounds that differ from the majority of Northwestern students. With that in mind, I firmly believe that Noah and Christina have our best interests in mind by working to create a university that is more financially accessible for all.  It’s not always easy to put yourself in someone else’s shoes, but I’ve found Noah to be an empathetic listener and curious about every issue, no matter how minor it may seem.  Ever since meeting Christina during freshman year as a fellow Quest Scholar, I know how hard she’s worked through ASG and other initiatives to better the quality of life for low-income students at Northwestern. There are many different avenues to make a difference on this campus -- some, like myself, choose Greek life or professional development organizations, among others.  Noah and Christina have made the most of their time thus far, and I know they will continue to do make major changes on campus if elected ASG president and vice-president.',
+                image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/endorsements/AJ+Vielma.jpg'
+            },
+
+            {
+                className: 'endorsement',
+                firstName: 'Melody',
+                lastName: 'Song',
+                position: 'Co-Director, NU Community for Human Rights',
+                text: 'Noah and Christina have impressed me with the way that they have actively engaged with communities outside of their own. They are incredibly passionate about making ASG more representative of all student interests, especially of underrepresented students and communities. Above all, Noah and Christina have shown that they are ready and willing to fight for the changes that need to be made. I have no doubt that together, they can leave a strong impact on Northwestern.',
+                image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/endorsements/Melody-Crop.jpg'
+            },
             {
                 className: 'endorsement',
                 firstName: 'Molly',
@@ -118,32 +201,6 @@ angular.module('campaignWebsiteApp')
                 position: 'Co-Director, NU Community for Human Rights & President, Model Arab League',
                 text: 'I support Christina and Noah because they genuinely want to make a difference in students’ experiences. At such an interesting time on campus where a lot of critical conversations are taking place, they both recognize ASG’s limits and have a plan to amplify the opinions of students’ experts rather than have ASG lead these conversations. I am confident they are a great choice for ASG and I am looking forward to all the fantastic things that they will do representing Northwestern.',
                 image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/MarouaSallami.jpg'
-            },
-            {
-                className: 'endorsement',
-                firstName: 'Andrew',
-                lastName: 'Green',
-                position: 'Chief of Staff, ASG',
-                text: 'I’ve had the pleasure of working with Noah and Christina on the ASG Executive Board, and I cannot think of two individuals who would be more qualified for these roles. Noah’s passion and commitment to representing the voices of students is exactly what ASG needs to be seen as a relevant part of the Northwestern Community. As the Chief of Staff, I worked very closely with the Executive Vice President to oversee internal project work, and I firmly believe that Christina’s demonstrated ability to execute and design projects that benefit students will make this ASG’s most productive year yet.',
-                image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/AndrewGreen.jpg'
-            },
-
-
-            {
-                className: 'endorsement',
-                firstName: 'Will',
-                lastName: 'Ginsberg',
-                position: 'Former Chief Operating Officer, Northwestern Student Holdings',
-                text: 'ASG needs to be held to the highest standards in order to best serve the student body. Noah and Christina are proven leaders in the Northwestern community and are the only candidates who will successfully ensure that ASG is both accountable and accessible. Their platform and experience gives me confidence in the future of Northwestern\'s student government.',
-                image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/endorsements/WillGinsberg.jpg'
-            },
-            {
-                className: 'endorsement',
-                firstName: 'Maddie',
-                lastName: 'Thurman',
-                position: 'Former Prose Editor, PROMPT Literary Magazine',
-                text: 'I had the opportunity to work with Noah when he served as a Peer Adviser this past year, and what stood out to me about Noah in particular was the respect he had for the position and how that translated to the care he took with his new students. To me, Noah and Christina\'s platform suggests that the respect they have for this university will reach and serve each of its individual members. I believe that Noah and Christina will be incredible assets to ASG, and by caring about the students that make up this school, they can better address the services, groups, and resources for these students. I am incredibly confident in their ability to serve this university and to serve this student body.',
-                image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/endorsements/MaddieThurman.jpg'
             },
             {
                 className: 'endorsement',
@@ -221,31 +278,6 @@ angular.module('campaignWebsiteApp')
             },
             {
                 className: 'endorsement',
-                firstName: 'Vicky',
-                lastName: 'Ho',
-                position: 'Co-Coordinator of Moderators, Sustained Dialogue & President, UPS ',
-                text: 'I am so excited to endorse Noah and Christina as President and VP of ASG! Both Noah and Christina are incredibly passionate about and dedicated to getting student voices heard. They have the experience to understand how our student government functions in a way that best serves its students. I have watched both of them be personally involved in working on issues that affect people of all different backgrounds and work to increase the accessibility and inclusivity on our campus, something that I am very passionate about.',
-                image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/VickyHo.jpg'
-            },
-            {
-                className: 'endorsement',
-                firstName: 'Antonio Jose',
-                lastName: 'Vielma',
-                position: 'President, Sigma Lambda Beta',
-                text: 'As president of Sigma Lambda Beta, our organization strives to be a catalyst for change at Northwestern and in the community. We aim to be that home away from home and support system for students who come from backgrounds that differ from the majority of Northwestern students. With that in mind, I firmly believe that Noah and Christina have our best interests in mind by working to create a university that is more financially accessible for all.  It’s not always easy to put yourself in someone else’s shoes, but I’ve found Noah to be an empathetic listener and curious about every issue, no matter how minor it may seem.  Ever since meeting Christina during freshman year as a fellow Quest Scholar, I know how hard she’s worked through ASG and other initiatives to better the quality of life for low-income students at Northwestern. There are many different avenues to make a difference on this campus -- some, like myself, choose Greek life or professional development organizations, among others.  Noah and Christina have made the most of their time thus far, and I know they will continue to do make major changes on campus if elected ASG president and vice-president.',
-                image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/endorsements/AJ+Vielma.jpg'
-            },
-
-            {
-                className: 'endorsement',
-                firstName: 'Melody',
-                lastName: 'Song',
-                position: 'Co-Director, NU Community for Human Rights',
-                text: 'Noah and Christina have impressed me with the way that they have actively engaged with communities outside of their own. They are incredibly passionate about making ASG more representative of all student interests, especially of underrepresented students and communities. Above all, Noah and Christina have shown that they are ready and willing to fight for the changes that need to be made. I have no doubt that together, they can leave a strong impact on Northwestern.',
-                image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/endorsements/Melody-Crop.jpg'
-            },
-            {
-                className: 'endorsement',
                 firstName: 'Luke',
                 lastName: 'Bertolet',
                 position: 'President, Delta Tau Delta & Director of Internal Affairs, LEND',
@@ -305,13 +337,47 @@ angular.module('campaignWebsiteApp')
 
             {
                 className: 'endorsement',
+                firstName: 'Bryan',
+                lastName: 'Huebner',
+                position: 'President, NU Photography Club',
+                text: 'I’m voting for Noah and Christina because I know they’ll bring the transparency and accountability that ASG needs. I’ve worked with Noah as a fellow Peer Adviser and have seen his amazing ability to listen and put the needs of others before his, which is exactly what he’ll do as ASG president. I’m confident that Noah and Christina\'s focus on important issues including mental health and sustainability will enact the change that Northwestern needs. ',
+                image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/endorsements/BryanHuebner.jpg'
+            },
+
+            {
+                className: 'endorsement',
                 firstName: 'Natalie Grace',
                 lastName: 'Stern',
                 position: 'President, ZOOZ',
                 text: 'As president of ZOOZ, Hillel\'s community service and social justice student group, and as a psychology major, I am a firm advocate of active listening and implementing necessary change. I have faith that Noah and Christina will effectively lead the Northwestern Community by listening to the most important needs of the students--including diversity & inclusion, mental health, sexual assault policies, and more--which is why I want Noah and Christina to represent Northwestern.',
                 image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/endorsements/NatalieGraceStern.jpg'
             },
+            {
+                className: 'endorsement',
+                firstName: 'Raymond',
+                lastName: 'Dai',
+                position: 'President, Kemper Hall',
+                text: 'As Kemper President I have seen what is necessary for good leadership. I have learned the importance of actively listening to my peers before acting and I think Noah has demonstrated these skills inside and outside of ASG. He is the candidate who has the best feel for the pulse of the student body. I truly believe Noah and Christina will change the culture of ASG to better reflect the needs of students. Therefore I am excited to fully endorse their candidacy. ',
+                image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/endorsements/RaymondDai.jpg'
+            },
 
+            {
+                className: 'endorsement',
+                firstName: 'Jocie',
+                lastName: 'Padgen',
+                position: 'Former VP of Programming, PHA',
+                text: 'As an organization that touches all corners of campus and impacts every Northwestern student, ASG needs leaders who are enthusiastic about not only being receptive to, but rather actively seeking out the varied perspectives, priorities, and concerns of our student body. Noah and Christina’s “Listen then Lead” approach has the potential to prevent ASG from becoming siloed in its initiatives and to create an Associated Student Government that is truly representative of its constituents. I’m excited to endorse Noah and Christina because I believe in their commitment to serving Northwestern and truly empowering its students.',
+                image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/endorsements/JociePadgen.jpg'
+            },
+        
+            {
+                className: 'endorsement',
+                firstName: 'James',
+                lastName: 'Hu',
+                position: 'Co-President, UNITY Charity Fashion Show & Treasurer, Spoon Magazine',
+                text: 'I would like to endorse Noah and Christina because I cannot think of a more experienced and qualified pair of candidates. It has been a pleasure for me to serve on an executive board with Noah this past year and observe his focused and thorough leadership style, a work ethic he demonstrates without compromising his uniquely passionate and humorous personality. Noah fully dedicates himself to large and small issues alike and I have no doubt that as ASG President, he will execute his goals and visions in the manner most beneficial to the student body.',
+                image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/endorsements/JamesHu.jpg'
+            },
         ];
 
   });

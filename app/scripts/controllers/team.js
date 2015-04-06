@@ -140,11 +140,6 @@ angular.module('campaignWebsiteApp')
                 image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/KevinCorkran.jpg'
             },
             {
-                firstName: 'Leo',
-                lastName: 'Zhu',
-                image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/LeoZhu.jpg'
-            },
-            {
                 firstName: 'Leona',
                 lastName: 'Maliakal',
                 image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/LeonaMaliakal.jpg'
