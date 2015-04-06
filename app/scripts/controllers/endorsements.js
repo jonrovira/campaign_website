@@ -113,11 +113,11 @@ angular.module('campaignWebsiteApp')
             },
             {
                 className: 'endorsement',
-                firstName: 'Maddie',
-                lastName: 'Thurman',
-                position: 'Former Prose Editor, PROMPT Literary Magazine',
-                text: 'I had the opportunity to work with Noah when he served as a Peer Adviser this past year, and what stood out to me about Noah in particular was the respect he had for the position and how that translated to the care he took with his new students. To me, Noah and Christina\'s platform suggests that the respect they have for this university will reach and serve each of its individual members. I believe that Noah and Christina will be incredible assets to ASG, and by caring about the students that make up this school, they can better address the services, groups, and resources for these students. I am incredibly confident in their ability to serve this university and to serve this student body.',
-                image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/endorsements/MaddieThurman.jpg'
+                firstName: 'SASA',
+                lastName: '',
+                position: 'South Asian Student Alliance',
+                text: 'As members of SASA Executive Board, we proudly endorse Noah and Christina for ASG president and vice president. For too long ASG has been disconnected from student groups and the overall student body. Not only do Noah and Christina recognize that, but also their plan of action, which focuses on accountability, accessibility and opportunity, directly tackles that issue. We believe that Noah and Christina have the vision and drive to build a more inclusive and integrated Northwestern, and could not be happier to endorse them.',
+                image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/endorsements/SASA.jpg'
             },
             {
                 className: 'endorsement',
@@ -227,7 +227,14 @@ angular.module('campaignWebsiteApp')
                 text: 'In my role as Vice President of Standards for the Panhellenic Association last year, I was the liaison between the Panhellenic community and ASG, and Noah was who I worked with on the other end. He was innovative when I was adapting the role that sorority members play in ASG, and helped me to write changes to our own Panhellenic bylaws. I am certain that Noah and Christina have the skills to listen to the needs of the entire Northwestern community and respond to those needs in new and effective ways. I am proud to call them my friends and wholeheartedly endorse their campaign.',
                 image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/endorsements/EmilyMannheimer.jpg'
             },
-
+            {
+                className: 'endorsement',
+                firstName: 'Maddie',
+                lastName: 'Thurman',
+                position: 'Former Prose Editor, PROMPT Literary Magazine',
+                text: 'I had the opportunity to work with Noah when he served as a Peer Adviser this past year, and what stood out to me about Noah in particular was the respect he had for the position and how that translated to the care he took with his new students. To me, Noah and Christina\'s platform suggests that the respect they have for this university will reach and serve each of its individual members. I believe that Noah and Christina will be incredible assets to ASG, and by caring about the students that make up this school, they can better address the services, groups, and resources for these students. I am incredibly confident in their ability to serve this university and to serve this student body.',
+                image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/endorsements/MaddieThurman.jpg'
+            },
 
             // {
             //     className: 'highlight',
@@ -243,6 +250,7 @@ angular.module('campaignWebsiteApp')
                 text: 'I am incredibly proud to support Noah and Christina for ASG President and Vice President. Over the past year, I have had the honor of working closely with Noah in ASG Senate, and I\'ve witnessed his unparalleled commitment and dedication to making ASG a more open and accessible space to the entire NU community. Throughout his term, Noah has actively reached out to my community and has shown a true interest in hearing our concerns and taking into account our perspectives and ideas. I believe that both Noah and Christina have a proven track record of truly listening and effectively advocating for students. Their vision, leadership and experience allows me to confidently say that there is no one else I\'d rather see leading ASG the upcoming year.',
                 image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/ArielRoitman.jpg'
             },
+
             {
                 className: 'endorsement',
                 firstName: 'Oskar',
