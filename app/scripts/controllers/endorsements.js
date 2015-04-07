@@ -261,7 +261,7 @@ angular.module('campaignWebsiteApp')
             },
             {
                 className: 'endorsement',
-                firstName: 'Alan Neider & Rohit Mehta',
+                firstName: 'Alan Neider & Rohan Mehta',
                 lastName: '',
                 position: 'President & VP of Operations, ISBE',
                 text: 'Noah and Christina’s commitment to listening to student experts extends beyond groups that receive a significant amount of ASG funding. We are confident that Noah and Christina will rely heavily on the unique talents that student groups such as ISBE can offer towards solving campus-wide problems. Regardless of size, status, or mission, student groups across this campus all offer valuable input into making Northwestern a healthier and more productive learning environment.',
