@@ -123,7 +123,7 @@ angular.module('campaignWebsiteApp')
                 className: 'endorsement',
                 firstName: 'Leo',
                 lastName: 'Zhu',
-                position: 'President, CSA',
+                position: 'Co-President, CSA',
                 text: 'I support Noah and Christina because they embody the passion in our student body. They have contributed so much to Northwestern before, so they are extremely in touch with the struggles that every student and student organization has faced. Furthermore, their platform for a better student government addresses so many important issues within ASG. By emphasizing what ASG can do for us, by listening, Noah and Christina will help students and groups grow. I sincerely believe that they can make a difference because of their drive to make this school a better place, and because they genuinely care. Their vision for a more open and welcoming ASG makes me excited for the future.',
                 image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/team/LeoZhu.jpg'
             },
@@ -261,6 +261,14 @@ angular.module('campaignWebsiteApp')
             },
             {
                 className: 'endorsement',
+                firstName: 'Alan Neider & Rohit Mehta',
+                lastName: '',
+                position: 'President & VP of Operations, ISBE',
+                text: 'Noah and Christina’s commitment to listening to student experts extends beyond groups that receive a significant amount of ASG funding. We are confident that Noah and Christina will rely heavily on the unique talents that student groups such as ISBE can offer towards solving campus-wide problems. Regardless of size, status, or mission, student groups across this campus all offer valuable input into making Northwestern a healthier and more productive learning environment.',
+                image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/endorsements/ISBE.jpg'
+            },
+            {
+                className: 'endorsement',
                 firstName: 'Neil',
                 lastName: 'Dalvie',
                 position: 'Former President, Delta Tau Delta',
@@ -385,6 +393,23 @@ angular.module('campaignWebsiteApp')
                 position: 'Co-President, UNITY Charity Fashion Show & Treasurer, Spoon Magazine',
                 text: 'I would like to endorse Noah and Christina because I cannot think of a more experienced and qualified pair of candidates. It has been a pleasure for me to serve on an executive board with Noah this past year and observe his focused and thorough leadership style, a work ethic he demonstrates without compromising his uniquely passionate and humorous personality. Noah fully dedicates himself to large and small issues alike and I have no doubt that as ASG President, he will execute his goals and visions in the manner most beneficial to the student body.',
                 image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/endorsements/JamesHu.jpg'
+            },
+
+            {
+                className: 'endorsement',
+                firstName: 'David',
+                lastName: 'Nkemere',
+                position: 'Incoming President, Willard Residential College',
+                text: 'Noah Star, a Willard alum, and Christina Kim are the people Northwestern need at the forefront of ASG. They understand student needs from mental health, to sexual assault, to sustainability and beyond. I believe they can create a Northwestern that works for students, but only through doing what excellent leaders do best: listening then leading. Noah and Christina will listen, then lead Northwestern into a great future.',
+                image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/endorsements/DavidNkemere.jpg'
+            },
+            {
+                className: 'endorsement',
+                firstName: 'Elisabeth',
+                lastName: 'Lusche',
+                position: 'Former Publicity Chair, Bienen Student Advisory Board',
+                text: 'I\'m supporting Noah and Christina because they are prioritizing issues that are important to the health of the student body and our world. Mental health, sustainability, and financial accessibility are issues facing all of the schools within Northwestern, and focusing on these things will integrate the university, especially with Noah and Christina\'s commitment to working with student leaders.',
+                image: 'https://s3-us-west-2.amazonaws.com/campaignwebsite/endorsements/ElisabethLusche.JPG'
             },
         ];
 
