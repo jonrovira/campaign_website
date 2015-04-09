@@ -4,13 +4,13 @@ angular.module('campaignWebsiteApp')
 	.controller('SplashCtrl', function ($rootScope, $scope, $route) {
 
 		$scope.tab = $route.current.activeTab;
-		// $('main.splash').height($(window).height());
-		// var audioPlayer = document.getElementById('audio-player');
+		$('main.splash').height($(window).height());
+		var audioPlayer = document.getElementById('audio-player');
 
-		// // wait approximately enough for the loader to disappear before playing track
-		// setTimeout(function() {
-		// 	audioPlayer.src = 'audio/jubel.mp3';
-		// }, 500);
+		// wait approximately enough for the loader to disappear before playing track
+		setTimeout(function() {
+			audioPlayer.src = 'audio/jubel.mp3';
+		}, 500);
 	})
 
 
