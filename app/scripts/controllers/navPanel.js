@@ -8,13 +8,11 @@
  * Controller of the campaignWebsiteApp
  */
 angular.module('campaignWebsiteApp')
-	.controller('navPanelCtrl', function ($scope) {
-		$scope.awesomeThings = [
-		  	'HTML5 Boilerplate',
-		  	'AngularJS',
-		  	'Karma'
-		];
-
+	.controller('navPanelCtrl', function ($scope, $location) {
+		// used to hide navPanel when viewing splash page
+		$scope.$on('$routeChangeStart', function() {
+			$scope.currentRoute = $location.path();
+		});
 	})
 
 
@@ -28,4 +26,4 @@ angular.module('campaignWebsiteApp')
 				$('section.nav-panel').height(navPanelHeight);
 	        });
 	    }
-	})
+	});

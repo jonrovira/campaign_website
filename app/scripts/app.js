@@ -59,11 +59,6 @@ angular
         controller: 'MediaGalleryCtrl',
         activeTab: 'listening'
       })
-      .when('/splash', {
-        templateUrl: 'views/partials/splash.html',
-        controller: 'SplashCtrl',
-        activeTab: 'splash'
-      })
       .otherwise({
         redirectTo: '/'
       });
