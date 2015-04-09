@@ -3,7 +3,8 @@ main.splash {
 	width: 100%;
 	background-color: #202020;
 	overflow: hidden;
-	background-image: url('https://s3-us-west-2.amazonaws.com/campaignwebsite/images/splash_background.jpg');
+	// background-image: url('https://s3-us-west-2.amazonaws.com/campaignwebsite/images/splash_background.jpg');
+	background-image: url('https://s3-us-west-2.amazonaws.com/campaignwebsite/endorsements/background.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -53,9 +54,24 @@ main.splash {
 		span.slim { font-family: $fixed-font-family2; }
 
 		h1, h2, h3 {
-			color: #fff;
+			// color: #fff;
+			color: #333;
 			text-align: center;
 		}
+
+		div.buttons {
+			width: 100%;
+			left: 50%;
+
+			button {
+				display: inline-block;
+				padding: 5px 10px;
+				background-color: $accent-color2;
+				border-color: 1px solid darken($accent-color1, 7%);
+				font-size: 14px;
+			}
+		}
+
 		h2, h3 {
 			font-family: $base-font-family;
 			font-weight: normal;
@@ -65,7 +81,7 @@ main.splash {
 				li {
 					display: inline-block;
 					padding: 0 5px;
-					border-right: 1px solid #fff;
+					border-right: 1px solid #333;
 				}
 				li:last-child {
 					border-right: none;
@@ -90,12 +106,12 @@ main.splash {
 			h3 { font-size: 12px; }
 		}
 		@media(min-width: 700px) {
-			h1 { font-size: 70px; }
+			h1 { font-size: 60px; }
 			h2 { font-size: 20px; }
 			h3 { font-size: 14px; }
 		}
 		@media(min-width: 850px) {
-			h1 { font-size: 85px; }
+			h1 { font-size: 70px; }
 			h2 { font-size: 30px; }
 			h3 { font-size: 20px; }
 		}
