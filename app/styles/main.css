@@ -84,37 +84,90 @@ section.nav-panel {
 main.main {
   position: relative;
   padding-top: 47px;
-  float: right;
-  width: calc(100% - 227px);
-  background-color: #202020; }
-  main.main video {
-    position: relative;
-    top: 50%;
-    width: 100%; }
+  width: 100%;
+  background: url("https://s3-us-west-2.amazonaws.com/campaignwebsite/endorsements/background.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  @media (min-width: 860px) {
+    main.main {
+      float: right;
+      width: calc(100% - 227px); } }
+  @media (min-width: 1270px) {
+    main.main {
+      background-color: #202020;
+      background: none; } }
   main.main img.background-image {
+    display: none;
     position: relative;
-    width: 100%; }
+    left: -80%;
+    height: 100%; }
+    @media (min-width: 1270px) {
+      main.main img.background-image {
+        display: block;
+        width: 100%;
+        left: 0;
+        height: auto; } }
   main.main div.banner {
     position: absolute;
-    top: 80px;
-    right: 30px; }
+    bottom: 10px;
+    left: 20px; }
+    @media (min-width: 860px) {
+      main.main div.banner {
+        top: 80px;
+        right: 30px;
+        bottom: auto;
+        left: auto; } }
     main.main div.banner h1 {
-      display: inline;
       float: right;
-      font-size: 80px; }
-      main.main div.banner h1 span.row span.big {
-        font-family: Big John; }
-      main.main div.banner h1 span.row span.slim {
-        font-family: Slim Joe; }
-      main.main div.banner h1 span.row span {
-        color: #211f22; }
+      font-size: 50px; }
+      @media (min-width: 324px) {
+        main.main div.banner h1 {
+          font-size: 55px; } }
+      @media (min-width: 480px) {
+        main.main div.banner h1 {
+          font-size: 67px; } }
+      @media (min-width: 585px) {
+        main.main div.banner h1 {
+          font-size: 75px; } }
+      @media (min-width: 860px) {
+        main.main div.banner h1 {
+          font-size: 55px; } }
+      @media (min-width: 940px) {
+        main.main div.banner h1 {
+          font-size: 60px; } }
+      @media (min-width: 1000px) {
+        main.main div.banner h1 {
+          font-size: 65px; } }
+      @media (min-width: 1100px) {
+        main.main div.banner h1 {
+          font-size: 70px; } }
+      @media (min-width: 1200px) {
+        main.main div.banner h1 {
+          font-size: 80px; } }
+      main.main div.banner h1 span.row {
+        display: block; }
+        @media (min-width: 860px) {
+          main.main div.banner h1 span.row {
+            display: inline; } }
+        main.main div.banner h1 span.row span.big {
+          font-family: Big John; }
+        main.main div.banner h1 span.row span.slim {
+          font-family: Slim Joe; }
+        main.main div.banner h1 span.row span {
+          color: #211f22; }
 
 main.about {
   position: relative;
-  float: right;
-  padding: 55px 15px 55px 50px;
-  width: calc(100% - 227px - 65px);
+  padding: 55px 27px;
+  width: calc(100% - 54px);
   background-color: #f8f8f8; }
+  @media (min-width: 860px) {
+    main.about {
+      float: right;
+      padding: 55px 15px 55px 50px;
+      width: calc(100% - 227px - 65px); } }
   main.about div.content {
     position: relative; }
     main.about div.content section.candidate {
@@ -123,16 +176,32 @@ main.about {
       overflow: auto; }
       main.about div.content section.candidate div.image-wrapper {
         position: relative;
-        float: left;
-        width: calc(100% - 520px); }
+        width: 100%; }
+        @media (min-width: 950px) {
+          main.about div.content section.candidate div.image-wrapper {
+            height: 500px;
+            overflow: hidden; } }
+        @media (min-width: 1000px) {
+          main.about div.content section.candidate div.image-wrapper {
+            height: 400px; } }
+        @media (min-width: 1275px) {
+          main.about div.content section.candidate div.image-wrapper {
+            float: left;
+            width: calc(100% - 520px);
+            height: auto;
+            overflow: visible; } }
         main.about div.content section.candidate div.image-wrapper img {
           display: block;
           width: 100%; }
+          @media (min-width: 1000px) {
+            main.about div.content section.candidate div.image-wrapper img {
+              position: relative; } }
         main.about div.content section.candidate div.image-wrapper h2 {
           position: absolute;
           bottom: 10px;
           right: 20px;
-          font-size: 50px;
+          font-size: 35px;
+          text-align: right;
           color: #fff; }
           main.about div.content section.candidate div.image-wrapper h2 span.big {
             font-family: Big John; }
@@ -141,47 +210,92 @@ main.about {
       main.about div.content section.candidate div.info {
         float: right;
         padding: 32px;
-        width: calc(520px - 64px);
         overflow: auto; }
+        @media (min-width: 1275px) {
+          main.about div.content section.candidate div.info {
+            float: right;
+            padding: 25px;
+            width: calc(520px - 50px); } }
+        @media (min-width: 1300px) {
+          main.about div.content section.candidate div.info {
+            padding: 32px;
+            width: calc(520px - 64px); } }
         main.about div.content section.candidate div.info h3 {
-          margin-bottom: 24px;
+          margin-bottom: 15px;
           font-family: Slim Joe;
-          font-size: 26px;
+          font-size: 20px;
           color: #333; }
+          @media (min-width: 1400px) {
+            main.about div.content section.candidate div.info h3 {
+              font-size: 26px; } }
         main.about div.content section.candidate div.info h6 {
           margin-bottom: 3px;
           font-family: Big John;
           font-size: 14px;
           color: #1cafd1; }
         main.about div.content section.candidate div.info div.paragraph {
-          float: left;
           width: 100%; }
-          main.about div.content section.candidate div.info div.paragraph div.paragraphs {
-            column-count: 2; }
-            main.about div.content section.candidate div.info div.paragraph div.paragraphs p {
-              float: left;
-              margin-bottom: 10px;
-              font-family: Arial, Helvetica, sans-serif;
-              font-size: 14px;
-              line-height: 1.5;
-              color: #666; }
+          @media (min-width: 1300px) {
+            main.about div.content section.candidate div.info div.paragraph div.paragraphs {
+              column-count: 2; } }
+          main.about div.content section.candidate div.info div.paragraph div.paragraphs p {
+            float: left;
+            margin-bottom: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            line-height: 1.5;
+            color: #666; }
+            @media (min-width: 1275px) {
+              main.about div.content section.candidate div.info div.paragraph div.paragraphs p {
+                font-size: 13px; } }
+            @media (min-width: 1365px) {
+              main.about div.content section.candidate div.info div.paragraph div.paragraphs p {
+                font-size: 14px; } }
     main.about div.content section.candidate:first-child {
       margin-bottom: 30px; }
+      @media (min-width: 1000px) {
+        main.about div.content section.candidate:first-child div.image-wrapper img {
+          top: -140px; } }
+      @media (min-width: 1100px) {
+        main.about div.content section.candidate:first-child div.image-wrapper img {
+          top: -160px; } }
+      @media (min-width: 1148px) {
+        main.about div.content section.candidate:first-child div.image-wrapper img {
+          top: -200px; } }
+      @media (min-width: 1200px) {
+        main.about div.content section.candidate:first-child div.image-wrapper img {
+          top: -220px; } }
+      @media (min-width: 1275px) {
+        main.about div.content section.candidate:first-child div.image-wrapper img {
+          top: 0; } }
 
 main.endorsements {
   position: relative;
-  float: right;
-  padding: 55px 15px 55px 50px;
-  width: calc(100% - 227px - 65px);
+  padding: 55px 27px;
+  width: calc(100% - 54px);
   background-color: #f8f8f8; }
+  @media (min-width: 860px) {
+    main.endorsements {
+      float: right;
+      padding: 55px 15px 55px 50px;
+      width: calc(100% - 227px - 65px); } }
   main.endorsements ul.js-masonry {
     list-style: none; }
     main.endorsements ul.js-masonry li.endorsement {
       display: block;
       margin-bottom: 5px;
-      width: calc((100% - (3 * 5px)) /  4);
+      width: 100%;
       box-shadow: 1px  0    0 #d6d7d8, 0    1px  1px #cccdce, -1px 0    0 #d6d7d8, 0    -1px 0 #e7e8e9;
       cursor: pointer; }
+      @media (min-width: 600px) {
+        main.endorsements ul.js-masonry li.endorsement {
+          width: calc((100% - (1 * 5px)) /  2); } }
+      @media (min-width: 950px) {
+        main.endorsements ul.js-masonry li.endorsement {
+          width: calc((100% - (2 * 5px)) /  3); } }
+      @media (min-width: 1300px) {
+        main.endorsements ul.js-masonry li.endorsement {
+          width: calc((100% - (3 * 5px)) /  4); } }
       main.endorsements ul.js-masonry li.endorsement div.endorsement-content {
         position: relative;
         width: 100%; }
@@ -193,12 +307,12 @@ main.endorsements {
           left: 0;
           padding: 10px;
           width: calc(100% - 20px);
-          height: 38px;
+          height: 45px;
           text-align: right;
           background-color: rgba(0, 0, 0, 0.3); }
           main.endorsements ul.js-masonry li.endorsement div.endorsement-content div.info h5 {
             font-weight: bold;
-            font-size: 13px;
+            font-size: 14px;
             word-spacing: 3px;
             color: #fff; }
             main.endorsements ul.js-masonry li.endorsement div.endorsement-content div.info h5 span.big {
@@ -207,34 +321,56 @@ main.endorsements {
               font-family: Slim Joe; }
           main.endorsements ul.js-masonry li.endorsement div.endorsement-content div.info > span {
             font-family: Arial, Helvetica, sans-serif;
-            font-size: 11px;
+            font-size: 13px;
             color: #bbb; }
-    main.endorsements ul.js-masonry li.endorsement:hover {
-      opacity: 0.9; }
     main.endorsements ul.js-masonry li.highlight {
       margin-bottom: 5px;
-      padding: 47px;
-      width: calc(((100% - 5px) / 2) - 94px);
+      padding: 20px;
+      width: calc(100% - 40px);
       background-color: #fff;
       box-shadow: 1px  0    0 #d6d7d8, 0    1px  1px #cccdce, -1px 0    0 #d6d7d8, 0    -1px 0 #e7e8e9; }
+      @media (min-width: 600px) {
+        main.endorsements ul.js-masonry li.highlight {
+          padding: 47px;
+          width: calc(100% - 94px); } }
+      @media (min-width: 1000px) {
+        main.endorsements ul.js-masonry li.highlight {
+          padding: 47px;
+          width: calc(((100% - 5px) / 2) - 94px); } }
       main.endorsements ul.js-masonry li.highlight p {
         font-family: Slim Joe;
-        font-size: 30px;
+        font-size: 20px;
         line-height: 1.6; }
+        @media (min-width: 600px) {
+          main.endorsements ul.js-masonry li.highlight p {
+            font-size: 28px; } }
+        @media (min-width: 900px) {
+          main.endorsements ul.js-masonry li.highlight p {
+            font-size: 30px; } }
       main.endorsements ul.js-masonry li.highlight h2 {
         margin: 20px;
         text-align: right;
         font-family: Slim Joe;
-        font-size: 20px; }
+        font-size: 15px; }
+        @media (min-width: 600px) {
+          main.endorsements ul.js-masonry li.highlight h2 {
+            font-size: 19px; } }
   main.endorsements div.endorse-panel {
     display: block;
     position: fixed;
     top: -5px;
-    right: -470px;
-    padding: 55px 20px 20px 20px;
-    width: calc(450px - 20px);
+    right: -250px;
+    padding: 55px 10px 20px 10px;
+    width: calc(250px - 20px);
+    overflow-x: hidden;
+    overflow-y: scroll;
     background-color: #333;
     z-index: 2; }
+    @media (min-width: 600px) {
+      main.endorsements div.endorse-panel {
+        right: -450px;
+        padding: 55px 20px 20px 20px;
+        width: calc(450px - 40px); } }
     main.endorsements div.endorse-panel img {
       padding: 0 15px 15px 0;
       width: 230px;
@@ -277,18 +413,31 @@ main.endorsements {
     right: -450px; } }
 main.team {
   position: relative;
-  float: right;
-  padding: 55px 15px 55px 50px;
-  width: calc(100% - 227px - 65px);
+  padding: 55px 27px;
+  width: calc(100% - 54px);
   background-color: #f8f8f8; }
+  @media (min-width: 860px) {
+    main.team {
+      float: right;
+      padding: 55px 15px 55px 50px;
+      width: calc(100% - 227px - 65px); } }
   main.team ul.js-masonry {
     list-style: none;
     width: 100%; }
     main.team ul.js-masonry li.member {
-      position: absolute;
+      display: block;
       margin-bottom: 5px;
-      width: calc((100% - (3 * 5px)) /  4);
+      width: 100%;
       box-shadow: 1px  0    0 #d6d7d8, 0    1px  1px #cccdce, -1px 0    0 #d6d7d8, 0    -1px 0 #e7e8e9; }
+      @media (min-width: 600px) {
+        main.team ul.js-masonry li.member {
+          width: calc((100% - (1 * 5px)) /  2); } }
+      @media (min-width: 950px) {
+        main.team ul.js-masonry li.member {
+          width: calc((100% - (2 * 5px)) /  3); } }
+      @media (min-width: 1300px) {
+        main.team ul.js-masonry li.member {
+          width: calc((100% - (3 * 5px)) /  4); } }
       main.team ul.js-masonry li.member div.member-content {
         position: relative;
         width: 100%; }
@@ -339,55 +488,85 @@ main.team {
     max-width: 300px; } }
 main.listening {
   position: relative;
-  float: right;
-  padding: 55px 15px 55px 50px;
-  width: calc(100% - 227px - 65px);
+  padding: 55px 27px;
+  width: calc(100% - 54px);
   background-color: #f8f8f8; }
+  @media (min-width: 860px) {
+    main.listening {
+      float: right;
+      padding: 55px 15px 55px 50px;
+      width: calc(100% - 227px - 65px); } }
   main.listening div.content div.main-feed {
     width: 100%;
     float: left;
     position: relative; }
     main.listening div.content div.main-feed section.instagram {
-      padding-right: 20px;
-      width: calc(100% - 290px - 20px);
+      padding-right: 15px;
+      width: calc(100% - 40% - 15px);
       float: left; }
+      @media (min-width: 1150px) {
+        main.listening div.content div.main-feed section.instagram {
+          padding-right: 20px;
+          width: calc(100% - 290px - 20px); } }
       main.listening div.content div.main-feed section.instagram ul.instagram-feed {
         width: 100%;
         list-style: none; }
         main.listening div.content div.main-feed section.instagram ul.instagram-feed li.insta-item {
-          width: calc((100% - 5px) / 2);
+          width: 100%;
           margin-bottom: 5px;
           background-color: #fff;
           box-shadow: 1px  0    0 #d6d7d8, 0    1px  1px #cccdce, -1px 0    0 #d6d7d8, 0    -1px 0 #e7e8e9;
           overflow: auto; }
+          @media (min-width: 1150px) {
+            main.listening div.content div.main-feed section.instagram ul.instagram-feed li.insta-item {
+              width: calc((100% - 5px) / 2); } }
           main.listening div.content div.main-feed section.instagram ul.instagram-feed li.insta-item img.insta-img {
             width: 100%; }
           main.listening div.content div.main-feed section.instagram ul.instagram-feed li.insta-item div.insta-info ul {
-            float: left;
             padding: 10px;
-            width: calc(20% - 20px);
+            width: calc(100% - 20px);
             list-style: none; }
+            @media (min-width: 1150px) {
+              main.listening div.content div.main-feed section.instagram ul.instagram-feed li.insta-item div.insta-info ul {
+                float: left;
+                width: calc(20% - 20px); } }
             main.listening div.content div.main-feed section.instagram ul.instagram-feed li.insta-item div.insta-info ul li {
+              display: inline-block;
+              margin-right: 5px;
               font-size: 15px; }
+              @media (min-width: 1150px) {
+                main.listening div.content div.main-feed section.instagram ul.instagram-feed li.insta-item div.insta-info ul li {
+                  display: block;
+                  margin-right: 0; } }
               main.listening div.content div.main-feed section.instagram ul.instagram-feed li.insta-item div.insta-info ul li i {
                 color: #84c775; }
               main.listening div.content div.main-feed section.instagram ul.instagram-feed li.insta-item div.insta-info ul li span {
                 font-family: Big John;
                 color: #1cafd1; }
           main.listening div.content div.main-feed section.instagram ul.instagram-feed li.insta-item div.insta-info div.insta-caption {
-            float: right;
-            padding: 10px 10px 10px 0;
-            width: calc(80% - 10px);
+            padding: 10px 10px;
+            width: calc(100% - 20px);
             text-align: center; }
+            @media (min-width: 1150px) {
+              main.listening div.content div.main-feed section.instagram ul.instagram-feed li.insta-item div.insta-info div.insta-caption {
+                float: right;
+                padding: 10px 10px 10px 0;
+                width: calc(80% - 10px); } }
             main.listening div.content div.main-feed section.instagram ul.instagram-feed li.insta-item div.insta-info div.insta-caption span {
               margin: 8px;
               font-family: Arial, Helvetica, sans-serif;
-              font-size: 15px;
+              font-size: 13px;
               color: #444; }
+              @media (min-width: 1150px) {
+                main.listening div.content div.main-feed section.instagram ul.instagram-feed li.insta-item div.insta-info div.insta-caption span {
+                  font-size: 15px; } }
     main.listening div.content div.main-feed section.twitter {
       position: relative;
       float: right;
-      width: 290px; }
+      width: 40%; }
+      @media (min-width: 1150px) {
+        main.listening div.content div.main-feed section.twitter {
+          width: 290px; } }
       main.listening div.content div.main-feed section.twitter ul.twitter-feed {
         width: 100%;
         list-style: none; }
@@ -409,7 +588,10 @@ main.listening {
             width: calc(100% - 30px - 20px); }
             main.listening div.content div.main-feed section.twitter ul.twitter-feed li.twitter-item div.twit-text span {
               font-family: Arial, Helvetica, sans-serif;
-              font-size: 12px; }
+              font-size: 11px; }
+              @media (min-width: 1150px) {
+                main.listening div.content div.main-feed section.twitter ul.twitter-feed li.twitter-item div.twit-text span {
+                  font-size: 12px; } }
           main.listening div.content div.main-feed section.twitter ul.twitter-feed li.twitter-item div.twit-info {
             float: left;
             padding-top: 7px; }
@@ -426,19 +608,30 @@ main.listening {
                 margin-bottom: 5px; }
     main.listening div.content div.main-feed section.media div.section-header {
       margin-bottom: 10px;
-      padding: 30px 30px 22px 30px;
-      width: calc(100% - 60px);
+      padding: 20px 10px 12px 10px;
+      width: calc(100% - 20px);
       color: #84c775;
       background-color: #fff;
       box-shadow: 1px  0    0 #d6d7d8, 0    1px  1px #cccdce, -1px 0    0 #d6d7d8, 0    -1px 0 #e7e8e9; }
+      @media (min-width: 1150px) {
+        main.listening div.content div.main-feed section.media div.section-header {
+          padding: 30px 30px 22px 30px;
+          width: calc(100% - 60px); } }
       main.listening div.content div.main-feed section.media div.section-header h2 {
         display: inline-block;
-        font-size: 34px;
+        font-size: 14px;
         font-family: Big John; }
+        @media (min-width: 1150px) {
+          main.listening div.content div.main-feed section.media div.section-header h2 {
+            font-size: 34px; } }
       main.listening div.content div.main-feed section.media div.section-header i {
         display: inline-block;
-        margin-right: 10px;
-        font-size: 34px; }
+        margin-right: 1px;
+        font-size: 14px; }
+        @media (min-width: 1150px) {
+          main.listening div.content div.main-feed section.media div.section-header i {
+            margin-right: 10px;
+            font-size: 34px; } }
 
 header {
   position: fixed;
@@ -448,21 +641,69 @@ header {
   background-color: #211f22;
   z-index: 10; }
   header div.header-inner {
-    padding: 0 30px;
-    width: calc(100% - 60px);
-    text-align: center; }
+    padding: 0 15px;
+    width: calc(100% - 30px); }
+    @media (min-width: 860px) {
+      header div.header-inner {
+        padding: 0 30px;
+        width: calc(100% - 60px);
+        text-align: center; } }
+    header div.header-inner div.small-width.hamburger {
+      float: left; }
+      @media (min-width: 860px) {
+        header div.header-inner div.small-width.hamburger {
+          display: none; } }
+      header div.header-inner div.small-width.hamburger i {
+        padding: 12px;
+        font-size: 22px;
+        color: #999; }
+      header div.header-inner div.small-width.hamburger i.active {
+        background-color: #2c292c;
+        color: #fff; }
     header div.header-inner ul.controls {
+      float: right;
       list-style: none; }
+      @media (min-width: 860px) {
+        header div.header-inner ul.controls {
+          float: none; } }
       header div.header-inner ul.controls li {
         position: relative;
         display: inline-block;
-        padding: 12px 19px;
+        padding: 12px;
         cursor: pointer; }
+        @media (min-width: 860px) {
+          header div.header-inner ul.controls li {
+            padding: 12px 19px; } }
         header div.header-inner ul.controls li i, header div.header-inner ul.controls li span {
           color: #999; }
         header div.header-inner ul.controls li i {
           margin-right: 5px;
           font-size: 22px; }
+        header div.header-inner ul.controls li > i.fa-plus-square-o {
+          -webkit-animation: blinker 3s linear infinite;
+          -moz-animation: blinker 3s linear infinite;
+          animation: blinker 3s linear infinite; }
+@-moz-keyframes blinker {
+  0% {
+    opacity: 1.0; }
+  50% {
+    opacity: 0.0; }
+  100% {
+    opacity: 1.0; } }
+@-webkit-keyframes blinker {
+  0% {
+    opacity: 1.0; }
+  50% {
+    opacity: 0.0; }
+  100% {
+    opacity: 1.0; } }
+@keyframes blinker {
+  0% {
+    opacity: 1.0; }
+  50% {
+    opacity: 0.0; }
+  100% {
+    opacity: 1.0; } }
         header div.header-inner ul.controls li span {
           position: relative;
           top: -2px;
@@ -477,11 +718,14 @@ header {
           background-color: #2c292c;
           border-radius: 0 0 2px 2px; }
         header div.header-inner ul.controls li div.hidden-action.join-action {
-          width: 340px; }
+          width: 170px; }
+          @media (min-width: 860px) {
+            header div.header-inner ul.controls li div.hidden-action.join-action {
+              width: 340px; } }
           header div.header-inner ul.controls li div.hidden-action.join-action button {
             float: left;
             padding: 10px 14px;
-            width: 170px;
+            width: 100%;
             height: 60px;
             border: none;
             color: #fff;
@@ -489,6 +733,9 @@ header {
             box-shadow: 1px  0    0 #444, 0    1px  1px #333, -1px 0    0 #444, 0    -1px 0 #555;
             cursor: pointer;
             outline: none; }
+            @media (min-width: 860px) {
+              header div.header-inner ul.controls li div.hidden-action.join-action button {
+                width: 170px; } }
             header div.header-inner ul.controls li div.hidden-action.join-action button i {
               display: inline-block;
               font-size: 29px;
@@ -513,7 +760,12 @@ header {
           header div.header-inner ul.controls li div.hidden-action.join-action button.facebook:focus {
             background-color: #1689a4; }
         header div.header-inner ul.controls li div.hidden-action.say-action {
-          width: 412px; }
+          left: -180px;
+          width: 261px; }
+          @media (min-width: 860px) {
+            header div.header-inner ul.controls li div.hidden-action.say-action {
+              left: 0;
+              width: 412px; } }
           header div.header-inner ul.controls li div.hidden-action.say-action h4 {
             margin-bottom: 4px;
             font-family: Big John;
@@ -538,12 +790,17 @@ header {
             outline: none; }
           header div.header-inner ul.controls li div.hidden-action.say-action form div.signed input {
             float: left;
+            margin-bottom: 5px;
             padding: 10px 12px;
-            width: 112px;
+            width: calc(100% - 24px);
             color: #fff;
             background-color: #84c775;
             border: 1px solid #a4d699;
             outline: none; }
+            @media (min-width: 860px) {
+              header div.header-inner ul.controls li div.hidden-action.say-action form div.signed input {
+                margin: 0;
+                width: 112px; } }
           header div.header-inner ul.controls li div.hidden-action.say-action form div.signed input::-webkit-input-placeholder {
             color: #eee; }
           header div.header-inner ul.controls li div.hidden-action.say-action form div.signed input:-moz-placeholder {
@@ -552,8 +809,9 @@ header {
             color: #eee; }
           header div.header-inner ul.controls li div.hidden-action.say-action form div.signed input:ms-input-placeholder {
             color: #eee; }
-          header div.header-inner ul.controls li div.hidden-action.say-action form div.signed input:not(:first-child) {
-            border-left: none; }
+          @media (min-width: 860px) {
+            header div.header-inner ul.controls li div.hidden-action.say-action form div.signed input:not(:first-child) {
+              border-left: none; } }
           header div.header-inner ul.controls li div.hidden-action.say-action form div.signed input:focus {
             background-color: #64b851; }
           header div.header-inner ul.controls li div.hidden-action.say-action form div.signed button {
@@ -591,6 +849,30 @@ header {
         position: relative;
         top: 1px;
         font-size: 23px; }
+  header div.small-width.menu {
+    float: left;
+    clear: left;
+    width: 100%;
+    border-top: 1px solid #252525; }
+    @media (min-width: 860px) {
+      header div.small-width.menu {
+        display: none; } }
+    header div.small-width.menu ul.nav-menu {
+      display: none;
+      width: 100%;
+      list-style: none; }
+      header div.small-width.menu ul.nav-menu li {
+        padding: 5px 0 5px 27px;
+        border-bottom: 1px solid #252525; }
+        header div.small-width.menu ul.nav-menu li a {
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 15px;
+          color: #999;
+          text-decoration: none; }
+      header div.small-width.menu ul.nav-menu li.active a {
+        color: #ccc; }
+    header div.small-width.menu ul.nav-menu.active {
+      display: block; }
 
 div.loader-container {
   position: fixed;
@@ -717,10 +999,14 @@ div.loader {
     transform: translate(-50%, -50%) rotate(360deg); } }
 main.vision {
   position: relative;
-  float: right;
-  padding: 55px 15px 55px 50px;
-  width: calc(100% - 227px - 65px);
+  padding: 55px 27px;
+  width: calc(100% - 54px);
   background-color: #f8f8f8; }
+  @media (min-width: 860px) {
+    main.vision {
+      float: right;
+      padding: 55px 15px 55px 50px;
+      width: calc(100% - 227px - 65px); } }
   main.vision div.content {
     position: relative; }
     main.vision div.content section.point {
@@ -732,28 +1018,56 @@ main.vision {
         main.vision div.content section.point div.point-content h2 {
           float: left;
           margin-bottom: 20px;
+          padding-top: 30px;
+          width: calc(100% - 30px - 6px);
           font-size: 20px;
           font-family: Slim Joe; }
+          @media (min-width: 860px) {
+            main.vision div.content section.point div.point-content h2 {
+              font-size: 25px; } }
+          @media (min-width: 700px) {
+            main.vision div.content section.point div.point-content h2 {
+              width: calc(100% - 30px - 10px); } }
         main.vision div.content section.point div.point-content div.text {
           float: left;
-          clear: left;
           padding-right: 30px;
+          padding-bottom: 30px;
+          width: calc(100% - 30px - 6px);
           font-family: Arial, Helvetica, sans-serif;
           font-size: 14px;
           line-height: 1.5;
           color: #666; }
+          @media (min-width: 700px) {
+            main.vision div.content section.point div.point-content div.text {
+              width: calc(100% - 30px - 10px); } }
           main.vision div.content section.point div.point-content div.text p {
             margin-bottom: 10px; }
           main.vision div.content section.point div.point-content div.text ol {
             padding-left: 40px; }
             main.vision div.content section.point div.point-content div.text ol li {
               margin-bottom: 10px; }
+    main.vision div.content section.point:not(.header-point) div.point-content {
+      padding-top: 0;
+      padding-right: 0;
+      padding-bottom: 0; }
+      main.vision div.content section.point:not(.header-point) div.point-content div.highlight {
+        float: right;
+        width: 6px; }
+        @media (min-width: 700px) {
+          main.vision div.content section.point:not(.header-point) div.point-content div.highlight {
+            width: 10px; } }
     main.vision div.content section.point.accountability div.point-content h2 {
       color: #1cafd1; }
+    main.vision div.content section.point.accountability div.point-content div.highlight {
+      background-color: #1cafd1; }
     main.vision div.content section.point.accessibility div.point-content h2 {
       color: #84c775; }
+    main.vision div.content section.point.accessibility div.point-content div.highlight {
+      background-color: #84c775; }
     main.vision div.content section.point.opportunity div.point-content h2 {
       color: #1cafd1; }
+    main.vision div.content section.point.opportunity div.point-content div.highlight {
+      background-color: #1cafd1; }
     main.vision div.content section.header-point div.point-content h1 {
       float: left;
       font-size: 40px;
@@ -775,7 +1089,11 @@ main.splash {
   position: relative;
   width: 100%;
   background-color: #202020;
-  overflow: hidden; }
+  overflow: hidden;
+  background-image: url("https://s3-us-west-2.amazonaws.com/campaignwebsite/endorsements/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; }
   main.splash div.filter {
     position: relative;
     top: 50%;
@@ -804,21 +1122,36 @@ main.splash {
   main.splash div.banner {
     position: absolute;
     bottom: 20px;
-    width: 100%; }
+    width: 100%;
+    text-align: center; }
     main.splash div.banner span.big {
       font-family: Big John; }
     main.splash div.banner span.slim {
       font-family: Slim Joe; }
     main.splash div.banner h1, main.splash div.banner h2, main.splash div.banner h3 {
-      color: #fff;
+      color: #333;
       text-align: center; }
+    main.splash div.banner div.buttons {
+      width: 100%;
+      left: 50%; }
+      main.splash div.banner div.buttons button:first-child {
+        background-color: #84c775;
+        border: 1px solid #6dbd5c; }
+      main.splash div.banner div.buttons button:nth-child(2) {
+        background-color: #1cafd1;
+        border: 1px solid #1895b2; }
+      main.splash div.banner div.buttons button {
+        display: inline-block;
+        padding: 15px 20px;
+        color: #fff;
+        font-size: 23px; }
     main.splash div.banner h2, main.splash div.banner h3 {
       font-family: Arial, Helvetica, sans-serif;
       font-weight: normal; }
       main.splash div.banner h2 ul li, main.splash div.banner h3 ul li {
         display: inline-block;
         padding: 0 5px;
-        border-right: 1px solid #fff; }
+        border-right: 1px solid #333; }
       main.splash div.banner h2 ul li:last-child, main.splash div.banner h3 ul li:last-child {
         border-right: none; }
     main.splash div.banner h1 {
@@ -844,14 +1177,14 @@ main.splash {
         font-size: 12px; } }
     @media (min-width: 700px) {
       main.splash div.banner h1 {
-        font-size: 70px; }
+        font-size: 60px; }
       main.splash div.banner h2 {
         font-size: 20px; }
       main.splash div.banner h3 {
         font-size: 14px; } }
     @media (min-width: 850px) {
       main.splash div.banner h1 {
-        font-size: 85px; }
+        font-size: 70px; }
       main.splash div.banner h2 {
         font-size: 30px; }
       main.splash div.banner h3 {
@@ -859,10 +1192,14 @@ main.splash {
 
 main.issues {
   position: relative;
-  float: right;
-  padding: 55px 15px 55px 50px;
-  width: calc(100% - 227px - 65px);
+  padding: 55px 27px;
+  width: calc(100% - 54px);
   background-color: #f8f8f8; }
+  @media (min-width: 860px) {
+    main.issues {
+      float: right;
+      padding: 55px 15px 55px 50px;
+      width: calc(100% - 227px - 65px); } }
   main.issues div.content {
     position: relative; }
     main.issues div.content section.point {
@@ -874,25 +1211,40 @@ main.issues {
         main.issues div.content section.point div.point-content h2 {
           float: left;
           margin-bottom: 20px;
+          padding-top: 30px;
+          width: calc(100% - 30px - 6px);
           font-size: 20px;
           font-family: Slim Joe; }
+          @media (min-width: 860px) {
+            main.issues div.content section.point div.point-content h2 {
+              font-size: 25px; } }
+          @media (min-width: 700px) {
+            main.issues div.content section.point div.point-content h2 {
+              width: calc(100% - 30px - 10px); } }
         main.issues div.content section.point div.point-content div.text {
           float: left;
-          clear: left;
           padding-right: 30px;
+          padding-bottom: 30px;
+          width: calc(100% - 30px - 6px);
           font-family: Arial, Helvetica, sans-serif;
           font-size: 14px;
           line-height: 1.5;
           color: #666; }
+          @media (min-width: 700px) {
+            main.issues div.content section.point div.point-content div.text {
+              width: calc(100% - 30px - 10px); } }
           main.issues div.content section.point div.point-content div.text p {
             margin-bottom: 10px; }
-          main.issues div.content section.point div.point-content div.text ol {
-            padding-left: 40px; }
-            main.issues div.content section.point div.point-content div.text ol li {
-              margin-bottom: 10px; }
-    main.issues div.content section.point::after {
-      content: "";
-      width: 15px; }
+    main.issues div.content section.point:not(.header-point) div.point-content {
+      padding-top: 0;
+      padding-right: 0;
+      padding-bottom: 0; }
+      main.issues div.content section.point:not(.header-point) div.point-content div.highlight {
+        float: right;
+        width: 6px; }
+        @media (min-width: 700px) {
+          main.issues div.content section.point:not(.header-point) div.point-content div.highlight {
+            width: 10px; } }
     main.issues div.content section.header-point div.point-content h1 {
       float: left;
       font-size: 34px;
@@ -909,19 +1261,31 @@ main.issues {
       color: #666; }
     main.issues div.content section.point.sustainability div.point-content h2 {
       color: #1cafd1; }
-    main.issues div.content section.point::after {
+    main.issues div.content section.point.sustainability div.point-content div.highlight {
       background-color: #1cafd1; }
     main.issues div.content section.point.diversity-and-inclusion div.point-content h2 {
       color: #84c775; }
+    main.issues div.content section.point.diversity-and-inclusion div.point-content div.highlight {
+      background-color: #84c775; }
     main.issues div.content section.point.sexual-assault div.point-content h2 {
       color: #1cafd1; }
+    main.issues div.content section.point.sexual-assault div.point-content div.highlight {
+      background-color: #1cafd1; }
     main.issues div.content section.point.financial-accessibility div.point-content h2 {
       color: #84c775; }
+    main.issues div.content section.point.financial-accessibility div.point-content div.highlight {
+      background-color: #84c775; }
     main.issues div.content section.point.mental-health div.point-content h2 {
       color: #1cafd1; }
+    main.issues div.content section.point.mental-health div.point-content div.highlight {
+      background-color: #1cafd1; }
     main.issues div.content section.point.academics div.point-content h2 {
       color: #84c775; }
+    main.issues div.content section.point.academics div.point-content div.highlight {
+      background-color: #84c775; }
     main.issues div.content section.point.student-groups div.point-content h2 {
       color: #1cafd1; }
+    main.issues div.content section.point.student-groups div.point-content div.highlight {
+      background-color: #1cafd1; }
 
 /*# sourceMappingURL=main.css.map */
