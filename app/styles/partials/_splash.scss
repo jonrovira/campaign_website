@@ -3,6 +3,11 @@ main.splash {
 	width: 100%;
 	background-color: #202020;
 	overflow: hidden;
+	background-image: url('https://s3-us-west-2.amazonaws.com/campaignwebsite/images/splash_background.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+
 
 	div.filter {
 		position: relative;

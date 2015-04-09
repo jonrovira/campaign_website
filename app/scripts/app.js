@@ -20,6 +20,11 @@ angular
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
+        templateUrl: 'views/partials/splash.html',
+        controller: 'SplashCtrl',
+        activeTab: 'splash'
+      })
+      .when('/home', {
         templateUrl: 'views/partials/main.html',
         controller: 'MainCtrl',
         activeTab: 'main'

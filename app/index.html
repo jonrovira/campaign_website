@@ -21,8 +21,8 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         
-        <ng-include ng-controller="headerCtrl" src="'views/partials/header.html'"></ng-include>
-        <ng-include ng-controller="navPanelCtrl" src="'views/partials/nav-panel.html'" resizenavPanel></ng-include>
+        <!-- <ng-include ng-hide="currentTab === 'splash'" ng-controller="headerCtrl" src="'views/partials/header.html'"></ng-include>
+        <ng-include ng-hide="tab === 'splash'" ng-controller="navPanelCtrl" src="'views/partials/nav-panel.html'" resizenavPanel></ng-include> -->
 
         <div class="container">
             <div ng-view=""></div>
