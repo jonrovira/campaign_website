@@ -2,7 +2,12 @@
 
 
 angular.module('campaignWebsiteApp')
-	.controller('headerCtrl', function ($scope, $http, $window) {
+	.controller('headerCtrl', function ($scope, $http, $window, $location) {
+
+		// used to hide header when viewing splash page
+		$scope.$on('$routeChangeStart', function() {
+			$scope.currentRoute = $location.path();
+		});
 
 		$scope.toggleMenu = function(e) {
 			$scope.sayClicked = false;

@@ -2,6 +2,8 @@ angular.module('campaignWebsiteApp')
 
 
 	.controller('SplashCtrl', function ($rootScope, $scope, $route) {
+
+		$scope.tab = $route.current.activeTab;
 		$('main.splash').height($(window).height());
 		var audioPlayer = document.getElementById('audio-player');
 

@@ -20,6 +20,11 @@ angular
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
+        templateUrl: 'views/partials/splash.html',
+        controller: 'SplashCtrl',
+        activeTab: 'splash'
+      })
+      .when('/home', {
         templateUrl: 'views/partials/main.html',
         controller: 'MainCtrl',
         activeTab: 'main'
@@ -53,11 +58,6 @@ angular
         templateUrl: 'views/partials/media-gallery.html',
         controller: 'MediaGalleryCtrl',
         activeTab: 'listening'
-      })
-      .when('/splash', {
-        templateUrl: 'views/partials/splash.html',
-        controller: 'SplashCtrl',
-        activeTab: 'splash'
       })
       .otherwise({
         redirectTo: '/'
