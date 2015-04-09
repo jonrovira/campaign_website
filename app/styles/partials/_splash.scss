@@ -49,6 +49,7 @@ main.splash {
 		position: absolute;
 		bottom: 20px;
 		width: 100%;
+		text-align: center;
 
 		span.big { font-family: $fixed-font-family1; }
 		span.slim { font-family: $fixed-font-family2; }
@@ -63,12 +64,21 @@ main.splash {
 			width: 100%;
 			left: 50%;
 
+			button:first-child {
+				background-color: $accent-color2;
+				border: 1px solid darken($accent-color2, 7%)
+			}
+			button:nth-child(2) {
+				background-color: $accent-color1;
+				border: 1px solid darken($accent-color1, 7%)	
+			}
+
 			button {
 				display: inline-block;
-				padding: 5px 10px;
-				background-color: $accent-color2;
-				border-color: 1px solid darken($accent-color1, 7%);
-				font-size: 14px;
+				padding: 15px 20px;
+				color: #fff;
+				// border: none;
+				font-size: 23px;
 			}
 		}
 
