@@ -1,7 +1,7 @@
 angular.module('campaignWebsiteApp')
 
 
-	.controller('SplashCtrl', function ($rootScope, $scope, $route) {
+	.controller('SplashCtrl', function ($rootScope, $scope, $route, $window, $location) {
 
 		$scope.tab = $route.current.activeTab;
 		$('main.splash').height($(window).height());
@@ -11,6 +11,13 @@ angular.module('campaignWebsiteApp')
 		setTimeout(function() {
 			audioPlayer.src = 'audio/jubel.mp3';
 		}, 500);
+
+		$scope.goVote = function() {
+			$window.open('http://www.asg.northwestern.edu/vote');
+		}
+		$scope.goWeb = function() {
+			$location.path('/home');
+		}
 	})
 
 

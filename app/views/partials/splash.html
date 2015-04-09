@@ -1,5 +1,5 @@
 <main class="splash" resizemain loader>
-	<audio id="audio-player" src="" autoplay loop></audio>
+	<!-- <audio id="audio-player" src="" autoplay loop></audio> -->
 	<!-- <div class="filter">
 		<video id="video-player" src="video/colored_video.mp4" preload="auto" autoplay muted loop></video>
 	</div> -->
@@ -12,8 +12,8 @@
 			<span class="big">starting at 5pm</span>
 		</h1>
 		<div class="buttons">
-			<a href="http://www.asg.northwestern.edu/vote" target="_blank"><button> Vote here </button></a>
-			<a href="/#/home"><button> Continue to website </button></a>
+			<button ng-click="goVote()"> Vote here </button>
+			<button ng-click="goWeb()"> Continue to website </button>
 		</div>
 	</div>
 </main>
