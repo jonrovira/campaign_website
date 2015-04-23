@@ -96,8 +96,7 @@ main.main {
       width: calc(100% - 227px); } }
   @media (min-width: 1270px) {
     main.main {
-      background-color: #202020;
-      background: none; } }
+      background-color: #202020; } }
   main.main img.background-image {
     display: none;
     position: relative;
