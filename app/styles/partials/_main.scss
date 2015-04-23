@@ -3,10 +3,6 @@ main.main {
 		float: right;
 		width: calc(100% - 227px);
 	}
-	@media(min-width: 1270px) {
-		background-color: #202020;
-		// background: none;
-	}
 	position: relative;
 	padding-top: 47px;
 	width: 100%;
@@ -17,19 +13,6 @@ main.main {
 	background-size: cover;
 
 
-
-	img.background-image {
-		@media(min-width: 1270px) {
-			display: block;
-			width: 100%;
-			left: 0;
-			height: auto;
-		}
-		display: none;
-		position: relative;
-		left: -80%;
-		height: 100%;
-	}
 
 
 	div.banner {

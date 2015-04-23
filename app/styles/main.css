@@ -94,20 +94,6 @@ main.main {
     main.main {
       float: right;
       width: calc(100% - 227px); } }
-  @media (min-width: 1270px) {
-    main.main {
-      background-color: #202020; } }
-  main.main img.background-image {
-    display: none;
-    position: relative;
-    left: -80%;
-    height: 100%; }
-    @media (min-width: 1270px) {
-      main.main img.background-image {
-        display: block;
-        width: 100%;
-        left: 0;
-        height: auto; } }
   main.main div.banner {
     position: absolute;
     bottom: 10px;
